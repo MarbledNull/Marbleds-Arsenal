@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "marbledsarsenal:item/desert_military_armor_chestplate"
+  }
+}

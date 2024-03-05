@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " i ",
+    "iOi",
+    " i "
+  ],
+  "key": {
+    "i": {
+      "item": "marbledsapi:steel_sheet"
+    },
+    "O": {
+      "tag": "minecraft:leaves"
+    }
+  },
+  "result": {
+    "item": "marbledsarsenal:gas_mask_filter",
+    "count": 1
+  }
+}

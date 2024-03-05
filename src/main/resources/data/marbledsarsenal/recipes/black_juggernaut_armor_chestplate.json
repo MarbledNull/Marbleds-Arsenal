@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iGi",
+    "iFi",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "marbledsapi:hardened_steel_ingot"
+    },
+    "G": {
+      "item": "minecraft:black_dye"
+    },
+    "F": {
+      "item": "marbledsarsenal:armor_plate"
+    }
+  },
+  "result": {
+    "item": "marbledsarsenal:black_juggernaut_armor_chestplate",
+    "count": 1
+  }
+}

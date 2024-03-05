@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "marbledsarsenal:item/helmet_cm6m_gas_mask"
+  }
+}
