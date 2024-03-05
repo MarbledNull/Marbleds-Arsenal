@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "marbledsarsenal:item/olive_juggernaut_armor_chestplate"
+  }
+}

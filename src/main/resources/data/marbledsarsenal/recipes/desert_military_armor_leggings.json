@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "iGi",
+    "i i"
+  ],
+  "key": {
+    "i": {
+      "item": "marbledsapi:steel_ingot"
+    },
+    "G": {
+      "item": "minecraft:sand"
+    }
+  },
+  "result": {
+    "item": "marbledsarsenal:desert_military_armor_leggings",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "iGi"
+  ],
+  "key": {
+    "i": {
+      "item": "marbledsapi:hardened_steel_ingot"
+    },
+    "G": {
+      "item": "minecraft:black_dye"
+    }
+  },
+  "result": {
+    "item": "marbledsarsenal:black_juggernaut_armor_helmet",
+    "count": 1
+  }
+}

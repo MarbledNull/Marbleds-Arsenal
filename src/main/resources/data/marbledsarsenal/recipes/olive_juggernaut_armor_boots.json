@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iGi",
+    "i i"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:green_dye"
+    },
+    "i": {
+      "item": "marbledsapi:hardened_steel_ingot"
+    }
+  },
+  "result": {
+    "item": "marbledsarsenal:olive_juggernaut_armor_boots",
+    "count": 1
+  }
+}

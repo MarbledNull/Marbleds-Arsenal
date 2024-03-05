@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "iGi",
+    "i i"
+  ],
+  "key": {
+    "i": {
+      "item": "marbledsapi:hardened_steel_ingot"
+    },
+    "G": {
+      "item": "minecraft:green_dye"
+    }
+  },
+  "result": {
+    "item": "marbledsarsenal:olive_juggernaut_armor_leggings",
+    "count": 1
+  }
+}

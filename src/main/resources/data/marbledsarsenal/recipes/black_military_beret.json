@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#L#",
+    "III"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:leather"
+    },
+    "L": {
+      "item": "minecraft:black_dye"
+    },
+    "I": {
+      "item": "marbledsapi:steel_sheet"
+    }
+  },
+  "result": {
+    "item": "marbledsarsenal:black_military_beret",
+    "count": 1
+  }
+}

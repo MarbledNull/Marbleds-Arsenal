@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "I I"
+  ],
+  "key": {
+    "I": {
+      "item": "marbledsapi:rubber"
+    },
+    "G": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "marbledsarsenal:hazmat_armor_helmet",
+    "count": 1
+  }
+}

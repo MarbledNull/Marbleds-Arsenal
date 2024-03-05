@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#G#",
+    "i i"
+  ],
+  "key": {
+    "#": {
+      "item": "marbledsapi:steel_sheet"
+    },
+    "G": {
+      "item": "minecraft:gray_dye"
+    },
+    "i": {
+      "item": "marbledsapi:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "marbledsarsenal:riot_armor_boots",
+    "count": 1
+  }
+}

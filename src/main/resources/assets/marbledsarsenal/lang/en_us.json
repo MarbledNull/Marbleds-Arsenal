@@ -1,0 +1,88 @@
+{
+  "itemGroup.marbleds_arsenal": "Marbled's Arsenal",
+  "itemGroup.marbleds_arsenal_extras": "Marbled's Arsenal: Extras",
+
+  "item.marbledsarsenal.armor_plate": "Armor Plate",
+  "item.marbledsarsenal.gas_mask_filter": "Gas Mask Filter",
+
+  "item.marbledsarsenal.cm6m_gas_mask": "CM-6M Gas Mask",
+  "item.marbledsarsenal.helmet_cm6m_gas_mask": "Helmet CM-6M Gas Mask",
+  "item.marbledsarsenal.un_helmet_cm6m_gas_mask": "U.N. Helmet CM-6M Gas Mask",
+  "item.marbledsarsenal.olive_helmet_cm6m_gas_mask": "Olive Helmet CM-6M Gas Mask",
+  "item.marbledsarsenal.medical_helmet_cm6m_gas_mask": "Medical Helmet CM-6M Gas Mask",
+  "item.marbledsarsenal.medical_un_helmet_cm6m_gas_mask": "Medical U.N. Helmet CM-6M Gas Mask",
+  "item.marbledsarsenal.medical_olive_helmet_cm6m_gas_mask": "Medical Olive Helmet CM-6M Gas Mask",
+
+  "item.marbledsarsenal.cm7m_gas_mask": "CM-7M Gas Mask",
+  "item.marbledsarsenal.helmet_cm7m_gas_mask": "Helmet CM-7M Gas Mask",
+  "item.marbledsarsenal.un_helmet_cm7m_gas_mask": "U.N. Helmet CM-7M Gas Mask",
+  "item.marbledsarsenal.olive_helmet_cm7m_gas_mask": "Olive Helmet CM-7M Gas Mask",
+  "item.marbledsarsenal.medical_helmet_cm7m_gas_mask": "Medical Helmet CM-7M Gas Mask",
+  "item.marbledsarsenal.medical_un_helmet_cm7m_gas_mask": "Medical U.N. Helmet CM-7M Gas Mask",
+  "item.marbledsarsenal.medical_olive_helmet_cm7m_gas_mask": "Medical Olive Helmet CM-7M Gas Mask",
+
+  "item.marbledsarsenal.cm8m_gas_mask": "CM-8M Gas Mask",
+  "item.marbledsarsenal.helmet_cm8m_gas_mask": "Helmet CM-8M Gas Mask",
+  "item.marbledsarsenal.un_helmet_cm8m_gas_mask": "U.N. Helmet CM-8M Gas Mask",
+  "item.marbledsarsenal.olive_helmet_cm8m_gas_mask": "Olive Helmet CM-8M Gas Mask",
+  "item.marbledsarsenal.medical_helmet_cm8m_gas_mask": "Medical Helmet CM-8M Gas Mask",
+  "item.marbledsarsenal.medical_un_helmet_cm8m_gas_mask": "Medical U.N. Helmet CM-8M Gas Mask",
+  "item.marbledsarsenal.medical_olive_helmet_cm8m_gas_mask": "Medical Olive Helmet CM-8M Gas Mask",
+
+  "item.marbledsarsenal.white_gp5_gas_mask": "White GP-5 Gas Mask",
+  "item.marbledsarsenal.black_gp5_gas_mask": "Black GP-5 Gas Mask",
+
+  "item.marbledsarsenal.combat_helmet": "Combat Helmet",
+  "item.marbledsarsenal.un_combat_helmet": "U.N. Combat Helmet",
+  "item.marbledsarsenal.olive_combat_helmet": "Olive Combat Helmet",
+  "item.marbledsarsenal.medical_combat_helmet": "Medical Combat Helmet",
+  "item.marbledsarsenal.medical_un_combat_helmet": "Medical U.N. Combat Helmet",
+  "item.marbledsarsenal.medical_olive_combat_helmet": "Medical Olive Combat Helmet",
+
+  "item.marbledsarsenal.black_military_beret": "Black Military Beret",
+  "item.marbledsarsenal.red_military_beret": "Red Military Beret",
+  "item.marbledsarsenal.un_military_beret": "U.N. Military Beret",
+
+  "item.marbledsarsenal.black_plate_carrier_t1": "Black Plate Carrier Tier 1",
+  "item.marbledsarsenal.black_plate_carrier_t2": "Black Plate Carrier Tier 2",
+  "item.marbledsarsenal.black_plate_carrier_t3": "Black Plate Carrier Tier 3",
+
+  "item.marbledsarsenal.olive_plate_carrier_t1": "Olive Plate Carrier Tier 1",
+  "item.marbledsarsenal.olive_plate_carrier_t2": "Olive Plate Carrier Tier 2",
+  "item.marbledsarsenal.olive_plate_carrier_t3": "Olive Plate Carrier Tier 3",
+
+  "item.marbledsarsenal.riot_armor_helmet": "Riot Armor Helmet",
+  "item.marbledsarsenal.riot_armor_chestplate": "Riot Armor Chestplate",
+  "item.marbledsarsenal.riot_armor_leggings": "Riot Armor Leggings",
+  "item.marbledsarsenal.riot_armor_boots": "Riot Armor Boots",
+
+  "item.marbledsarsenal.swat_armor_helmet": "Swat Armor Helmet",
+  "item.marbledsarsenal.swat_armor_chestplate": "Swat Armor Chestplate",
+  "item.marbledsarsenal.swat_armor_leggings": "Swat Armor Leggings",
+  "item.marbledsarsenal.swat_armor_boots": "Swat Armor Boots",
+
+  "item.marbledsarsenal.winter_military_armor_helmet": "Winter Military Armor Helmet",
+  "item.marbledsarsenal.winter_military_armor_chestplate": "Winter Military Armor Chestplate",
+  "item.marbledsarsenal.winter_military_armor_leggings": "Winter Military Armor Leggings",
+  "item.marbledsarsenal.winter_military_armor_boots": "Winter Military Armor Boots",
+
+  "item.marbledsarsenal.desert_military_armor_helmet": "Desert Military Armor Helmet",
+  "item.marbledsarsenal.desert_military_armor_chestplate": "Desert Military Armor Chestplate",
+  "item.marbledsarsenal.desert_military_armor_leggings": "Desert Military Armor Leggings",
+  "item.marbledsarsenal.desert_military_armor_boots": "Desert Military Armor Boots",
+
+  "item.marbledsarsenal.hazmat_armor_helmet": "Hazmat Armor Helmet",
+  "item.marbledsarsenal.hazmat_armor_chestplate": "Hazmat Armor Chestplate",
+  "item.marbledsarsenal.hazmat_armor_leggings": "Hazmat Armor Leggings",
+  "item.marbledsarsenal.hazmat_armor_boots": "Hazmat Armor Boots",
+
+  "item.marbledsarsenal.olive_juggernaut_armor_helmet": "Olive Juggernaut Armor Helmet",
+  "item.marbledsarsenal.olive_juggernaut_armor_chestplate": "Olive Juggernaut Armor Chestplate",
+  "item.marbledsarsenal.olive_juggernaut_armor_leggings": "Olive Juggernaut Armor Leggings",
+  "item.marbledsarsenal.olive_juggernaut_armor_boots": "Olive Juggernaut Armor Boots",
+
+  "item.marbledsarsenal.black_juggernaut_armor_helmet": "Black Juggernaut Armor Helmet",
+  "item.marbledsarsenal.black_juggernaut_armor_chestplate": "Black Juggernaut Armor Chestplate",
+  "item.marbledsarsenal.black_juggernaut_armor_leggings": "Black Juggernaut Armor Leggings",
+  "item.marbledsarsenal.black_juggernaut_armor_boots": "Black Juggernaut Armor Boots"
+}

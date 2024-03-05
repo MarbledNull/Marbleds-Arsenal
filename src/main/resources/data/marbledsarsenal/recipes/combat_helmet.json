@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ini",
+    "n n"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "n": {
+      "item": "marbledsapi:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "marbledsarsenal:combat_helmet",
+    "count": 1
+  }
+}
