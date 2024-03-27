@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#W#",
+    "G#G",
+    "iIi"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:leather"
+    },
+    "W": {
+      "item": "minecraft:white_dye"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "I": {
+      "item": "marbledsarsenal:gas_mask_filter"
+    }
+  },
+  "result": {
+    "item": "marbledsarsenal:white_gp5_gas_mask",
+    "count": 1
+  }
+}

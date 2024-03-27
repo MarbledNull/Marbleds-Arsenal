@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "tag": "minecraft:logs"
+  },
+  "result": "marbledsarsenal:rubber",
+  "experience": 0.1,
+  "cookingtime": 400
+}

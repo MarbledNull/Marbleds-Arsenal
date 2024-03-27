@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#J#",
+    " # "
+  ],
+  "key": {
+    "J": {
+      "item": "marbledsarsenal:olive_plate_carrier_t1"
+    },
+    "#": {
+      "item": "marbledsarsenal:armor_plate"
+    }
+  },
+  "result": {
+    "item": "marbledsarsenal:olive_plate_carrier_t2",
+    "count": 1
+  }
+}
