@@ -35,7 +35,7 @@ public class ModItems {
             () -> new AxeItem(ItemTier.IRON, 4, -2.6f,
                     new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(250)));
     public static final RegistryObject<Item> PIPE_WRENCH = ITEMS.register("pipe_wrench",
-            () -> new SwordItem(ItemTier.IRON, 2, -2.4f,
+            () -> new SwordItem(ItemTier.IRON, 4, -2.4f,
                     new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(750)));
     public static final RegistryObject<Item> SLEDGEHAMMER = ITEMS.register("sledgehammer",
             () -> new SwordItem(ItemTier.IRON, 9, -3.4f,
