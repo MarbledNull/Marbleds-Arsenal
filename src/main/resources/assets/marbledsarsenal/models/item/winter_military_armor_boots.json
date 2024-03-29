@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "marbledsarsenal:item/winter_military_armor_boots"
+  }
+}

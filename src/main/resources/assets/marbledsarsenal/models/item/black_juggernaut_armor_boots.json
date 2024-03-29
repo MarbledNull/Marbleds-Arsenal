@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "marbledsarsenal:item/black_juggernaut_armor_boots"
+  }
+}

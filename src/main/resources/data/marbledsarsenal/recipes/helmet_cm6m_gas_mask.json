@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "I"
+  ],
+  "key": {
+    "#": {
+      "item": "marbledsarsenal:combat_helmet"
+    },
+    "I": {
+      "item": "marbledsarsenal:cm6m_gas_mask"
+    }
+  },
+  "result": {
+    "item": "marbledsarsenal:helmet_cm6m_gas_mask",
+    "count": 1
+  }
+}

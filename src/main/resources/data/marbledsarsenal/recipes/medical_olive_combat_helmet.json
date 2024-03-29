@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "marbledsarsenal:olive_combat_helmet"
+    },
+    "I": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {
+    "item": "marbledsarsenal:medical_olive_combat_helmet",
+    "count": 1
+  }
+}

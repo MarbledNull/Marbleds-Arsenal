@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "marbledsarsenal:hardened_steel_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "marbledsarsenal:hardened_steel_sheet"
+    }
+  ]
+}

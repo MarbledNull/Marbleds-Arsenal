@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "I"
+  ],
+  "key": {
+    "#": {
+      "item": "marbledsarsenal:medical_un_combat_helmet"
+    },
+    "I": {
+      "item": "marbledsarsenal:cm7m_gas_mask"
+    }
+  },
+  "result": {
+    "item": "marbledsarsenal:medical_un_helmet_cm7m_gas_mask",
+    "count": 1
+  }
+}

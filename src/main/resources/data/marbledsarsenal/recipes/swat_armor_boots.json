@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#G#",
+    "i i"
+  ],
+  "key": {
+    "#": {
+      "item": "marbledsarsenal:steel_sheet"
+    },
+    "G": {
+      "item": "minecraft:blue_dye"
+    },
+    "i": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "result": {
+    "item": "marbledsarsenal:swat_armor_boots",
+    "count": 1
+  }
+}

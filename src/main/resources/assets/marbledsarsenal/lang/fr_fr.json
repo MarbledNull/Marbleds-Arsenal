@@ -1,0 +1,88 @@
+{
+  "itemGroup.marbleds_arsenal": "Marbled's Arsenal",
+  "itemGroup.marbleds_arsenal_extras": "Marbled's Arsenal: Extras",
+
+  "item.marbledsarsenal.armor_plate": "Plaque d'Armure",
+  "item.marbledsarsenal.gas_mask_filter": "Filtre de Masque à Gaz",
+
+  "item.marbledsarsenal.cm6m_gas_mask": "Masque à Gaz CM-6M",
+  "item.marbledsarsenal.helmet_cm6m_gas_mask": "Casque et Masque à Gaz CM-6M ",
+  "item.marbledsarsenal.un_helmet_cm6m_gas_mask": "Casque U.N. et Masque à Gaz CM-6M",
+  "item.marbledsarsenal.olive_helmet_cm6m_gas_mask": "Casque Olive et Masque à Gaz CM-6M",
+  "item.marbledsarsenal.medical_helmet_cm6m_gas_mask": "Casque Médical et Masque à Gaz CM-6M",
+  "item.marbledsarsenal.medical_un_helmet_cm6m_gas_mask": "Casque Médical U.N. et Masque à Gaz CM-6M",
+  "item.marbledsarsenal.medical_olive_helmet_cm6m_gas_mask": "Casque Médical Olive et Masque à Gaz CM-6M",
+
+  "item.marbledsarsenal.cm7m_gas_mask": "Masque à Gaz CM-7M",
+  "item.marbledsarsenal.helmet_cm7m_gas_mask": "Casque et Masque à Gaz CM-7M",
+  "item.marbledsarsenal.un_helmet_cm7m_gas_mask": "Casque U.N. et Masque à Gaz CM-7M",
+  "item.marbledsarsenal.olive_helmet_cm7m_gas_mask": "Casque Olive et Masque à Gaz CM-7M",
+  "item.marbledsarsenal.medical_helmet_cm7m_gas_mask": "Casque Médical et Masque à Gaz CM-7M",
+  "item.marbledsarsenal.medical_un_helmet_cm7m_gas_mask": "Casque Médical U.N. et Masque à Gaz CM-7M",
+  "item.marbledsarsenal.medical_olive_helmet_cm7m_gas_mask": "Casque Médical Olive et Masque à Gaz CM-7M",
+
+  "item.marbledsarsenal.cm8m_gas_mask": "Masque à Gaz CM-8M",
+  "item.marbledsarsenal.helmet_cm8m_gas_mask": "Casque et Masque à Gaz CM-8M",
+  "item.marbledsarsenal.un_helmet_cm8m_gas_mask": "Casque U.N. et Masque à Gaz CM-8M",
+  "item.marbledsarsenal.olive_helmet_cm8m_gas_mask": "Casque Olive et Masque à Gaz CM-8M",
+  "item.marbledsarsenal.medical_helmet_cm8m_gas_mask": "Casque Médical et Masque à Gaz CM-8M",
+  "item.marbledsarsenal.medical_un_helmet_cm8m_gas_mask": "Casque Médical U.N.et Masque à Gaz CM-8M",
+  "item.marbledsarsenal.medical_olive_helmet_cm8m_gas_mask": "Casque Médical Olive et Masque à Gaz CM-8M",
+
+  "item.marbledsarsenal.white_gp5_gas_mask": "Masque à Gaz GP-5 Blanc",
+  "item.marbledsarsenal.black_gp5_gas_mask": "Masque à Gaz GP-5 Noir",
+
+  "item.marbledsarsenal.combat_helmet": "Casque de Combat",
+  "item.marbledsarsenal.un_combat_helmet": "Casque de Combat U.N.",
+  "item.marbledsarsenal.olive_combat_helmet": "Casque de Combat Olive",
+  "item.marbledsarsenal.medical_combat_helmet": "Casque Médical de Combat",
+  "item.marbledsarsenal.medical_un_combat_helmet": "Casque Médical de Combat U.N.",
+  "item.marbledsarsenal.medical_olive_combat_helmet": "Casque Médical de Combat Olive",
+
+  "item.marbledsarsenal.black_military_beret": "Béret Militaire Noir",
+  "item.marbledsarsenal.red_military_beret": "Béret Militaire Rouge",
+  "item.marbledsarsenal.un_military_beret": "Béret Militaire U.N.",
+
+  "item.marbledsarsenal.black_plate_carrier_t1": "Porte Plaque Noir Tier 1",
+  "item.marbledsarsenal.black_plate_carrier_t2": "Porte Plaque Noir Tier 2",
+  "item.marbledsarsenal.black_plate_carrier_t3": "Porte Plaque Noir Tier 3",
+
+  "item.marbledsarsenal.olive_plate_carrier_t1": "Porte Plaque Olive Tier 1",
+  "item.marbledsarsenal.olive_plate_carrier_t2": "Porte Plaque Olive Tier 2",
+  "item.marbledsarsenal.olive_plate_carrier_t3": "Porte Plaque Olive Tier 3",
+
+  "item.marbledsarsenal.riot_armor_helmet": "Casque Anti-Émeutes",
+  "item.marbledsarsenal.riot_armor_chestplate": "Plastron Anti-Émeutes",
+  "item.marbledsarsenal.riot_armor_leggings": "Jambières Anti-Émeutes",
+  "item.marbledsarsenal.riot_armor_boots": "Bottes Anti-Émeutes",
+
+  "item.marbledsarsenal.swat_armor_helmet": "Casque du SWAT",
+  "item.marbledsarsenal.swat_armor_chestplate": "Plastron du SWAT",
+  "item.marbledsarsenal.swat_armor_leggings": "Jambières du SWAT",
+  "item.marbledsarsenal.swat_armor_boots": "Bottes du SWAT",
+
+  "item.marbledsarsenal.winter_military_armor_helmet": "Casque Militaire Hiver",
+  "item.marbledsarsenal.winter_military_armor_chestplate": "Plastron Militaire Hiver",
+  "item.marbledsarsenal.winter_military_armor_leggings": "Jambières Militaire Hiver",
+  "item.marbledsarsenal.winter_military_armor_boots": "Bottes Militaire Hiver",
+
+  "item.marbledsarsenal.desert_military_armor_helmet": "Casque Militaire Désert",
+  "item.marbledsarsenal.desert_military_armor_chestplate": "Plastron Militaire Désert",
+  "item.marbledsarsenal.desert_military_armor_leggings": "Jambières Militaire Désert",
+  "item.marbledsarsenal.desert_military_armor_boots": "Bottes Militaire Désert",
+
+  "item.marbledsarsenal.hazmat_armor_helmet": "Casque de Combinaison Hazmat",
+  "item.marbledsarsenal.hazmat_armor_chestplate": "Pastron de Combinaison Hazmat",
+  "item.marbledsarsenal.hazmat_armor_leggings": "Jambières de Combinaison Hazmat",
+  "item.marbledsarsenal.hazmat_armor_boots": "Bottes de Combinaison Hazmat",
+
+  "item.marbledsarsenal.olive_juggernaut_armor_helmet": "Casque de Mastodonte Olive",
+  "item.marbledsarsenal.olive_juggernaut_armor_chestplate": "Pastron de Mastodonte Olive",
+  "item.marbledsarsenal.olive_juggernaut_armor_leggings": "Jambières de Mastodonte Olive",
+  "item.marbledsarsenal.olive_juggernaut_armor_boots": "Bottes de Mastodonte Olive",
+
+  "item.marbledsarsenal.black_juggernaut_armor_helmet": "Casque de Mastodonte Noir",
+  "item.marbledsarsenal.black_juggernaut_armor_chestplate": "Pastron de Mastodonte Noir",
+  "item.marbledsarsenal.black_juggernaut_armor_leggings": "Jambières de Mastodonte Noir",
+  "item.marbledsarsenal.black_juggernaut_armor_boots": "Bottes de Mastodonte Noir"
+}
