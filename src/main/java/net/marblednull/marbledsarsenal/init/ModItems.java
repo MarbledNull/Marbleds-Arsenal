@@ -23,41 +23,41 @@ public class ModItems {
 
     //Melee weapons
     public static final RegistryObject<Item> CROWBAR = ITEMS.register("crowbar",
-            () -> new SwordItem(ItemTier.IRON, 2, -2.4f,
-                    new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(250)));
+            () -> new SwordItem(ItemTier.IRON, 3, -2.4f,
+                    new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(500)));
     public static final RegistryObject<Item> FIRE_AXE = ITEMS.register("fire_axe",
             () -> new AxeItem(ItemTier.IRON, 5, -3.1f,
-                    new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(250)));
+                    new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(500)));
     public static final RegistryObject<Item> MODERN_AXE = ITEMS.register("modern_axe",
             () -> new AxeItem(ItemTier.IRON, 6, -3f,
-                    new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(250)));
+                    new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(750)));
     public static final RegistryObject<Item> TOMAHAWK = ITEMS.register("tomahawk",
             () -> new AxeItem(ItemTier.IRON, 4, -2.6f,
                     new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(250)));
     public static final RegistryObject<Item> PIPE_WRENCH = ITEMS.register("pipe_wrench",
             () -> new SwordItem(ItemTier.IRON, 2, -2.4f,
-                    new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(250)));
+                    new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(750)));
     public static final RegistryObject<Item> SLEDGEHAMMER = ITEMS.register("sledgehammer",
             () -> new SwordItem(ItemTier.IRON, 9, -3.4f,
-                    new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(250)));
+                    new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(1000)));
     public static final RegistryObject<Item> HAMMER = ITEMS.register("hammer",
             () -> new SwordItem(ItemTier.IRON, 2, -2.4f,
-                    new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(250)));
+                    new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(500)));
     public static final RegistryObject<Item> BONE_SAW = ITEMS.register("bone_saw",
-            () -> new SwordItem(ItemTier.IRON, 2, -2.4f,
+            () -> new SwordItem(ItemTier.IRON, 1, -2.4f,
                     new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(250)));
     public static final RegistryObject<Item> POLICE_BATON = ITEMS.register("police_baton",
-            () -> new SwordItem(ItemTier.IRON, 2, -2.4f,
-                    new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(250)));
+            () -> new SwordItem(ItemTier.IRON, 0, -2.4f,
+                    new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(500)));
     public static final RegistryObject<Item> MACHETE = ITEMS.register("machete",
-            () -> new SwordItem(ItemTier.IRON, 2, -2.4f,
-                    new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(250)));
+            () -> new SwordItem(ItemTier.IRON, 5, -2.4f,
+                    new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(500)));
     public static final RegistryObject<Item> STOP_SIGN = ITEMS.register("stop_sign",
             () -> new SwordItem(ItemTier.IRON, 2, -2.4f,
-                    new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(250)));
+                    new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(1000)));
     public static final RegistryObject<Item> PIPE = ITEMS.register("pipe",
             () -> new SwordItem(ItemTier.IRON, 2, -2.4f,
-                    new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(250)));
+                    new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(750)));
     public static final RegistryObject<Item> COMBAT_KNIFE = ITEMS.register("combat_knife",
             () -> new SwordItem(ItemTier.IRON, 2, -2.4f,
                     new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(250)));
@@ -69,16 +69,16 @@ public class ModItems {
                     new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(250)));
     public static final RegistryObject<Item> GOLF_CLUB = ITEMS.register("golf_club",
             () -> new SwordItem(ItemTier.IRON, 2, -2.4f,
-                    new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(250)));
+                    new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(500)));
     public static final RegistryObject<Item> BASEBALL_BAT = ITEMS.register("baseball_bat",
             () -> new SwordItem(ItemTier.IRON, 2, -2.4f,
-                    new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(250)));
+                    new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(500)));
     public static final RegistryObject<Item> BARBED_BASEBALL_BAT = ITEMS.register("barbed_baseball_bat",
             () -> new SwordItem(ItemTier.IRON, 2, -2.4f,
-                    new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(250)));
+                    new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(500)));
     public static final RegistryObject<Item> METAL_BASEBALL_BAT = ITEMS.register("metal_baseball_bat",
             () -> new SwordItem(ItemTier.IRON, 2, -2.4f,
-                    new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(250)));
+                    new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(750)));
 
     //Gas Masks
     public static final RegistryObject<Item> CM6M_GAS_MASK = ITEMS.register("cm6m_gas_mask", () -> new CM6MArmorItem(ArmorMaterialsMA.IRON1, EquipmentSlotType.HEAD, new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL)));
