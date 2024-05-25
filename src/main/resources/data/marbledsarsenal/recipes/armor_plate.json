@@ -10,7 +10,7 @@
       "item": "marbledsapi:steel_sheet"
     },
     "i": {
-      "item": "marbledsapi:steel_ingot"
+      "tag": "forge:ingots/steel"
     }
   },
   "result": {

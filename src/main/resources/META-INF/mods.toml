@@ -17,7 +17,7 @@ license="All rights reserved"
 # The modid of the mod
 modId="marbledsarsenal" #mandatory
 # The version number of the mod
-version="2.1.0b" #mandatory
+version="2.1.1" #mandatory
 # A display name for the mod
 displayName="Marbled's Arsenal" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://docs.minecraftforge.net/en/latest/misc/updatechecker/
@@ -27,7 +27,7 @@ displayURL="https://www.curseforge.com/minecraft/mc-mods/marbleds-arsenal / http
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="marbledsarsenal_logo.png" #optional
 # A text field displayed in the mod UI
-credits="MarbledNull, MarbledTeam" #optional
+credits="MarbledNull, MarledHubb Testing Program, MarbledHubb Volunteer Translators" #optional
 # A text field displayed in the mod UI
 authors="MarbledNull" #optional
 # Display Test controls the display for your mod in the server connection screen
@@ -75,7 +75,7 @@ side="BOTH"
 modId="marbledsapi"
 mandatory=true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
-versionRange="1.0.1,"
+versionRange="1.0.6,"
 ordering="NONE"
 side="BOTH"
 

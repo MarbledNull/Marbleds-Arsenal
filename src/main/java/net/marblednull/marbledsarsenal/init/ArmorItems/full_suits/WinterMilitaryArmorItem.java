@@ -43,7 +43,7 @@ public class WinterMilitaryArmorItem extends ArmorItem implements GeoItem {
     }
 
     private PlayState predicate(AnimationState animationState) {
-        animationState.getController().setAnimation(RawAnimation.begin().then("animation.riot_armor.idle", Animation.LoopType.LOOP));
+        animationState.getController().setAnimation(RawAnimation.begin().then("animation.military_armor.idle", Animation.LoopType.LOOP));
         return PlayState.CONTINUE;
     }
 

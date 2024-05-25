@@ -31,7 +31,6 @@ public class MarbledsArsenal
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
 
         ModItems.register(modEventBus);
         ModTabs.register(modEventBus);

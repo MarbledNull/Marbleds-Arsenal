@@ -101,6 +101,72 @@ public class ModTabs {
                         output.accept(ModItems.BLACK_JUGGERNAUT_ARMOR_CHESTPLATE.get());
                         output.accept(ModItems.BLACK_JUGGERNAUT_ARMOR_LEGGINGS.get());
                         output.accept(ModItems.BLACK_JUGGERNAUT_ARMOR_BOOTS.get());
+
+                        output.accept(ModItems.OAK_GHILLIE_HELMET.get());
+                        output.accept(ModItems.OAK_GHILLIE_CHESTPLATE.get());
+                        output.accept(ModItems.OAK_GHILLIE_LEGGINGS.get());
+                        output.accept(ModItems.OAK_GHILLIE_BOOTS.get());
+
+                        output.accept(ModItems.SPRUCE_GHILLIE_HELMET.get());
+                        output.accept(ModItems.SPRUCE_GHILLIE_CHESTPLATE.get());
+                        output.accept(ModItems.SPRUCE_GHILLIE_LEGGINGS.get());
+                        output.accept(ModItems.SPRUCE_GHILLIE_BOOTS.get());
+
+                        output.accept(ModItems.BIRCH_GHILLIE_HELMET.get());
+                        output.accept(ModItems.BIRCH_GHILLIE_CHESTPLATE.get());
+                        output.accept(ModItems.BIRCH_GHILLIE_LEGGINGS.get());
+                        output.accept(ModItems.BIRCH_GHILLIE_BOOTS.get());
+
+                        output.accept(ModItems.JUNGLE_GHILLIE_HELMET.get());
+                        output.accept(ModItems.JUNGLE_GHILLIE_CHESTPLATE.get());
+                        output.accept(ModItems.JUNGLE_GHILLIE_LEGGINGS.get());
+                        output.accept(ModItems.JUNGLE_GHILLIE_BOOTS.get());
+
+                        output.accept(ModItems.ACACIA_GHILLIE_HELMET.get());
+                        output.accept(ModItems.ACACIA_GHILLIE_CHESTPLATE.get());
+                        output.accept(ModItems.ACACIA_GHILLIE_LEGGINGS.get());
+                        output.accept(ModItems.ACACIA_GHILLIE_BOOTS.get());
+
+                        output.accept(ModItems.DARK_OAK_GHILLIE_HELMET.get());
+                        output.accept(ModItems.DARK_OAK_GHILLIE_CHESTPLATE.get());
+                        output.accept(ModItems.DARK_OAK_GHILLIE_LEGGINGS.get());
+                        output.accept(ModItems.DARK_OAK_GHILLIE_BOOTS.get());
+
+                        output.accept(ModItems.MANGROVE_GHILLIE_HELMET.get());
+                        output.accept(ModItems.MANGROVE_GHILLIE_CHESTPLATE.get());
+                        output.accept(ModItems.MANGROVE_GHILLIE_LEGGINGS.get());
+                        output.accept(ModItems.MANGROVE_GHILLIE_BOOTS.get());
+
+                        output.accept(ModItems.CHERRY_GHILLIE_HELMET.get());
+                        output.accept(ModItems.CHERRY_GHILLIE_CHESTPLATE.get());
+                        output.accept(ModItems.CHERRY_GHILLIE_LEGGINGS.get());
+                        output.accept(ModItems.CHERRY_GHILLIE_BOOTS.get());
+
+                        output.accept(ModItems.AZALEA_GHILLIE_HELMET.get());
+                        output.accept(ModItems.AZALEA_GHILLIE_CHESTPLATE.get());
+                        output.accept(ModItems.AZALEA_GHILLIE_LEGGINGS.get());
+                        output.accept(ModItems.AZALEA_GHILLIE_BOOTS.get());
+
+                        output.accept(ModItems.FLOWERING_AZALEA_GHILLIE_HELMET.get());
+                        output.accept(ModItems.FLOWERING_AZALEA_GHILLIE_CHESTPLATE.get());
+                        output.accept(ModItems.FLOWERING_AZALEA_GHILLIE_LEGGINGS.get());
+                        output.accept(ModItems.FLOWERING_AZALEA_GHILLIE_BOOTS.get());
+
+                        output.accept(ModItems.CROWBAR.get());
+                        output.accept(ModItems.FIRE_AXE.get());
+                        output.accept(ModItems.MODERN_AXE.get());
+                        output.accept(ModItems.TOMAHAWK.get());
+                        output.accept(ModItems.PIPE_WRENCH.get());
+                        output.accept(ModItems.SLEDGEHAMMER.get());
+                        output.accept(ModItems.BONE_SAW.get());
+                        output.accept(ModItems.POLICE_BATON.get());
+                        output.accept(ModItems.MACHETE.get());
+                        output.accept(ModItems.STOP_SIGN.get());
+                        output.accept(ModItems.KATANA.get());
+                        output.accept(ModItems.TANTO.get());
+                        output.accept(ModItems.BASEBALL_BAT.get());
+                        output.accept(ModItems.BARBED_BASEBALL_BAT.get());
+                        output.accept(ModItems.STEEL_BASEBALL_BAT.get());
                     })
                     .build()
     );

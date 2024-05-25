@@ -1,9 +1,14 @@
 {
   "itemGroup.marbleds_arsenal": "Marbled's Arsenal",
-  "itemGroup.marbleds_arsenal_extras": "Marbled's Arsenal: Extras",
 
+  "item.marbledsarsenal.raw_steel": "Raw Steel",
   "item.marbledsarsenal.armor_plate": "Armor Plate",
+  "item.marbledsarsenal.steel_ingot": "Steel Ingot",
+  "item.marbledsarsenal.steel_sheet": "Steel Sheet",
   "item.marbledsarsenal.gas_mask_filter": "Gas Mask Filter",
+  "item.marbledsarsenal.hardened_steel_ingot": "Hardened Steel Ingot",
+  "item.marbledsarsenal.hardened_steel_sheet": "Hardened Steel Sheet",
+  "item.marbledsarsenal.rubber": "Rubber",
 
   "item.marbledsarsenal.cm6m_gas_mask": "CM-6M Gas Mask",
   "item.marbledsarsenal.helmet_cm6m_gas_mask": "Helmet CM-6M Gas Mask",
@@ -84,5 +89,77 @@
   "item.marbledsarsenal.black_juggernaut_armor_helmet": "Black Juggernaut Armor Helmet",
   "item.marbledsarsenal.black_juggernaut_armor_chestplate": "Black Juggernaut Armor Chestplate",
   "item.marbledsarsenal.black_juggernaut_armor_leggings": "Black Juggernaut Armor Leggings",
-  "item.marbledsarsenal.black_juggernaut_armor_boots": "Black Juggernaut Armor Boots"
+  "item.marbledsarsenal.black_juggernaut_armor_boots": "Black Juggernaut Armor Boots",
+
+  "item.marbledsarsenal.oak_ghillie_helmet": "Oak Ghillie Helmet",
+  "item.marbledsarsenal.oak_ghillie_chestplate": "Oak Ghillie Chestplate",
+  "item.marbledsarsenal.oak_ghillie_leggings": "Oak Ghillie Leggings",
+  "item.marbledsarsenal.oak_ghillie_boots": "Oak Ghillie Boots",
+
+  "item.marbledsarsenal.spruce_ghillie_helmet": "Spruce Ghillie Helmet",
+  "item.marbledsarsenal.spruce_ghillie_chestplate": "Spruce Ghillie Chestplate",
+  "item.marbledsarsenal.spruce_ghillie_leggings": "Spruce Ghillie Leggings",
+  "item.marbledsarsenal.spruce_ghillie_boots": "Spruce Ghillie Boots",
+
+  "item.marbledsarsenal.birch_ghillie_helmet": "Birch Ghillie Helmet",
+  "item.marbledsarsenal.birch_ghillie_chestplate": "Birch Ghillie Chestplate",
+  "item.marbledsarsenal.birch_ghillie_leggings": "Birch Ghillie Leggings",
+  "item.marbledsarsenal.birch_ghillie_boots": "Birch Ghillie Boots",
+
+  "item.marbledsarsenal.jungle_ghillie_helmet": "Jungle Ghillie Helmet",
+  "item.marbledsarsenal.jungle_ghillie_chestplate": "Jungle Ghillie Chestplate",
+  "item.marbledsarsenal.jungle_ghillie_leggings": "Jungle Ghillie Leggings",
+  "item.marbledsarsenal.jungle_ghillie_boots": "Jungle Ghillie Boots",
+
+  "item.marbledsarsenal.acacia_ghillie_helmet": "Acacia Ghillie Helmet",
+  "item.marbledsarsenal.acacia_ghillie_chestplate": "Acacia Ghillie Chestplate",
+  "item.marbledsarsenal.acacia_ghillie_leggings": "Acacia Ghillie Leggings",
+  "item.marbledsarsenal.acacia_ghillie_boots": "Acacia Ghillie Boots",
+
+  "item.marbledsarsenal.dark_oak_ghillie_helmet": "Dark Oak Ghillie Helmet",
+  "item.marbledsarsenal.dark_oak_ghillie_chestplate": "Dark Oak Ghillie Chestplate",
+  "item.marbledsarsenal.dark_oak_ghillie_leggings": "Dark Oak Ghillie Leggings",
+  "item.marbledsarsenal.dark_oak_ghillie_boots": "Dark Oak Ghillie Boots",
+
+  "item.marbledsarsenal.mangrove_ghillie_helmet": "Mangrove Ghillie Helmet",
+  "item.marbledsarsenal.mangrove_ghillie_chestplate": "Mangrove Ghillie Chestplate",
+  "item.marbledsarsenal.mangrove_ghillie_leggings": "Mangrove Ghillie Leggings",
+  "item.marbledsarsenal.mangrove_ghillie_boots": "Mangrove Ghillie Boots",
+
+  "item.marbledsarsenal.cherry_ghillie_helmet": "Cherry Ghillie Helmet",
+  "item.marbledsarsenal.cherry_ghillie_chestplate": "Cherry Ghillie Chestplate",
+  "item.marbledsarsenal.cherry_ghillie_leggings": "Cherry Ghillie Leggings",
+  "item.marbledsarsenal.cherry_ghillie_boots": "Cherry Ghillie Boots",
+
+  "item.marbledsarsenal.azeala_ghillie_helmet": "Azeala Ghillie Helmet",
+  "item.marbledsarsenal.azeala_ghillie_chestplate": "Azeala Ghillie Chestplate",
+  "item.marbledsarsenal.azeala_ghillie_leggings": "Azeala Ghillie Leggings",
+  "item.marbledsarsenal.azeala_ghillie_boots": "Azeala Ghillie Boots",
+
+  "item.marbledsarsenal.flowering_azeala_ghillie_helmet": "Flowering Azeala Ghillie Helmet",
+  "item.marbledsarsenal.flowering_azeala_ghillie_chestplate": "Flowering Azeala Ghillie Chestplate",
+  "item.marbledsarsenal.flowering_azeala_ghillie_leggings": "Flowering Azeala Ghillie Leggings",
+  "item.marbledsarsenal.flowering_azeala_ghillie_boots": "Flowering Azeala Ghillie Boots",
+
+  "item.marbledsarsenal.crowbar": "Crowbar",
+  "item.marbledsarsenal.fire_axe": "Fire Axe",
+  "item.marbledsarsenal.modern_axe": "Modern Axe",
+  "item.marbledsarsenal.tomahawk": "Tomahawk",
+  "item.marbledsarsenal.pipe_wrench": "Pipe Wrench",
+  "item.marbledsarsenal.sledgehammer": "Sledgehammer",
+  "item.marbledsarsenal.bone_saw": "Bone Saw",
+  "item.marbledsarsenal.police_baton": "Police Baton",
+  "item.marbledsarsenal.machete": "Machete",
+  "item.marbledsarsenal.stop_sign": "Stop Sign",
+  "item.marbledsarsenal.pipe": "Pipe",
+  "item.marbledsarsenal.combat_knife": "Combat Knife",
+  "item.marbledsarsenal.katana": "Katana",
+  "item.marbledsarsenal.tanto": "Tanto",
+  "item.marbledsarsenal.golf_club": "Golf Club",
+  "item.marbledsarsenal.baseball_bat": "Baseball Bat",
+  "item.marbledsarsenal.barbed_baseball_bat": "Barbed Baseball Bat",
+  "item.marbledsarsenal.steel_baseball_bat": "Steel Baseball Bat",
+
+  "item.marbledsarsenal.riot_shield": "Riot Shield",
+  "item.marbledsarsenal.heavy_riot_shield": "Heavy Riot Shield"
 }
