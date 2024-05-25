@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #",
+    "#i",
+    "g "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_nugget"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "g": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "result": {
+    "item": "marbledsarsenal:bone_saw",
+    "count": 1
+  }
+}

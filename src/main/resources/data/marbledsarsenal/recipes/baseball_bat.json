@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  #",
+    " # ",
+    "/  "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stripped_oak_wood"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "marbledsarsenal:baseball_bat",
+    "count": 1
+  }
+}

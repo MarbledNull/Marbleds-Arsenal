@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " iI",
+    " /i",
+    "/  "
+  ],
+  "key": {
+    "i": {
+      "item": "marbledsapi:steel_sheet"
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "marbledsarsenal:stop_sign",
+    "count": 1
+  }
+}

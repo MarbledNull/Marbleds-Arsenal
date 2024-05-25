@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "G# ",
+    "/G "
+  ],
+  "key": {
+    "#": {
+      "item": "marbledsapi:steel_sheet"
+    },
+    "G": {
+      "item": "minecraft:gold_nugget"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "marbledsarsenal:tanto",
+    "count": 1
+  }
+}

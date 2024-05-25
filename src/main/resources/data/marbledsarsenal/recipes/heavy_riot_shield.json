@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iGi",
+    "iii",
+    " i "
+  ],
+  "key": {
+    "i": {
+      "item": "marbledsapi:hardened_steel_ingot"
+    },
+    "G": {
+      "item": "minecraft:iron_bars"
+    }
+  },
+  "result": {
+    "item": "marbledsarsenal:heavy_riot_shield",
+    "count": 1
+  }
+}
