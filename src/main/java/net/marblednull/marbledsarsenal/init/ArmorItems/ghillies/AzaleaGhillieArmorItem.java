@@ -1,5 +1,6 @@
 package net.marblednull.marbledsarsenal.init.ArmorItems.ghillies;
 
+import net.marblednull.marbledsarsenal.armors.ghillie.AzaleaGhillieArmorRenderer;
 import net.marblednull.marbledsarsenal.armors.ghillie.CherryGhillieArmorRenderer;
 import net.marblednull.marbledsarsenal.armors.ghillie.OakGhillieArmorRenderer;
 import net.minecraft.client.model.HumanoidModel;
@@ -28,13 +29,13 @@ public class AzaleaGhillieArmorItem extends ArmorItem implements GeoItem {
     @Override
     public void initializeClient(Consumer<IClientItemExtensions> consumer) {
         consumer.accept(new IClientItemExtensions() {
-            private CherryGhillieArmorRenderer renderer;
+            private AzaleaGhillieArmorRenderer renderer;
 
             @Override
             public @NotNull HumanoidModel<?> getHumanoidArmorModel(LivingEntity LivingEntity, ItemStack itemStack,
                                                                    EquipmentSlot equipmentSlot, HumanoidModel<?> original) {
                 if (this.renderer == null)
-                    this.renderer = new CherryGhillieArmorRenderer();
+                    this.renderer = new AzaleaGhillieArmorRenderer();
 
                 this.renderer.prepForRender(LivingEntity, itemStack, equipmentSlot, original);
                 return this.renderer;
