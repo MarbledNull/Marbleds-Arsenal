@@ -99,7 +99,58 @@
   "item.marbledsarsenal.combat_knife": "전투용 단검",
   "item.marbledsarsenal.katana": "일본도",
   "item.marbledsarsenal.tanto": "탄토",
-  
+
+  "item.marbledsarsenal.oak_ghillie_helmet": "참나무 길리 슈트 헬멧",
+  "item.marbledsarsenal.oak_ghillie_chestplate": "참나무 길리 슈트 방탄복 상의",
+  "item.marbledsarsenal.oak_ghillie_leggings": "참나무 길리 슈트 하의",
+  "item.marbledsarsenal.oak_ghillie_boots": "참나무 길리 슈트 전투화",
+
+  "item.marbledsarsenal.spruce_ghillie_helmet": "가문비나무 길리 슈트 헬멧",
+  "item.marbledsarsenal.spruce_ghillie_chestplate": "가문비나무 길리 슈트 방탄복 상의",
+  "item.marbledsarsenal.spruce_ghillie_leggings": "가문비나무 길리 슈트 하의",
+  "item.marbledsarsenal.spruce_ghillie_boots": "가문비나무 길리 슈트 전투화",
+
+  "item.marbledsarsenal.birch_ghillie_helmet": "자작나무 길리 슈트 헬멧",
+  "item.marbledsarsenal.birch_ghillie_chestplate": "자작나무 길리 슈트 방탄복 상의",
+  "item.marbledsarsenal.birch_ghillie_leggings": "자작나무 길리 슈트 하의",
+  "item.marbledsarsenal.birch_ghillie_boots": "자작나무 길리 슈트 전투화",
+
+  "item.marbledsarsenal.jungle_ghillie_helmet": "정글나무 길리 슈트 헬멧",
+  "item.marbledsarsenal.jungle_ghillie_chestplate": "정글나무 길리 슈트 방탄복 상의",
+  "item.marbledsarsenal.jungle_ghillie_leggings": "정글나무 길리 슈트 하의",
+  "item.marbledsarsenal.jungle_ghillie_boots": "정글나무 길리 슈트 전투화",
+
+  "item.marbledsarsenal.acacia_ghillie_helmet": "아카시아나무 길리 슈트 헬멧",
+  "item.marbledsarsenal.acacia_ghillie_chestplate": "아카시아나무 길리 슈트 방탄복 상의",
+  "item.marbledsarsenal.acacia_ghillie_leggings": "아카시아나무 길리 슈트 하의",
+  "item.marbledsarsenal.acacia_ghillie_boots": "아카시아나무 길리 슈트 전투화",
+
+  "item.marbledsarsenal.dark_oak_ghillie_helmet": "짙은 참나무 길리 슈트 헬멧",
+  "item.marbledsarsenal.dark_oak_ghillie_chestplate": "짙은 참나무 길리 슈트 방탄복 상의",
+  "item.marbledsarsenal.dark_oak_ghillie_leggings": "짙은 참나무 길리 슈트 하의",
+  "item.marbledsarsenal.dark_oak_ghillie_boots": "짙은 참나무 길리 슈트 전투화",
+
+  "item.marbledsarsenal.mangrove_ghillie_helmet": "맹그로브나무 길리 슈트 헬멧",
+  "item.marbledsarsenal.mangrove_ghillie_chestplate": "맹그로브나무 길리 슈트 방탄복 상의",
+  "item.marbledsarsenal.mangrove_ghillie_leggings": "맹그로브나무 길리 슈트 하의",
+  "item.marbledsarsenal.mangrove_ghillie_boots": "맹그로브나무 길리 슈트 전투화",
+
+  "item.marbledsarsenal.cherry_ghillie_helmet": "벚나무 길리 슈트 헬멧",
+  "item.marbledsarsenal.cherry_ghillie_chestplate": "벚나무 길리 슈트 방탄복 상의",
+  "item.marbledsarsenal.cherry_ghillie_leggings": "벚나무 길리 슈트 하의",
+  "item.marbledsarsenal.cherry_ghillie_boots": "벚나무 길리 슈트 전투화",
+
+  "item.marbledsarsenal.azalea_ghillie_helmet": "진달래 길리 슈트 헬멧",
+  "item.marbledsarsenal.azalea_ghillie_chestplate": "진달래 길리 슈트 방탄복 상의",
+  "item.marbledsarsenal.azalea_ghillie_leggings": "진달래 길리 슈트 하의",
+  "item.marbledsarsenal.azalea_ghillie_boots": "진달래 길리 슈트 전투화",
+
+  "item.marbledsarsenal.flowering_azalea_ghillie_helmet": "꽃 핀 진달래 길리 슈트 헬멧",
+  "item.marbledsarsenal.flowering_azalea_ghillie_chestplate": "꽃 핀 진달래 길리 슈트 방탄복 상의",
+  "item.marbledsarsenal.flowering_azalea_ghillie_leggings": "꽃 핀 진달래 길리 슈트 하의",
+  "item.marbledsarsenal.flowering_azalea_ghillie_boots": "꽃 핀 진달래 길리 슈트 전투화",
+
+
   "item.marbledsarsenal.golf_club": "골프채",
   "item.marbledsarsenal.baseball_bat": "야구 방망이",
   "item.marbledsarsenal.barbed_baseball_bat": "가시 철사 야구 방망이",
