@@ -168,11 +168,6 @@ public class ModItems {
     public static final RegistryObject<Item> AZALEA_GHILLIE_LEGGINGS = ITEMS.register("azalea_ghillie_leggings", () -> new AzaleaGhillieArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> AZALEA_GHILLIE_BOOTS = ITEMS.register("azalea_ghillie_boots", () -> new AzaleaGhillieArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.BOOTS, new Item.Properties()));
 
-    //public static final RegistryObject<Item> FLOWERING_AZALEA_GHILLIE_HELMET = ITEMS.register("flowering_azalea_ghillie_helmet", () -> new FloweringAzeleaGhillieArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, new Item.Properties()));
-    //public static final RegistryObject<Item> FLOWERING_AZALEA_GHILLIE_CHESTPLATE = ITEMS.register("flowering_azalea_ghillie_chestplate", () -> new FloweringAzeleaGhillieArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
-    //public static final RegistryObject<Item> FLOWERING_AZALEA_GHILLIE_LEGGINGS = ITEMS.register("flowering_azalea_ghillie_leggings", () -> new FloweringAzeleaGhillieArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.LEGGINGS, new Item.Properties()));
-    //public static final RegistryObject<Item> FLOWERING_AZALEA_GHILLIE_BOOTS = ITEMS.register("flowering_azalea_ghillie_boots", () -> new FloweringAzeleaGhillieArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.BOOTS, new Item.Properties()));
-
     //Crafting Items
     public static final RegistryObject<Item> GAS_MASK_FILTER = ITEMS.register("gas_mask_filter", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ARMOR_PLATE = ITEMS.register("armor_plate", () -> new Item(new Item.Properties()));

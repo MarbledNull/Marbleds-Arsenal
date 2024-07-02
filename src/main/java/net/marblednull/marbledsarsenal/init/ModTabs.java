@@ -147,11 +147,6 @@ public class ModTabs {
                         output.accept(ModItems.AZALEA_GHILLIE_LEGGINGS.get());
                         output.accept(ModItems.AZALEA_GHILLIE_BOOTS.get());
 
-                        output.accept(ModItems.FLOWERING_AZALEA_GHILLIE_HELMET.get());
-                        output.accept(ModItems.FLOWERING_AZALEA_GHILLIE_CHESTPLATE.get());
-                        output.accept(ModItems.FLOWERING_AZALEA_GHILLIE_LEGGINGS.get());
-                        output.accept(ModItems.FLOWERING_AZALEA_GHILLIE_BOOTS.get());
-
                         output.accept(ModItems.CROWBAR.get());
                         output.accept(ModItems.FIRE_AXE.get());
                         output.accept(ModItems.MODERN_AXE.get());
