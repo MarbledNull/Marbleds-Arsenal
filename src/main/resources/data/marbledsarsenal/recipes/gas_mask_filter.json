@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " i ",
+    "xix",
     "iOi",
-    " i "
+    "xix"
   ],
   "key": {
     "i": {
@@ -11,6 +11,9 @@
     },
     "O": {
       "tag": "minecraft:leaves"
+    },
+    "x": {
+      "item": "marbledsapi:rubber"
     }
   },
   "result": {
