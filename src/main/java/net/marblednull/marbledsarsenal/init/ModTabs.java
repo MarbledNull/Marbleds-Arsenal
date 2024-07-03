@@ -165,14 +165,14 @@ public class ModTabs {
                     })
                     .build()
     );
-    public static final RegistryObject<CreativeModeTab> MARBLEDS_ARSENAL_EXTRAS = TABS.register("marbleds_arsenal_extras",
-            () -> CreativeModeTab.builder()
-                    .title(Component.translatable("itemGroup.marbleds_arsenal_extras"))
-                    .icon(() -> new ItemStack(Items.BARRIER.asItem()))
-                    .displayItems((displayParameters, output) -> {
-                    })
-                    .build()
-    );
+    //public static final RegistryObject<CreativeModeTab> MARBLEDS_ARSENAL_EXTRAS = TABS.register("marbleds_arsenal_extras",
+            //() -> CreativeModeTab.builder()
+                    //.title(Component.translatable("itemGroup.marbleds_arsenal_extras"))
+                    //.icon(() -> new ItemStack(Items.BARRIER.asItem()))
+                    //.displayItems((displayParameters, output) -> {
+                    //})
+                   // .build()
+    //);
     public static void register(IEventBus eventBus) {
         TABS.register(eventBus);
     }
