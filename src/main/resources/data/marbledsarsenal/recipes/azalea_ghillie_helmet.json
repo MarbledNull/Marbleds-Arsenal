@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:azalea_leaves"
+    }
+  },
+  "result": {
+    "item": "marbledsarsenal:azalea_ghillie_helmet",
+    "count": 1
+  }
+}
