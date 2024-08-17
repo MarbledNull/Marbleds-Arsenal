@@ -1,7 +1,6 @@
 package net.marblednull.marbledsarsenal.init.ArmorItems.full_suits;
 
-import net.marblednull.marbledsarsenal.armors.full_suits.DesertMilitaryArmorRenderer;
-import net.marblednull.marbledsarsenal.armors.full_suits.RiotArmorRenderer;
+import net.marblednull.marbledsarsenal.client.full_suits.DesertMilitaryArmorRenderer;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;

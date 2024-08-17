@@ -1,7 +1,6 @@
 package net.marblednull.marbledsarsenal.init.ArmorItems.body_armors;
 
-import net.marblednull.marbledsarsenal.armors.body_armors.BlackPlateCarrierRenderer;
-import net.marblednull.marbledsarsenal.armors.helmets.CombatHelmetRenderer;
+import net.marblednull.marbledsarsenal.client.body_armors.BlackPlateCarrierRenderer;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;

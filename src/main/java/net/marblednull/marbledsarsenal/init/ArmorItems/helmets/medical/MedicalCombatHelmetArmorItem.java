@@ -1,7 +1,6 @@
 package net.marblednull.marbledsarsenal.init.ArmorItems.helmets.medical;
 
-import net.marblednull.marbledsarsenal.armors.helmets.CombatHelmetRenderer;
-import net.marblednull.marbledsarsenal.armors.helmets.medical.MedicalCombatHelmetRenderer;
+import net.marblednull.marbledsarsenal.client.helmets.medical.MedicalCombatHelmetRenderer;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
