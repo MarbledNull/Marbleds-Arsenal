@@ -136,7 +136,7 @@ dependencies {
     // If the group id is "net.minecraft" and the artifact id is one of ["client", "server", "joined"],
     // then special handling is done to allow a setup of a vanilla dependency without the use of an external repository.
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
-    implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.20.1:4.2.4')
+    implementation fg.deobf("curse.maven:geckolib-388172:5460309")
     implementation fg.deobf("curse.maven:marbleds-api-mapi-932466:5331751")
     implementation fg.deobf("curse.maven:jei-238222:4712868")
     // Example mod dependency with JEI - using fg.deobf() ensures the dependency is remapped to your development mappings
