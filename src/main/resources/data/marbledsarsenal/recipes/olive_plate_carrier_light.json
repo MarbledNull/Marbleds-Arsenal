@@ -7,7 +7,7 @@
   ],
   "key": {
     "#": {
-      "item": "marbledsapi:steel_sheet"
+      "item": "mcore:steel_sheet"
     },
     "i": {
       "tag": "forge:ingots/steel"
@@ -20,7 +20,7 @@
     }
   },
   "result": {
-    "item": "marbledsarsenal:olive_plate_carrier_t1",
+    "item": "marbledsarsenal:olive_plate_carrier_light",
     "count": 1
   }
 }

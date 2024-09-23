@@ -9,7 +9,7 @@
       "item": "minecraft:black_dye"
     },
     "i": {
-      "item": "marbledsapi:hardened_steel_ingot"
+      "tag": "forge:ingots/titanium"
     }
   },
   "result": {

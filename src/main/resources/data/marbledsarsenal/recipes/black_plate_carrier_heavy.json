@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "marbledsapi:steel_sheet"
+      "item": "mcore:steel_sheet"
     },
     "i": {
-      "tag": "forge:ingots/steel"
+      "tag": "forge:ingots/titanium"
     },
     "I": {
       "item": "marbledsarsenal:armor_plate"
@@ -20,7 +20,7 @@
     }
   },
   "result": {
-    "item": "marbledsarsenal:black_plate_carrier_t1",
+    "item": "marbledsarsenal:black_plate_carrier_heavy",
     "count": 1
   }
 }

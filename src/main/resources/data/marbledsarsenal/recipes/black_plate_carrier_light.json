@@ -10,17 +10,17 @@
       "item": "mcore:steel_sheet"
     },
     "i": {
-      "tag": "forge:ingots/titanium"
+      "tag": "forge:ingots/steel"
     },
     "I": {
       "item": "marbledsarsenal:armor_plate"
     },
     "P": {
-      "item": "minecraft:green_dye"
+      "item": "minecraft:black_dye"
     }
   },
   "result": {
-    "item": "marbledsarsenal:olive_plate_carrier_heavy",
+    "item": "marbledsarsenal:black_plate_carrier_light",
     "count": 1
   }
 }
