@@ -55,13 +55,11 @@ public class ModTabs {
                         output.accept(ModItems.RED_MILITARY_BERET.get());
                         output.accept(ModItems.UN_MILITARY_BERET.get());
 
-                        output.accept(ModItems.BLACK_PLATE_CARRIER_T1.get());
-                        output.accept(ModItems.BLACK_PLATE_CARRIER_T2.get());
-                        output.accept(ModItems.BLACK_PLATE_CARRIER_T3.get());
+                        output.accept(ModItems.BLACK_PLATE_CARRIER_LIGHT.get());
+                        output.accept(ModItems.BLACK_PLATE_CARRIER_HEAVY.get());
 
-                        output.accept(ModItems.OLIVE_PLATE_CARRIER_T1.get());
-                        output.accept(ModItems.OLIVE_PLATE_CARRIER_T2.get());
-                        output.accept(ModItems.OLIVE_PLATE_CARRIER_T3.get());
+                        output.accept(ModItems.OLIVE_PLATE_CARRIER_LIGHT.get());
+                        output.accept(ModItems.OLIVE_PLATE_CARRIER_HEAVY.get());
 
                         output.accept(ModItems.GAS_MASK_FILTER.get());
                         output.accept(ModItems.ARMOR_PLATE.get());
