@@ -13,7 +13,7 @@
       "item": "minecraft:light_blue_dye"
     },
     "I": {
-      "item": "marbledsapi:steel_sheet"
+      "item": "mcore:steel_sheet"
     }
   },
   "result": {

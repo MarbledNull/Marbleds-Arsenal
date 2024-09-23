@@ -7,10 +7,10 @@
   ],
   "key": {
     "i": {
-      "item": "marbledsapi:hardened_steel_ingot"
+      "tag": "forge:ingots/titanium"
     },
     "I": {
-      "item": "marbledsapi:hardened_steel_sheet"
+      "item": "mcore:steel_sheet"
     },
     "/": {
       "item": "minecraft:stick"

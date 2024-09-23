@@ -7,7 +7,7 @@
   ],
   "key": {
     "i": {
-      tag": "forge:ingots/titanium"
+      "tag": "forge:ingots/titanium"
     },
     "G": {
       "item": "minecraft:black_dye"
