@@ -1,6 +1,5 @@
 {
   "itemGroup.marbleds_arsenal": "Marbled's Arsenaal",
-
   "item.marbledsarsenal.raw_steel": "Ruw Staal",
   "item.marbledsarsenal.armor_plate": "Pantserplaat",
   "item.marbledsarsenal.steel_ingot": "Stalen Staaf",
@@ -9,7 +8,6 @@
   "item.marbledsarsenal.hardened_steel_ingot": "Geharde Stalen Staaf",
   "item.marbledsarsenal.hardened_steel_sheet": "Geharde Stalen Plaat",
   "item.marbledsarsenal.rubber": "Rubber",
-
   "item.marbledsarsenal.cm6m_gas_mask": "CM-6M Gasmasker",
   "item.marbledsarsenal.helmet_cm6m_gas_mask": "Helm CM-6M Gasmasker",
   "item.marbledsarsenal.un_helmet_cm6m_gas_mask": "VN Helm CM-6M Gasmasker",
@@ -17,7 +15,6 @@
   "item.marbledsarsenal.medical_helmet_cm6m_gas_mask": "Medische Helm CM-6M Gasmasker",
   "item.marbledsarsenal.medical_un_helmet_cm6m_gas_mask": "Medische VN Helm CM-6M Gasmasker",
   "item.marbledsarsenal.medical_olive_helmet_cm6m_gas_mask": "Medische Olijfkleurige Helm CM-6M Gasmasker",
-
   "item.marbledsarsenal.cm7m_gas_mask": "CM-7M Gasmasker",
   "item.marbledsarsenal.helmet_cm7m_gas_mask": "Helm CM-7M Gasmasker",
   "item.marbledsarsenal.un_helmet_cm7m_gas_mask": "VN Helm CM-7M Gasmasker",
@@ -25,7 +22,6 @@
   "item.marbledsarsenal.medical_helmet_cm7m_gas_mask": "Medische Helm CM-7M Gasmasker",
   "item.marbledsarsenal.medical_un_helmet_cm7m_gas_mask": "Medische VN Helm CM-7M Gasmasker",
   "item.marbledsarsenal.medical_olive_helmet_cm7m_gas_mask": "Medische Olijfkleurige Helm CM-7M Gasmasker",
-
   "item.marbledsarsenal.cm8m_gas_mask": "CM-8M Gasmasker",
   "item.marbledsarsenal.helmet_cm8m_gas_mask": "Helm CM-8M Gasmasker",
   "item.marbledsarsenal.un_helmet_cm8m_gas_mask": "VN Helm CM-8M Gasmasker",
@@ -33,64 +29,51 @@
   "item.marbledsarsenal.medical_helmet_cm8m_gas_mask": "Medische Helm CM-8M Gasmasker",
   "item.marbledsarsenal.medical_un_helmet_cm8m_gas_mask": "Medische VN Helm CM-8M Gasmasker",
   "item.marbledsarsenal.medical_olive_helmet_cm8m_gas_mask": "Medische Olijfkleurige Helm CM-8M Gasmasker",
-
   "item.marbledsarsenal.white_gp5_gas_mask": "Wit GP-5 Gasmasker",
   "item.marbledsarsenal.black_gp5_gas_mask": "Zwart GP-5 Gasmasker",
-
   "item.marbledsarsenal.combat_helmet": "Gevechtshelm",
   "item.marbledsarsenal.un_combat_helmet": "VN Gevechtshelm",
   "item.marbledsarsenal.olive_combat_helmet": "Olijfkleurige Gevechtshelm",
   "item.marbledsarsenal.medical_combat_helmet": "Medische Gevechtshelm",
   "item.marbledsarsenal.medical_un_combat_helmet": "Medische VN Gevechtshelm",
   "item.marbledsarsenal.medical_olive_combat_helmet": "Medische Olijfkleurige Gevechtshelm",
-
   "item.marbledsarsenal.black_military_beret": "Zwarte Militaire Baret",
   "item.marbledsarsenal.red_military_beret": "Rode Militaire Baret",
   "item.marbledsarsenal.un_military_beret": "VN Militaire Baret",
-
   "item.marbledsarsenal.black_plate_carrier_t1": "Zwarte Platendrager Niveau 1",
   "item.marbledsarsenal.black_plate_carrier_t2": "Zwarte Platendrager Niveau 2",
   "item.marbledsarsenal.black_plate_carrier_t3": "Zwarte Platendrager Niveau 3",
-
   "item.marbledsarsenal.olive_plate_carrier_t1": "Olijfkleurige Platendrager Niveau 1",
   "item.marbledsarsenal.olive_plate_carrier_t2": "Olijfkleurige Platendrager Niveau 2",
   "item.marbledsarsenal.olive_plate_carrier_t3": "Olijfkleurige Platendrager Niveau 3",
-
   "item.marbledsarsenal.riot_armor_helmet": "Oproer Pantser Helm",
   "item.marbledsarsenal.riot_armor_chestplate": "Oproer Pantser Borstplaat",
   "item.marbledsarsenal.riot_armor_leggings": "Oproer Pantser Broek",
   "item.marbledsarsenal.riot_armor_boots": "Oproer Pantser Laarzen",
-
   "item.marbledsarsenal.swat_armor_helmet": "SWAT Pantser Helm",
   "item.marbledsarsenal.swat_armor_chestplate": "SWAT Pantser Borstplaat",
   "item.marbledsarsenal.swat_armor_leggings": "SWAT Pantser Broek",
   "item.marbledsarsenal.swat_armor_boots": "SWAT Pantser Laarzen",
-
   "item.marbledsarsenal.winter_military_armor_helmet": "Winter Militaire Pantser Helm",
   "item.marbledsarsenal.winter_military_armor_chestplate": "Winter Militaire Pantser Borstplaat",
   "item.marbledsarsenal.winter_military_armor_leggings": "Winter Militaire Pantser Broek",
   "item.marbledsarsenal.winter_military_armor_boots": "Winter Militaire Pantser Laarzen",
-
   "item.marbledsarsenal.desert_military_armor_helmet": "Woestijn Militaire Pantser Helm",
   "item.marbledsarsenal.desert_military_armor_chestplate": "Woestijn Militaire Pantser Borstplaat",
   "item.marbledsarsenal.desert_military_armor_leggings": "Woestijn Militaire Pantser Broek",
   "item.marbledsarsenal.desert_military_armor_boots": "Woestijn Militaire Pantser Laarzen",
-
   "item.marbledsarsenal.hazmat_armor_helmet": "Hazmat Pantser Helm",
   "item.marbledsarsenal.hazmat_armor_chestplate": "Hazmat Pantser Borstplaat",
   "item.marbledsarsenal.hazmat_armor_leggings": "Hazmat Pantser Broek",
   "item.marbledsarsenal.hazmat_armor_boots": "Hazmat Pantser Laarzen",
-
   "item.marbledsarsenal.olive_juggernaut_armor_helmet": "Olijfkleurige Juggernaut Pantser Helm",
   "item.marbledsarsenal.olive_juggernaut_armor_chestplate": "Olijfkleurige Juggernaut Pantser Borstplaat",
   "item.marbledsarsenal.olive_juggernaut_armor_leggings": "Olijfkleurige Juggernaut Pantser Broek",
   "item.marbledsarsenal.olive_juggernaut_armor_boots": "Olijfkleurige Juggernaut Pantser Laarzen",
-
   "item.marbledsarsenal.black_juggernaut_armor_helmet": "Zwarte Juggernaut Pantser Helm",
   "item.marbledsarsenal.black_juggernaut_armor_chestplate": "Zwarte Juggernaut Pantser Borstplaat",
   "item.marbledsarsenal.black_juggernaut_armor_leggings": "Zwarte Juggernaut Pantser Broek",
   "item.marbledsarsenal.black_juggernaut_armor_boots": "Zwarte Juggernaut Pantser Laarzen",
-
   "item.marbledsarsenal.crowbar": "Breekijzer",
   "item.marbledsarsenal.fire_axe": "Brandbijl",
   "item.marbledsarsenal.modern_axe": "Moderne Bijl",
@@ -109,55 +92,45 @@
   "item.marbledsarsenal.baseball_bat": "Honkbalknuppel",
   "item.marbledsarsenal.barbed_baseball_bat": "Honkbalknuppel met prikkeldraad",
   "item.marbledsarsenal.steel_baseball_bat": "Stalen Honkbalknuppel",
-
   "item.marbledsarsenal.riot_shield": "Oproerschild",
   "item.marbledsarsenal.heavy_riot_shield": "Zwaar Oproerschild"
-  
+
   "item.marbledsarsenal.oak_ghillie_helmet": "Eiken Ghillie Helm",
   "item.marbledsarsenal.oak_ghillie_chestplate": "Eiken Ghillie Borstplaat",
   "item.marbledsarsenal.oak_ghillie_leggings": "Eiken Ghillie Broek",
   "item.marbledsarsenal.oak_ghillie_boots": "Eiken Ghillie Laarzen",
-
   "item.marbledsarsenal.spruce_ghillie_helmet": "Sparren Ghillie Helm",
   "item.marbledsarsenal.spruce_ghillie_chestplate": "Sparren Ghillie Borstplaat",
   "item.marbledsarsenal.spruce_ghillie_leggings": "Sparren Ghillie Broek",
   "item.marbledsarsenal.spruce_ghillie_boots": "Sparren Ghillie Laarzen",
-
   "item.marbledsarsenal.birch_ghillie_helmet": "Berken Ghillie Helm",
   "item.marbledsarsenal.birch_ghillie_chestplate": "Berken Ghillie Borstplaat",
   "item.marbledsarsenal.birch_ghillie_leggings": "Berken Ghillie Broek",
   "item.marbledsarsenal.birch_ghillie_boots": "Berken Ghillie Laarzen",
-
   "item.marbledsarsenal.jungle_ghillie_helmet": "Oerwoud Ghillie Helm",
   "item.marbledsarsenal.jungle_ghillie_chestplate": "Oerwoud Ghillie Borstplaat",
   "item.marbledsarsenal.jungle_ghillie_leggings": "Oerwoud Ghillie Broek",
   "item.marbledsarsenal.jungle_ghillie_boots": "Oerwoud Ghillie Laarzen",
-
   "item.marbledsarsenal.acacia_ghillie_helmet": "Acacia Ghillie Helm",
   "item.marbledsarsenal.acacia_ghillie_chestplate": "Acacia Ghillie Borstplaat",
   "item.marbledsarsenal.acacia_ghillie_leggings": "Acacia Ghillie Broek",
   "item.marbledsarsenal.acacia_ghillie_boots": "Acacia Ghillie Laarzen",
-
   "item.marbledsarsenal.dark_oak_ghillie_helmet": "Donkereiken Ghillie Helm",
   "item.marbledsarsenal.dark_oak_ghillie_chestplate": "Donkereiken Ghillie Borstplaat",
   "item.marbledsarsenal.dark_oak_ghillie_leggings": "Donkereiken Ghillie Broek",
   "item.marbledsarsenal.dark_oak_ghillie_boots": "Donkereiken Ghillie Laarzen",
-
   "item.marbledsarsenal.mangrove_ghillie_helmet": "Mangrove Ghillie Helm",
   "item.marbledsarsenal.mangrove_ghillie_chestplate": "Mangrove Ghillie Borstplaat",
   "item.marbledsarsenal.mangrove_ghillie_leggings": "Mangrove Ghillie Broek",
   "item.marbledsarsenal.mangrove_ghillie_boots": "Mangrove Ghillie Laarzen",
-
   "item.marbledsarsenal.cherry_ghillie_helmet": "Kersen Ghillie Helm",
   "item.marbledsarsenal.cherry_ghillie_chestplate": "Kersen Ghillie Borstplaat",
   "item.marbledsarsenal.cherry_ghillie_leggings": "Kersen Ghillie Broek",
   "item.marbledsarsenal.cherry_ghillie_boots": "Kersen Ghillie Laarzen",
-
   "item.marbledsarsenal.azalea_ghillie_helmet": "Azalea Ghillie Helm",
   "item.marbledsarsenal.azalea_ghillie_chestplate": "Azalea Ghillie Borstplaat",
   "item.marbledsarsenal.azalea_ghillie_leggings": "Azalea Ghillie Broek",
   "item.marbledsarsenal.azalea_ghillie_boots": "Azalea Ghillie Laarzen",
-
   "item.marbledsarsenal.flowering_azalea_ghillie_helmet": "Bloeiende Azalea Ghillie Helm",
   "item.marbledsarsenal.flowering_azalea_ghillie_chestplate": "Bloeiende Azalea Ghillie Borstplaat",
   "item.marbledsarsenal.flowering_azalea_ghillie_leggings": "Bloeiende Azalea Ghillie Broek",

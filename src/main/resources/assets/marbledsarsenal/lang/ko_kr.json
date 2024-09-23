@@ -1,9 +1,7 @@
 {
   "itemGroup.marbleds_arsenal": "Marbled의 무기고",
-
   "item.marbledsarsenal.armor_plate": "방탄 플레이트",
   "item.marbledsarsenal.gas_mask_filter": "방독면 필터",
-
   "item.marbledsarsenal.cm6m_gas_mask": "CM-6M 방독면",
   "item.marbledsarsenal.helmet_cm6m_gas_mask": "방탄헬멧 CM-6M 방독면",
   "item.marbledsarsenal.un_helmet_cm6m_gas_mask": "U.N. 방탄헬멧 CM-6M 방독면",
@@ -11,7 +9,6 @@
   "item.marbledsarsenal.medical_helmet_cm6m_gas_mask": "의무병 방탄헬멧 CM-6M 방독면",
   "item.marbledsarsenal.medical_un_helmet_cm6m_gas_mask": "U.N. 의무명 방탄헬멧 CM-6M 방독면",
   "item.marbledsarsenal.medical_olive_helmet_cm6m_gas_mask": "올리브색 의무병 방탄헬멧 CM-6M 방독면",
-
   "item.marbledsarsenal.cm7m_gas_mask": "CM-7M 방독면",
   "item.marbledsarsenal.helmet_cm7m_gas_mask": "방탄헬멧 CM-7M 방독면",
   "item.marbledsarsenal.un_helmet_cm7m_gas_mask": "U.N. 방탄헬멧 CM-7M 방독면",
@@ -19,7 +16,6 @@
   "item.marbledsarsenal.medical_helmet_cm7m_gas_mask": "의무병 방탄헬멧 CM-7M 방독면",
   "item.marbledsarsenal.medical_un_helmet_cm7m_gas_mask": "U.N. 의무병 방탄헬멧 CM-7M 방독면",
   "item.marbledsarsenal.medical_olive_helmet_cm7m_gas_mask": "올리브색 의무병 방탄헬멧 CM-7M 방독면",
-
   "item.marbledsarsenal.cm8m_gas_mask": "CM-8M 방독면",
   "item.marbledsarsenal.helmet_cm8m_gas_mask": "방탄헬멧 CM-8M 방독면",
   "item.marbledsarsenal.un_helmet_cm8m_gas_mask": "U.N. 방탄헬멧 CM-8M 방독면",
@@ -27,64 +23,51 @@
   "item.marbledsarsenal.medical_helmet_cm8m_gas_mask": "의무병 방탄헬멧 CM-8M 방독면",
   "item.marbledsarsenal.medical_un_helmet_cm8m_gas_mask": "U.N. 의무병 방탄헬멧 CM-8M 방독면",
   "item.marbledsarsenal.medical_olive_helmet_cm8m_gas_mask": "올리브색 의무병 방탄헬멧 CM-8M 방독면",
-
   "item.marbledsarsenal.white_gp5_gas_mask": "하얀색 GP-5 방독면",
   "item.marbledsarsenal.black_gp5_gas_mask": "검은색 GP-5 방독면",
-
   "item.marbledsarsenal.combat_helmet": "방탄헬멧",
   "item.marbledsarsenal.un_combat_helmet": "U.N. 방탄헬멧",
   "item.marbledsarsenal.olive_combat_helmet": "올리브색 방탄헬멧",
   "item.marbledsarsenal.medical_combat_helmet": "의무병 방탄헬멧",
   "item.marbledsarsenal.medical_un_combat_helmet": "의무병 U.N. 방탄헬멧",
   "item.marbledsarsenal.medical_olive_combat_helmet": "의무병 올리브색 방탄헬멧",
-
   "item.marbledsarsenal.black_military_beret": "검은색 군용 베레모",
   "item.marbledsarsenal.red_military_beret": "빨간색 군용 베레모",
   "item.marbledsarsenal.un_military_beret": "U.N. 군용 베레모",
-
   "item.marbledsarsenal.black_plate_carrier_t1": "티어 1 검은색 방탄복",
   "item.marbledsarsenal.black_plate_carrier_t2": "티어 2 검은색 방탄복",
   "item.marbledsarsenal.black_plate_carrier_t3": "티어 3 검은색 방탄복",
-
   "item.marbledsarsenal.olive_plate_carrier_t1": "티어 1 올리브색 방탄복",
   "item.marbledsarsenal.olive_plate_carrier_t2": "티어 2 올리브색 방탄복",
   "item.marbledsarsenal.olive_plate_carrier_t3": "티어 3 올리브색 방탄복",
-
   "item.marbledsarsenal.riot_armor_helmet": "방석모",
   "item.marbledsarsenal.riot_armor_chestplate": "방석복",
   "item.marbledsarsenal.riot_armor_leggings": "방석각반",
   "item.marbledsarsenal.riot_armor_boots": "방석화",
-
   "item.marbledsarsenal.swat_armor_helmet": "경찰특공대 방탄헬멧",
   "item.marbledsarsenal.swat_armor_chestplate": "경찰특공대 방탄복 상의",
   "item.marbledsarsenal.swat_armor_leggings": "경찰특공대 하의",
   "item.marbledsarsenal.swat_armor_boots": "경찰특공대 전투화",
-
   "item.marbledsarsenal.winter_military_armor_helmet": "겨울 군용 방탄헬멧",
   "item.marbledsarsenal.winter_military_armor_chestplate": "겨울 군용 방탄복 상의",
   "item.marbledsarsenal.winter_military_armor_leggings": "겨울 군용 하의",
   "item.marbledsarsenal.winter_military_armor_boots": "겨울 군용 전투화",
-
   "item.marbledsarsenal.desert_military_armor_helmet": "사막 군용 방탄헬멧",
   "item.marbledsarsenal.desert_military_armor_chestplate": "사막 군용 방탄복 상의",
   "item.marbledsarsenal.desert_military_armor_leggings": "사막 군용 하의",
   "item.marbledsarsenal.desert_military_armor_boots": "사막 군용 전투화",
-
   "item.marbledsarsenal.hazmat_armor_helmet": "방호헬멧",
   "item.marbledsarsenal.hazmat_armor_chestplate": "방호상의",
   "item.marbledsarsenal.hazmat_armor_leggings": "방호하의",
   "item.marbledsarsenal.hazmat_armor_boots": "방호화",
-
   "item.marbledsarsenal.olive_juggernaut_armor_helmet": "올리브색 저거넛 방탄헬멧",
   "item.marbledsarsenal.olive_juggernaut_armor_chestplate": "올리브색 저거넛 방탄복 상의",
   "item.marbledsarsenal.olive_juggernaut_armor_leggings": "올리브색 저거넛 하의",
   "item.marbledsarsenal.olive_juggernaut_armor_boots": "올리브색 저거넛 전투화",
-
   "item.marbledsarsenal.black_juggernaut_armor_helmet": "검은색 저거넛 방탄헬멧",
   "item.marbledsarsenal.black_juggernaut_armor_chestplate": "검은색 저거넛 방탄복 상의",
   "item.marbledsarsenal.black_juggernaut_armor_leggings": "검은색 저거넛 하의",
   "item.marbledsarsenal.black_juggernaut_armor_boots": "검은색 저거넛 전투화",
-
   "item.marbledsarsenal.crowbar": "쇠지렛대",
   "item.marbledsarsenal.fire_axe": "소방 도끼",
   "item.marbledsarsenal.modern_axe": "현대 도끼",
@@ -99,63 +82,50 @@
   "item.marbledsarsenal.combat_knife": "전투용 단검",
   "item.marbledsarsenal.katana": "일본도",
   "item.marbledsarsenal.tanto": "탄토",
-
   "item.marbledsarsenal.oak_ghillie_helmet": "참나무 길리 슈트 헬멧",
   "item.marbledsarsenal.oak_ghillie_chestplate": "참나무 길리 슈트 방탄복 상의",
   "item.marbledsarsenal.oak_ghillie_leggings": "참나무 길리 슈트 하의",
   "item.marbledsarsenal.oak_ghillie_boots": "참나무 길리 슈트 전투화",
-
   "item.marbledsarsenal.spruce_ghillie_helmet": "가문비나무 길리 슈트 헬멧",
   "item.marbledsarsenal.spruce_ghillie_chestplate": "가문비나무 길리 슈트 방탄복 상의",
   "item.marbledsarsenal.spruce_ghillie_leggings": "가문비나무 길리 슈트 하의",
   "item.marbledsarsenal.spruce_ghillie_boots": "가문비나무 길리 슈트 전투화",
-
   "item.marbledsarsenal.birch_ghillie_helmet": "자작나무 길리 슈트 헬멧",
   "item.marbledsarsenal.birch_ghillie_chestplate": "자작나무 길리 슈트 방탄복 상의",
   "item.marbledsarsenal.birch_ghillie_leggings": "자작나무 길리 슈트 하의",
   "item.marbledsarsenal.birch_ghillie_boots": "자작나무 길리 슈트 전투화",
-
   "item.marbledsarsenal.jungle_ghillie_helmet": "정글나무 길리 슈트 헬멧",
   "item.marbledsarsenal.jungle_ghillie_chestplate": "정글나무 길리 슈트 방탄복 상의",
   "item.marbledsarsenal.jungle_ghillie_leggings": "정글나무 길리 슈트 하의",
   "item.marbledsarsenal.jungle_ghillie_boots": "정글나무 길리 슈트 전투화",
-
   "item.marbledsarsenal.acacia_ghillie_helmet": "아카시아나무 길리 슈트 헬멧",
   "item.marbledsarsenal.acacia_ghillie_chestplate": "아카시아나무 길리 슈트 방탄복 상의",
   "item.marbledsarsenal.acacia_ghillie_leggings": "아카시아나무 길리 슈트 하의",
   "item.marbledsarsenal.acacia_ghillie_boots": "아카시아나무 길리 슈트 전투화",
-
   "item.marbledsarsenal.dark_oak_ghillie_helmet": "짙은 참나무 길리 슈트 헬멧",
   "item.marbledsarsenal.dark_oak_ghillie_chestplate": "짙은 참나무 길리 슈트 방탄복 상의",
   "item.marbledsarsenal.dark_oak_ghillie_leggings": "짙은 참나무 길리 슈트 하의",
   "item.marbledsarsenal.dark_oak_ghillie_boots": "짙은 참나무 길리 슈트 전투화",
-
   "item.marbledsarsenal.mangrove_ghillie_helmet": "맹그로브나무 길리 슈트 헬멧",
   "item.marbledsarsenal.mangrove_ghillie_chestplate": "맹그로브나무 길리 슈트 방탄복 상의",
   "item.marbledsarsenal.mangrove_ghillie_leggings": "맹그로브나무 길리 슈트 하의",
   "item.marbledsarsenal.mangrove_ghillie_boots": "맹그로브나무 길리 슈트 전투화",
-
   "item.marbledsarsenal.cherry_ghillie_helmet": "벚나무 길리 슈트 헬멧",
   "item.marbledsarsenal.cherry_ghillie_chestplate": "벚나무 길리 슈트 방탄복 상의",
   "item.marbledsarsenal.cherry_ghillie_leggings": "벚나무 길리 슈트 하의",
   "item.marbledsarsenal.cherry_ghillie_boots": "벚나무 길리 슈트 전투화",
-
   "item.marbledsarsenal.azalea_ghillie_helmet": "진달래 길리 슈트 헬멧",
   "item.marbledsarsenal.azalea_ghillie_chestplate": "진달래 길리 슈트 방탄복 상의",
   "item.marbledsarsenal.azalea_ghillie_leggings": "진달래 길리 슈트 하의",
   "item.marbledsarsenal.azalea_ghillie_boots": "진달래 길리 슈트 전투화",
-
   "item.marbledsarsenal.flowering_azalea_ghillie_helmet": "꽃 핀 진달래 길리 슈트 헬멧",
   "item.marbledsarsenal.flowering_azalea_ghillie_chestplate": "꽃 핀 진달래 길리 슈트 방탄복 상의",
   "item.marbledsarsenal.flowering_azalea_ghillie_leggings": "꽃 핀 진달래 길리 슈트 하의",
   "item.marbledsarsenal.flowering_azalea_ghillie_boots": "꽃 핀 진달래 길리 슈트 전투화",
-
-
   "item.marbledsarsenal.golf_club": "골프채",
   "item.marbledsarsenal.baseball_bat": "야구 방망이",
   "item.marbledsarsenal.barbed_baseball_bat": "가시 철사 야구 방망이",
   "item.marbledsarsenal.steel_baseball_bat": "강철 야구 방망이",
-
   "item.marbledsarsenal.riot_shield": "진압 방패",
   "item.marbledsarsenal.heavy_riot_shield": "중(重) 진압 방패"
 }
