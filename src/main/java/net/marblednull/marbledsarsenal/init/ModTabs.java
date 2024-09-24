@@ -61,9 +61,6 @@ public class ModTabs {
                         output.accept(ModItems.OLIVE_PLATE_CARRIER_LIGHT.get());
                         output.accept(ModItems.OLIVE_PLATE_CARRIER_HEAVY.get());
 
-                        output.accept(ModItems.GAS_MASK_FILTER.get());
-                        output.accept(ModItems.ARMOR_PLATE.get());
-
                         output.accept(ModItems.RIOT_ARMOR_HELMET.get());
                         output.accept(ModItems.RIOT_ARMOR_CHESTPLATE.get());
                         output.accept(ModItems.RIOT_ARMOR_LEGGINGS.get());
@@ -159,6 +156,11 @@ public class ModTabs {
                         output.accept(ModItems.BASEBALL_BAT.get());
                         output.accept(ModItems.BARBED_BASEBALL_BAT.get());
                         output.accept(ModItems.STEEL_BASEBALL_BAT.get());
+
+                        output.accept(ModItems.GAS_MASK_FILTER.get());
+                        output.accept(ModItems.ARMOR_PLATE.get());
+                        output.accept(ModItems.RUBBER.get());
+
                     })
                     .build()
     );
