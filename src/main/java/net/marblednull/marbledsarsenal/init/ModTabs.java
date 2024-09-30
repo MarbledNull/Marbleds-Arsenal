@@ -141,22 +141,6 @@ public class ModTabs {
                         output.accept(ModItems.AZALEA_GHILLIE_LEGGINGS.get());
                         output.accept(ModItems.AZALEA_GHILLIE_BOOTS.get());
 
-                        output.accept(ModItems.CROWBAR.get());
-                        output.accept(ModItems.FIRE_AXE.get());
-                        output.accept(ModItems.MODERN_AXE.get());
-                        output.accept(ModItems.TOMAHAWK.get());
-                        output.accept(ModItems.PIPE_WRENCH.get());
-                        output.accept(ModItems.SLEDGEHAMMER.get());
-                        output.accept(ModItems.BONE_SAW.get());
-                        output.accept(ModItems.POLICE_BATON.get());
-                        output.accept(ModItems.MACHETE.get());
-                        output.accept(ModItems.STOP_SIGN.get());
-                        output.accept(ModItems.KATANA.get());
-                        output.accept(ModItems.TANTO.get());
-                        output.accept(ModItems.BASEBALL_BAT.get());
-                        output.accept(ModItems.BARBED_BASEBALL_BAT.get());
-                        output.accept(ModItems.STEEL_BASEBALL_BAT.get());
-
                         output.accept(ModItems.GAS_MASK_FILTER.get());
                         output.accept(ModItems.ARMOR_PLATE.get());
                         output.accept(ModItems.RUBBER.get());
@@ -164,15 +148,6 @@ public class ModTabs {
                     })
                     .build()
     );
-
-    //public static final RegistryObject<CreativeModeTab> MARBLEDS_ARSENAL_EXTRAS = TABS.register("marbleds_arsenal_extras",
-    //() -> CreativeModeTab.builder()
-    //.title(Component.translatable("itemGroup.marbleds_arsenal_extras"))
-    //.icon(() -> new ItemStack(Items.BARRIER.asItem()))
-    //.displayItems((displayParameters, output) -> {
-    //})
-    // .build()
-    //);
     public static void register(IEventBus eventBus) {
         TABS.register(eventBus);
     }
