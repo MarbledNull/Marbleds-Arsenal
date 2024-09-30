@@ -21,25 +21,16 @@ public class ModTabs {
                         output.accept(ModItems.HELMET_CM6M_GAS_MASK.get());
                         output.accept(ModItems.UN_HELMET_CM6M_GAS_MASK.get());
                         output.accept(ModItems.OLIVE_HELMET_CM6M_GAS_MASK.get());
-                        output.accept(ModItems.MEDICAL_HELMET_CM6M_GAS_MASK.get());
-                        output.accept(ModItems.MEDICAL_UN_HELMET_CM6M_GAS_MASK.get());
-                        output.accept(ModItems.MEDICAL_OLIVE_HELMET_CM6M_GAS_MASK.get());
 
                         output.accept(ModItems.CM7M_GAS_MASK.get());
                         output.accept(ModItems.HELMET_CM7M_GAS_MASK.get());
                         output.accept(ModItems.UN_HELMET_CM7M_GAS_MASK.get());
                         output.accept(ModItems.OLIVE_HELMET_CM7M_GAS_MASK.get());
-                        output.accept(ModItems.MEDICAL_HELMET_CM7M_GAS_MASK.get());
-                        output.accept(ModItems.MEDICAL_UN_HELMET_CM7M_GAS_MASK.get());
-                        output.accept(ModItems.MEDICAL_OLIVE_HELMET_CM7M_GAS_MASK.get());
 
                         output.accept(ModItems.CM8M_GAS_MASK.get());
                         output.accept(ModItems.HELMET_CM8M_GAS_MASK.get());
                         output.accept(ModItems.UN_HELMET_CM8M_GAS_MASK.get());
                         output.accept(ModItems.OLIVE_HELMET_CM8M_GAS_MASK.get());
-                        output.accept(ModItems.MEDICAL_HELMET_CM8M_GAS_MASK.get());
-                        output.accept(ModItems.MEDICAL_UN_HELMET_CM8M_GAS_MASK.get());
-                        output.accept(ModItems.MEDICAL_OLIVE_HELMET_CM8M_GAS_MASK.get());
 
                         output.accept(ModItems.WHITE_GP5_GAS_MASK.get());
                         output.accept(ModItems.BLACK_GP5_GAS_MASK.get());
@@ -47,9 +38,6 @@ public class ModTabs {
                         output.accept(ModItems.COMBAT_HELMET.get());
                         output.accept(ModItems.UN_COMBAT_HELMET.get());
                         output.accept(ModItems.OLIVE_COMBAT_HELMET.get());
-                        output.accept(ModItems.MEDICAL_COMBAT_HELMET.get());
-                        output.accept(ModItems.MEDICAL_UN_COMBAT_HELMET.get());
-                        output.accept(ModItems.MEDICAL_OLIVE_COMBAT_HELMET.get());
 
                         output.accept(ModItems.BLACK_MILITARY_BERET.get());
                         output.accept(ModItems.RED_MILITARY_BERET.get());

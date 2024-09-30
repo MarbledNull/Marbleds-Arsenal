@@ -29,25 +29,16 @@ public class ModItems {
     public static final RegistryObject<Item> HELMET_CM6M_GAS_MASK = ITEMS.register("helmet_cm6m_gas_mask", () -> new HelmetCM6MArmorItem(MaArmorMaterials.COMBAT_HELMET, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> UN_HELMET_CM6M_GAS_MASK = ITEMS.register("un_helmet_cm6m_gas_mask", () -> new UNHelmetCM6MArmorItem(MaArmorMaterials.COMBAT_HELMET, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> OLIVE_HELMET_CM6M_GAS_MASK = ITEMS.register("olive_helmet_cm6m_gas_mask", () -> new OliveHelmetCM6MArmorItem(MaArmorMaterials.COMBAT_HELMET, ArmorItem.Type.HELMET, new Item.Properties()));
-    public static final RegistryObject<Item> MEDICAL_HELMET_CM6M_GAS_MASK = ITEMS.register("medical_helmet_cm6m_gas_mask", () -> new MedicalHelmetCM6MArmorItem(MaArmorMaterials.COMBAT_HELMET, ArmorItem.Type.HELMET, new Item.Properties()));
-    public static final RegistryObject<Item> MEDICAL_UN_HELMET_CM6M_GAS_MASK = ITEMS.register("medical_un_helmet_cm6m_gas_mask", () -> new MedicalUNHelmetCM6MArmorItem(MaArmorMaterials.COMBAT_HELMET, ArmorItem.Type.HELMET, new Item.Properties()));
-    public static final RegistryObject<Item> MEDICAL_OLIVE_HELMET_CM6M_GAS_MASK = ITEMS.register("medical_olive_helmet_cm6m_gas_mask", () -> new MedicalOliveHelmetCM6MArmorItem(MaArmorMaterials.COMBAT_HELMET, ArmorItem.Type.HELMET, new Item.Properties()));
 
     public static final RegistryObject<Item> CM7M_GAS_MASK = ITEMS.register("cm7m_gas_mask", () -> new CM7MArmorItem(MaArmorMaterials.GAS_MASK, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> HELMET_CM7M_GAS_MASK = ITEMS.register("helmet_cm7m_gas_mask", () -> new HelmetCM7MArmorItem(MaArmorMaterials.COMBAT_HELMET, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> UN_HELMET_CM7M_GAS_MASK = ITEMS.register("un_helmet_cm7m_gas_mask", () -> new UNHelmetCM7MArmorItem(MaArmorMaterials.COMBAT_HELMET, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> OLIVE_HELMET_CM7M_GAS_MASK = ITEMS.register("olive_helmet_cm7m_gas_mask", () -> new OliveHelmetCM7MArmorItem(MaArmorMaterials.COMBAT_HELMET, ArmorItem.Type.HELMET, new Item.Properties()));
-    public static final RegistryObject<Item> MEDICAL_HELMET_CM7M_GAS_MASK = ITEMS.register("medical_helmet_cm7m_gas_mask", () -> new MedicalHelmetCM7MArmorItem(MaArmorMaterials.COMBAT_HELMET, ArmorItem.Type.HELMET, new Item.Properties()));
-    public static final RegistryObject<Item> MEDICAL_UN_HELMET_CM7M_GAS_MASK = ITEMS.register("medical_un_helmet_cm7m_gas_mask", () -> new MedicalUNHelmetCM7MArmorItem(MaArmorMaterials.COMBAT_HELMET, ArmorItem.Type.HELMET, new Item.Properties()));
-    public static final RegistryObject<Item> MEDICAL_OLIVE_HELMET_CM7M_GAS_MASK = ITEMS.register("medical_olive_helmet_cm7m_gas_mask", () -> new MedicalOliveHelmetCM7MArmorItem(MaArmorMaterials.COMBAT_HELMET, ArmorItem.Type.HELMET, new Item.Properties()));
 
     public static final RegistryObject<Item> CM8M_GAS_MASK = ITEMS.register("cm8m_gas_mask", () -> new CM8MArmorItem(MaArmorMaterials.GAS_MASK, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> HELMET_CM8M_GAS_MASK = ITEMS.register("helmet_cm8m_gas_mask", () -> new HelmetCM8MArmorItem(MaArmorMaterials.COMBAT_HELMET, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> UN_HELMET_CM8M_GAS_MASK = ITEMS.register("un_helmet_cm8m_gas_mask", () -> new UNHelmetCM8MArmorItem(MaArmorMaterials.COMBAT_HELMET, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> OLIVE_HELMET_CM8M_GAS_MASK = ITEMS.register("olive_helmet_cm8m_gas_mask", () -> new OliveHelmetCM8MArmorItem(MaArmorMaterials.COMBAT_HELMET, ArmorItem.Type.HELMET, new Item.Properties()));
-    public static final RegistryObject<Item> MEDICAL_HELMET_CM8M_GAS_MASK = ITEMS.register("medical_helmet_cm8m_gas_mask", () -> new MedicalHelmetCM8MArmorItem(MaArmorMaterials.COMBAT_HELMET, ArmorItem.Type.HELMET, new Item.Properties()));
-    public static final RegistryObject<Item> MEDICAL_UN_HELMET_CM8M_GAS_MASK = ITEMS.register("medical_un_helmet_cm8m_gas_mask", () -> new MedicalUNHelmetCM8MArmorItem(MaArmorMaterials.COMBAT_HELMET, ArmorItem.Type.HELMET, new Item.Properties()));
-    public static final RegistryObject<Item> MEDICAL_OLIVE_HELMET_CM8M_GAS_MASK = ITEMS.register("medical_olive_helmet_cm8m_gas_mask", () -> new MedicalOliveHelmetCM8MArmorItem(MaArmorMaterials.COMBAT_HELMET, ArmorItem.Type.HELMET, new Item.Properties()));
 
     public static final RegistryObject<Item> WHITE_GP5_GAS_MASK = ITEMS.register("white_gp5_gas_mask", () -> new WhiteGP5ArmorItem(MaArmorMaterials.GAS_MASK, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> BLACK_GP5_GAS_MASK = ITEMS.register("black_gp5_gas_mask", () -> new BlackGP5ArmorItem(MaArmorMaterials.GAS_MASK, ArmorItem.Type.HELMET, new Item.Properties()));
@@ -55,9 +46,6 @@ public class ModItems {
     public static final RegistryObject<Item> COMBAT_HELMET = ITEMS.register("combat_helmet", () -> new CombatHelmetArmorItem(MaArmorMaterials.COMBAT_HELMET, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> UN_COMBAT_HELMET = ITEMS.register("un_combat_helmet", () -> new UNCombatHelmetArmorItem(MaArmorMaterials.COMBAT_HELMET, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> OLIVE_COMBAT_HELMET = ITEMS.register("olive_combat_helmet", () -> new OliveCombatHelmetArmorItem(MaArmorMaterials.COMBAT_HELMET, ArmorItem.Type.HELMET, new Item.Properties()));
-    public static final RegistryObject<Item> MEDICAL_COMBAT_HELMET = ITEMS.register("medical_combat_helmet", () -> new MedicalCombatHelmetArmorItem(MaArmorMaterials.COMBAT_HELMET, ArmorItem.Type.HELMET, new Item.Properties()));
-    public static final RegistryObject<Item> MEDICAL_UN_COMBAT_HELMET = ITEMS.register("medical_un_combat_helmet", () -> new MedicalUNCombatHelmetArmorItem(MaArmorMaterials.COMBAT_HELMET, ArmorItem.Type.HELMET, new Item.Properties()));
-    public static final RegistryObject<Item> MEDICAL_OLIVE_COMBAT_HELMET = ITEMS.register("medical_olive_combat_helmet", () -> new MedicalOliveCombatHelmetArmorItem(MaArmorMaterials.COMBAT_HELMET, ArmorItem.Type.HELMET, new Item.Properties()));
 
     public static final RegistryObject<Item> BLACK_MILITARY_BERET = ITEMS.register("black_military_beret", () -> new BlackMilitaryBeretArmorItem(MaArmorMaterials.HAT, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> RED_MILITARY_BERET = ITEMS.register("red_military_beret", () -> new RedMilitaryBeretArmorItem(MaArmorMaterials.HAT, ArmorItem.Type.HELMET, new Item.Properties()));
