@@ -1,6 +1,6 @@
 package net.marblednull.marbledsarsenal.init.ArmorItems.gas_masks.cm7m;
 
-import net.marblednull.marbledsarsenal.client.gas_masks.cm7m.CM7MRenderer;
+import net.marblednull.marbledsarsenal.client.renderer.CM7MRenderer;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;

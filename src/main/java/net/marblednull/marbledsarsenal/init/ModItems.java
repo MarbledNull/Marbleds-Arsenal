@@ -11,10 +11,7 @@ import net.marblednull.marbledsarsenal.init.ArmorItems.gas_masks.gp5.BlackGP5Arm
 import net.marblednull.marbledsarsenal.init.ArmorItems.gas_masks.gp5.WhiteGP5ArmorItem;
 import net.marblednull.marbledsarsenal.init.ArmorItems.ghillies.*;
 import net.marblednull.marbledsarsenal.init.ArmorItems.helmets.*;
-import net.marblednull.marbledsarsenal.init.ArmorItems.helmets.medical.MedicalCombatHelmetArmorItem;
-import net.marblednull.marbledsarsenal.init.ArmorItems.helmets.medical.MedicalOliveCombatHelmetArmorItem;
-import net.marblednull.marbledsarsenal.init.ArmorItems.helmets.medical.MedicalUNCombatHelmetArmorItem;
-import net.marblednull.marbledsarsenal.materials.MaArmorMaterials;
+import net.marblednull.marbledsarsenal.util.MaArmorMaterials;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -42,6 +39,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> WHITE_GP5_GAS_MASK = ITEMS.register("white_gp5_gas_mask", () -> new WhiteGP5ArmorItem(MaArmorMaterials.GAS_MASK, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> BLACK_GP5_GAS_MASK = ITEMS.register("black_gp5_gas_mask", () -> new BlackGP5ArmorItem(MaArmorMaterials.GAS_MASK, ArmorItem.Type.HELMET, new Item.Properties()));
+
     //Headwear
     public static final RegistryObject<Item> COMBAT_HELMET = ITEMS.register("combat_helmet", () -> new CombatHelmetArmorItem(MaArmorMaterials.COMBAT_HELMET, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> UN_COMBAT_HELMET = ITEMS.register("un_combat_helmet", () -> new UNCombatHelmetArmorItem(MaArmorMaterials.COMBAT_HELMET, ArmorItem.Type.HELMET, new Item.Properties()));
@@ -93,10 +91,10 @@ public class ModItems {
     public static final RegistryObject<Item> BLACK_JUGGERNAUT_ARMOR_LEGGINGS = ITEMS.register("black_juggernaut_armor_leggings", () -> new BlackJuggernautArmorItem(MaArmorMaterials.JUGGERNAUT, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> BLACK_JUGGERNAUT_ARMOR_BOOTS = ITEMS.register("black_juggernaut_armor_boots", () -> new BlackJuggernautArmorItem(MaArmorMaterials.JUGGERNAUT, ArmorItem.Type.BOOTS, new Item.Properties()));
 
-    public static final RegistryObject<Item> CATMAID_JUGGERNAUT_ARMOR_HELMET = ITEMS.register("catmaid_juggernaut_armor_helmet", () -> new CatmaidJuggernautArmorItem(MaArmorMaterials.JUGGERNAUT, ArmorItem.Type.HELMET, new Item.Properties()));
-    public static final RegistryObject<Item> CATMAID_JUGGERNAUT_ARMOR_CHESTPLATE = ITEMS.register("catmaid_juggernaut_armor_chestplate", () -> new CatmaidJuggernautArmorItem(MaArmorMaterials.JUGGERNAUT, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
-    public static final RegistryObject<Item> CATMAID_JUGGERNAUT_ARMOR_LEGGINGS = ITEMS.register("catmaid_juggernaut_armor_leggings", () -> new CatmaidJuggernautArmorItem(MaArmorMaterials.JUGGERNAUT, ArmorItem.Type.LEGGINGS, new Item.Properties()));
-    public static final RegistryObject<Item> CATMAID_JUGGERNAUT_ARMOR_BOOTS = ITEMS.register("catmaid_juggernaut_armor_boots", () -> new CatmaidJuggernautArmorItem(MaArmorMaterials.JUGGERNAUT, ArmorItem.Type.BOOTS, new Item.Properties()));
+    //public static final RegistryObject<Item> CATMAID_JUGGERNAUT_ARMOR_HELMET = ITEMS.register("catmaid_juggernaut_armor_helmet", () -> new CatmaidJuggernautArmorItem(MaArmorMaterials.JUGGERNAUT, ArmorItem.Type.HELMET, new Item.Properties()));
+    //public static final RegistryObject<Item> CATMAID_JUGGERNAUT_ARMOR_CHESTPLATE = ITEMS.register("catmaid_juggernaut_armor_chestplate", () -> new CatmaidJuggernautArmorItem(MaArmorMaterials.JUGGERNAUT, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    //public static final RegistryObject<Item> CATMAID_JUGGERNAUT_ARMOR_LEGGINGS = ITEMS.register("catmaid_juggernaut_armor_leggings", () -> new CatmaidJuggernautArmorItem(MaArmorMaterials.JUGGERNAUT, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    //public static final RegistryObject<Item> CATMAID_JUGGERNAUT_ARMOR_BOOTS = ITEMS.register("catmaid_juggernaut_armor_boots", () -> new CatmaidJuggernautArmorItem(MaArmorMaterials.JUGGERNAUT, ArmorItem.Type.BOOTS, new Item.Properties()));
 
     public static final RegistryObject<Item> OAK_GHILLIE_HELMET = ITEMS.register("oak_ghillie_helmet", () -> new OakGhillieArmorItem(MaArmorMaterials.GHILLIE, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> OAK_GHILLIE_CHESTPLATE = ITEMS.register("oak_ghillie_chestplate", () -> new OakGhillieArmorItem(MaArmorMaterials.GHILLIE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
@@ -147,6 +145,7 @@ public class ModItems {
     public static final RegistryObject<Item> GAS_MASK_FILTER = ITEMS.register("gas_mask_filter", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ARMOR_PLATE = ITEMS.register("armor_plate", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RUBBER = ITEMS.register("rubber", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> KEVLAR = ITEMS.register("kevlar", () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

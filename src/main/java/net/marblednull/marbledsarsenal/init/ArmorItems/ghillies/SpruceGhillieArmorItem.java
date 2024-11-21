@@ -1,6 +1,6 @@
 package net.marblednull.marbledsarsenal.init.ArmorItems.ghillies;
 
-import net.marblednull.marbledsarsenal.client.ghillie.SpruceGhillieArmorRenderer;
+import net.marblednull.marbledsarsenal.client.renderer.SpruceGhillieArmorRenderer;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;

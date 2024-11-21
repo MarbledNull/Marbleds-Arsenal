@@ -1,6 +1,6 @@
 package net.marblednull.marbledsarsenal.init.ArmorItems.full_suits;
 
-import net.marblednull.marbledsarsenal.client.full_suits.SwatArmorRenderer;
+import net.marblednull.marbledsarsenal.client.renderer.SwatArmorRenderer;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;

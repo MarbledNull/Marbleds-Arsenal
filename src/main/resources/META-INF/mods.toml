@@ -23,11 +23,11 @@ displayName = "Marbled's Arsenal" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://docs.minecraftforge.net/en/latest/misc/updatechecker/
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
-displayURL = "https://www.curseforge.com/minecraft/mc-mods/marbleds-arsenal / https://modrinth.com/mod/marbledsarsenal" #optional
+displayURL = "" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile = "ma_logo.png" #optional
 # A text field displayed in the mod UI
-credits = "MarbledNull, MarledHubb Beta Testers, MarbledHubb Volunteer Translators" #optional
+credits = "MarbledNull, MarledHubb Beta Testers" #optional
 # A text field displayed in the mod UI
 authors = "MarbledNull" #optional
 # Display Test controls the display for your mod in the server connection screen
@@ -75,7 +75,7 @@ side = "BOTH"
 modId = "mcore"
 mandatory = true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
-versionRange = "1.0.1,"
+versionRange = "1.0.2,"
 ordering = "NONE"
 side = "BOTH"
 

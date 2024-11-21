@@ -1,6 +1,6 @@
 package net.marblednull.marbledsarsenal.init.ArmorItems.gas_masks.gp5;
 
-import net.marblednull.marbledsarsenal.client.gas_masks.gp5.BlackGP5Renderer;
+import net.marblednull.marbledsarsenal.client.renderer.BlackGP5Renderer;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;

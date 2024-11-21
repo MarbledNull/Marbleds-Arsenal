@@ -1,6 +1,6 @@
 package net.marblednull.marbledsarsenal.init.ArmorItems.full_suits;
 
-import net.marblednull.marbledsarsenal.client.full_suits.BlackJuggernautArmorRenderer;
+import net.marblednull.marbledsarsenal.client.renderer.CatmaidJuggernautArmorRenderer;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
@@ -27,13 +27,13 @@ public class CatmaidJuggernautArmorItem extends ArmorItem implements GeoItem {
     @Override
     public void initializeClient(Consumer<IClientItemExtensions> consumer) {
         consumer.accept(new IClientItemExtensions() {
-            private BlackJuggernautArmorRenderer renderer;
+            private CatmaidJuggernautArmorRenderer renderer;
 
             @Override
             public @NotNull HumanoidModel<?> getHumanoidArmorModel(LivingEntity LivingEntity, ItemStack itemStack,
                                                                    EquipmentSlot equipmentSlot, HumanoidModel<?> original) {
                 if (this.renderer == null)
-                    this.renderer = new BlackJuggernautArmorRenderer();
+                    this.renderer = new CatmaidJuggernautArmorRenderer();
 
                 this.renderer.prepForRender(LivingEntity, itemStack, equipmentSlot, original);
                 return this.renderer;
