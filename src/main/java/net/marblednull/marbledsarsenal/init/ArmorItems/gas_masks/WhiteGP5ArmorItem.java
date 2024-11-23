@@ -1,6 +1,6 @@
-package net.marblednull.marbledsarsenal.init.ArmorItems.helmets.medical;
+package net.marblednull.marbledsarsenal.init.ArmorItems.gas_masks;
 
-import net.marblednull.marbledsarsenal.client.helmets.medical.MedicalUNCombatHelmetRenderer;
+import net.marblednull.marbledsarsenal.client.renderer.WhiteGP5Renderer;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
@@ -17,23 +17,23 @@ import software.bernie.geckolib.core.object.PlayState;
 
 import java.util.function.Consumer;
 
-public class MedicalUNCombatHelmetArmorItem extends ArmorItem implements GeoItem {
+public class WhiteGP5ArmorItem extends ArmorItem implements GeoItem {
     private final AnimatableInstanceCache cache = new SingletonAnimatableInstanceCache(this);
 
-    public MedicalUNCombatHelmetArmorItem(ArmorMaterial p_40386_, Type p_266831_, Properties p_40388_) {
+    public WhiteGP5ArmorItem(ArmorMaterial p_40386_, Type p_266831_, Properties p_40388_) {
         super(p_40386_, p_266831_, p_40388_);
     }
 
     @Override
     public void initializeClient(Consumer<IClientItemExtensions> consumer) {
         consumer.accept(new IClientItemExtensions() {
-            private MedicalUNCombatHelmetRenderer renderer;
+            private WhiteGP5Renderer renderer;
 
             @Override
             public @NotNull HumanoidModel<?> getHumanoidArmorModel(LivingEntity LivingEntity, ItemStack itemStack,
                                                                    EquipmentSlot equipmentSlot, HumanoidModel<?> original) {
                 if (this.renderer == null)
-                    this.renderer = new MedicalUNCombatHelmetRenderer();
+                    this.renderer = new WhiteGP5Renderer();
 
                 this.renderer.prepForRender(LivingEntity, itemStack, equipmentSlot, original);
                 return this.renderer;
@@ -42,7 +42,7 @@ public class MedicalUNCombatHelmetArmorItem extends ArmorItem implements GeoItem
     }
 
     private PlayState predicate(AnimationState animationState) {
-        animationState.getController().setAnimation(RawAnimation.begin().then("animation.combat_helmet.idle", Animation.LoopType.LOOP));
+        animationState.getController().setAnimation(RawAnimation.begin().then("animation.gp5.idle", Animation.LoopType.LOOP));
         return PlayState.CONTINUE;
     }
 

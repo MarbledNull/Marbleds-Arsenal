@@ -1,6 +1,6 @@
-package net.marblednull.marbledsarsenal.init.ArmorItems.gas_masks.cm8m;
+package net.marblednull.marbledsarsenal.init.ArmorItems.gas_masks;
 
-import net.marblednull.marbledsarsenal.client.renderer.HelmetCM8MRenderer;
+import net.marblednull.marbledsarsenal.client.renderer.OliveHelmetCM8MRenderer;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
@@ -17,23 +17,23 @@ import software.bernie.geckolib.core.object.PlayState;
 
 import java.util.function.Consumer;
 
-public class HelmetCM8MArmorItem extends ArmorItem implements GeoItem {
+public class OliveHelmetCM8MArmorItem extends ArmorItem implements GeoItem {
     private final AnimatableInstanceCache cache = new SingletonAnimatableInstanceCache(this);
 
-    public HelmetCM8MArmorItem(ArmorMaterial p_40386_, Type p_266831_, Properties p_40388_) {
+    public OliveHelmetCM8MArmorItem(ArmorMaterial p_40386_, Type p_266831_, Properties p_40388_) {
         super(p_40386_, p_266831_, p_40388_);
     }
 
     @Override
     public void initializeClient(Consumer<IClientItemExtensions> consumer) {
         consumer.accept(new IClientItemExtensions() {
-            private HelmetCM8MRenderer renderer;
+            private OliveHelmetCM8MRenderer renderer;
 
             @Override
             public @NotNull HumanoidModel<?> getHumanoidArmorModel(LivingEntity LivingEntity, ItemStack itemStack,
                                                                    EquipmentSlot equipmentSlot, HumanoidModel<?> original) {
                 if (this.renderer == null)
-                    this.renderer = new HelmetCM8MRenderer();
+                    this.renderer = new OliveHelmetCM8MRenderer();
 
                 this.renderer.prepForRender(LivingEntity, itemStack, equipmentSlot, original);
                 return this.renderer;
