@@ -79,10 +79,10 @@ public class ModTabs {
                         output.accept(ModItems.OLIVE_JUGGERNAUT_LEGGINGS.get());
                         output.accept(ModItems.OLIVE_JUGGERNAUT_BOOTS.get());
 
-                        output.accept(ModItems.BLACK_JUGGERNAUT_ARMOR_HELMET.get());
-                        output.accept(ModItems.BLACK_JUGGERNAUT_ARMOR_CHESTPLATE.get());
-                        output.accept(ModItems.BLACK_JUGGERNAUT_ARMOR_LEGGINGS.get());
-                        output.accept(ModItems.BLACK_JUGGERNAUT_ARMOR_BOOTS.get());
+                        output.accept(ModItems.BLACK_JUGGERNAUT_HELMET.get());
+                        output.accept(ModItems.BLACK_JUGGERNAUT_CHESTPLATE.get());
+                        output.accept(ModItems.BLACK_JUGGERNAUT_LEGGINGS.get());
+                        output.accept(ModItems.BLACK_JUGGERNAUT_BOOTS.get());
 
                         output.accept(ModItems.OAK_GHILLIE_HELMET.get());
                         output.accept(ModItems.OAK_GHILLIE_CHESTPLATE.get());
@@ -131,7 +131,7 @@ public class ModTabs {
 
                         output.accept(ModItems.GAS_MASK_FILTER.get());
                         output.accept(ModItems.ARMOR_PLATE.get());
-                        output.accept(ModItems.KEVLAR_FIBER.get());
+                        output.accept(ModItems.KEVLAR_THREAD.get());
                         output.accept(ModItems.KEVLAR.get());
                         output.accept(ModItems.RUBBER.get());
 
