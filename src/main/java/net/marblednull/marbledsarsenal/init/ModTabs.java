@@ -49,35 +49,35 @@ public class ModTabs {
                         output.accept(ModItems.OLIVE_PLATE_CARRIER_LIGHT.get());
                         output.accept(ModItems.OLIVE_PLATE_CARRIER_HEAVY.get());
 
-                        output.accept(ModItems.RIOT_ARMOR_HELMET.get());
-                        output.accept(ModItems.RIOT_ARMOR_CHESTPLATE.get());
-                        output.accept(ModItems.RIOT_ARMOR_LEGGINGS.get());
-                        output.accept(ModItems.RIOT_ARMOR_BOOTS.get());
+                        output.accept(ModItems.RIOT_HELMET.get());
+                        output.accept(ModItems.RIOT_CHESTPLATE.get());
+                        output.accept(ModItems.RIOT_LEGGINGS.get());
+                        output.accept(ModItems.RIOT_BOOTS.get());
 
-                        output.accept(ModItems.SWAT_ARMOR_HELMET.get());
-                        output.accept(ModItems.SWAT_ARMOR_CHESTPLATE.get());
-                        output.accept(ModItems.SWAT_ARMOR_LEGGINGS.get());
-                        output.accept(ModItems.SWAT_ARMOR_BOOTS.get());
+                        output.accept(ModItems.SWAT_HELMET.get());
+                        output.accept(ModItems.SWAT_CHESTPLATE.get());
+                        output.accept(ModItems.SWAT_LEGGINGS.get());
+                        output.accept(ModItems.SWAT_BOOTS.get());
 
-                        output.accept(ModItems.WINTER_MILITARY_ARMOR_HELMET.get());
-                        output.accept(ModItems.WINTER_MILITARY_ARMOR_CHESTPLATE.get());
-                        output.accept(ModItems.WINTER_MILITARY_ARMOR_LEGGINGS.get());
-                        output.accept(ModItems.WINTER_MILITARY_ARMOR_BOOTS.get());
+                        output.accept(ModItems.WINTER_MILITARY_HELMET.get());
+                        output.accept(ModItems.WINTER_MILITARY_CHESTPLATE.get());
+                        output.accept(ModItems.WINTER_MILITARY_LEGGINGS.get());
+                        output.accept(ModItems.WINTER_MILITARY_BOOTS.get());
 
-                        output.accept(ModItems.DESERT_MILITARY_ARMOR_HELMET.get());
-                        output.accept(ModItems.DESERT_MILITARY_ARMOR_CHESTPLATE.get());
-                        output.accept(ModItems.DESERT_MILITARY_ARMOR_LEGGINGS.get());
-                        output.accept(ModItems.DESERT_MILITARY_ARMOR_BOOTS.get());
+                        output.accept(ModItems.DESERT_MILITARY_HELMET.get());
+                        output.accept(ModItems.DESERT_MILITARY_CHESTPLATE.get());
+                        output.accept(ModItems.DESERT_MILITARY_LEGGINGS.get());
+                        output.accept(ModItems.DESERT_MILITARY_BOOTS.get());
 
-                        output.accept(ModItems.HAZMAT_ARMOR_HELMET.get());
-                        output.accept(ModItems.HAZMAT_ARMOR_CHESTPLATE.get());
-                        output.accept(ModItems.HAZMAT_ARMOR_LEGGINGS.get());
-                        output.accept(ModItems.HAZMAT_ARMOR_BOOTS.get());
+                        output.accept(ModItems.HAZMAT_HELMET.get());
+                        output.accept(ModItems.HAZMAT_CHESTPLATE.get());
+                        output.accept(ModItems.HAZMAT_LEGGINGS.get());
+                        output.accept(ModItems.HAZMAT_BOOTS.get());
 
-                        output.accept(ModItems.OLIVE_JUGGERNAUT_ARMOR_HELMET.get());
-                        output.accept(ModItems.OLIVE_JUGGERNAUT_ARMOR_CHESTPLATE.get());
-                        output.accept(ModItems.OLIVE_JUGGERNAUT_ARMOR_LEGGINGS.get());
-                        output.accept(ModItems.OLIVE_JUGGERNAUT_ARMOR_BOOTS.get());
+                        output.accept(ModItems.OLIVE_JUGGERNAUT_HELMET.get());
+                        output.accept(ModItems.OLIVE_JUGGERNAUT_CHESTPLATE.get());
+                        output.accept(ModItems.OLIVE_JUGGERNAUT_LEGGINGS.get());
+                        output.accept(ModItems.OLIVE_JUGGERNAUT_BOOTS.get());
 
                         output.accept(ModItems.BLACK_JUGGERNAUT_ARMOR_HELMET.get());
                         output.accept(ModItems.BLACK_JUGGERNAUT_ARMOR_CHESTPLATE.get());
@@ -131,6 +131,7 @@ public class ModTabs {
 
                         output.accept(ModItems.GAS_MASK_FILTER.get());
                         output.accept(ModItems.ARMOR_PLATE.get());
+                        output.accept(ModItems.KEVLAR_FIBER.get());
                         output.accept(ModItems.KEVLAR.get());
                         output.accept(ModItems.RUBBER.get());
 
