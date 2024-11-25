@@ -69,6 +69,11 @@ public class ModItems {
     public static final RegistryObject<Item> DESERT_MILITARY_LEGGINGS = ITEMS.register("desert_military_leggings", () -> new DesertMilitaryArmorItem(MaArmorMaterials.MILITARY, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> DESERT_MILITARY_BOOTS = ITEMS.register("desert_military_boots", () -> new DesertMilitaryArmorItem(MaArmorMaterials.MILITARY, ArmorItem.Type.BOOTS, new Item.Properties()));
 
+    public static final RegistryObject<Item> WOODLAND_MILITARY_HELMET = ITEMS.register("woodland_military_helmet", () -> new DesertMilitaryArmorItem(MaArmorMaterials.MILITARY, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> WOODLAND_MILITARY_CHESTPLATE = ITEMS.register("woodland_military_chestplate", () -> new DesertMilitaryArmorItem(MaArmorMaterials.MILITARY, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> WOODLAND_MILITARY_LEGGINGS = ITEMS.register("woodland_military_leggings", () -> new DesertMilitaryArmorItem(MaArmorMaterials.MILITARY, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> WOODLAND_MILITARY_BOOTS = ITEMS.register("woodland_military_boots", () -> new DesertMilitaryArmorItem(MaArmorMaterials.MILITARY, ArmorItem.Type.BOOTS, new Item.Properties()));
+
     public static final RegistryObject<Item> SWAT_HELMET = ITEMS.register("swat_helmet", () -> new SwatArmorItem(MaArmorMaterials.TACTICAL, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> SWAT_CHESTPLATE = ITEMS.register("swat_chestplate", () -> new SwatArmorItem(MaArmorMaterials.TACTICAL, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
     public static final RegistryObject<Item> SWAT_LEGGINGS = ITEMS.register("swat_leggings", () -> new SwatArmorItem(MaArmorMaterials.TACTICAL, ArmorItem.Type.LEGGINGS, new Item.Properties()));
