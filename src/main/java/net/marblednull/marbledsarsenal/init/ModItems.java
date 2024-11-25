@@ -89,10 +89,20 @@ public class ModItems {
     public static final RegistryObject<Item> SHERIFF_LEGGINGS = ITEMS.register("sheriff_leggings", () -> new SwatArmorItem(MaArmorMaterials.CIVIL, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> SHERIFF_BOOTS = ITEMS.register("sheriff_boots", () -> new SwatArmorItem(MaArmorMaterials.CIVIL, ArmorItem.Type.BOOTS, new Item.Properties()));
 
-    public static final RegistryObject<Item> HAZMAT_HELMET = ITEMS.register("hazmat_helmet", () -> new HazmatArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.HELMET, new Item.Properties()));
-    public static final RegistryObject<Item> HAZMAT_CHESTPLATE = ITEMS.register("hazmat_chestplate", () -> new HazmatArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
-    public static final RegistryObject<Item> HAZMAT_LEGGINGS = ITEMS.register("hazmat_leggings", () -> new HazmatArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.LEGGINGS, new Item.Properties()));
-    public static final RegistryObject<Item> HAZMAT_BOOTS = ITEMS.register("hazmat_boots", () -> new HazmatArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.BOOTS, new Item.Properties()));
+    public static final RegistryObject<Item> HAZMAT_HELMET_A = ITEMS.register("hazmat_helmet_a", () -> new HazmatArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> HAZMAT_CHESTPLATE_A = ITEMS.register("hazmat_chestplate_a", () -> new HazmatArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> HAZMAT_LEGGINGS_A = ITEMS.register("hazmat_leggings_a", () -> new HazmatArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> HAZMAT_BOOTS_A = ITEMS.register("hazmat_boots_a", () -> new HazmatArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    public static final RegistryObject<Item> HAZMAT_HELMET_B = ITEMS.register("hazmat_helmet_b", () -> new HazmatArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> HAZMAT_CHESTPLATE_B = ITEMS.register("hazmat_chestplate_b", () -> new HazmatArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> HAZMAT_LEGGINGS_B = ITEMS.register("hazmat_leggings_b", () -> new HazmatArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> HAZMAT_BOOTS_B = ITEMS.register("hazmat_boots_b", () -> new HazmatArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    public static final RegistryObject<Item> HAZMAT_HELMET_C = ITEMS.register("hazmat_helmet_c", () -> new HazmatArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> HAZMAT_CHESTPLATE_C = ITEMS.register("hazmat_chestplate_c", () -> new HazmatArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> HAZMAT_LEGGINGS_C = ITEMS.register("hazmat_leggings_c", () -> new HazmatArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> HAZMAT_BOOTS_C = ITEMS.register("hazmat_boots_c", () -> new HazmatArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.BOOTS, new Item.Properties()));
 
     public static final RegistryObject<Item> OLIVE_JUGGERNAUT_HELMET = ITEMS.register("olive_juggernaut_helmet", () -> new OliveJuggernautArmorItem(MaArmorMaterials.JUGGERNAUT, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> OLIVE_JUGGERNAUT_CHESTPLATE = ITEMS.register("olive_juggernaut_chestplate", () -> new OliveJuggernautArmorItem(MaArmorMaterials.JUGGERNAUT, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
