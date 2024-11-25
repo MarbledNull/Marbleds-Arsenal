@@ -1,12 +1,10 @@
 {
   "itemGroup.marbleds_arsenal": "Marbled's Arsenal",
-
   "item.marbledsarsenal.armor_plate": "Armor Plate",
   "item.marbledsarsenal.gas_mask_filter": "Gas Mask Filter",
   "item.marbledsarsenal.rubber": "Rubber",
   "item.marbledsarsenal.kevlar": "Kevlar",
   "item.marbledsarsenal.kevlar_thread": "Kevlar Thread",
-
   "item.marbledsarsenal.cm6m_gas_mask": "CM-6M Gas Mask",
   "item.marbledsarsenal.helmet_cm6m_gas_mask": "Helmet CM-6M Gas Mask",
   "item.marbledsarsenal.un_helmet_cm6m_gas_mask": "U.N. Helmet CM-6M Gas Mask",
@@ -26,12 +24,10 @@
   "item.marbledsarsenal.black_military_beret": "Black Military Beret",
   "item.marbledsarsenal.red_military_beret": "Red Military Beret",
   "item.marbledsarsenal.un_military_beret": "U.N. Military Beret",
-
   "item.marbledsarsenal.black_plate_carrier_light": "Light Black Plate Carrier",
   "item.marbledsarsenal.black_plate_carrier_heavy": "Heavy Black Plate Carrier",
   "item.marbledsarsenal.olive_plate_carrier_light": "Light Olive Plate Carrier",
   "item.marbledsarsenal.olive_plate_carrier_heavy": "Heavy Olive Plate Carrier",
-
   "item.marbledsarsenal.riot_helmet": "Riot Helmet",
   "item.marbledsarsenal.riot_chestplate": "Riot Chestplate",
   "item.marbledsarsenal.riot_leggings": "Riot Leggings",
@@ -48,7 +44,6 @@
   "item.marbledsarsenal.sheriff_chestplate": "Sheriff Top",
   "item.marbledsarsenal.sheriff_leggings": "Sheriff Pants",
   "item.marbledsarsenal.sheriff_boots": "Sheriff Boots",
-
   "item.marbledsarsenal.winter_military_helmet": "Winter Military Helmet",
   "item.marbledsarsenal.winter_military_chestplate": "Winter Military Chestplate",
   "item.marbledsarsenal.winter_military_leggings": "Winter Military Leggings",
@@ -61,7 +56,6 @@
   "item.marbledsarsenal.woodland_military_chestplate": "Woodland Military Chestplate",
   "item.marbledsarsenal.woodland_military_leggings": "Woodland Military Leggings",
   "item.marbledsarsenal.woodland_military_boots": "Woodland Military Boots",
-
   "item.marbledsarsenal.hazmat_helmet_b": "Hazmat Helmet Level-B",
   "item.marbledsarsenal.hazmat_chestplate_b": "Hazmat Chestplate Level-B",
   "item.marbledsarsenal.hazmat_leggings_b": "Hazmat Leggings Level-B",
@@ -74,7 +68,6 @@
   "item.marbledsarsenal.hazmat_chestplate_c": "Hazmat Chestplate Level-C",
   "item.marbledsarsenal.hazmat_leggings_c": "Hazmat Leggings Level-C",
   "item.marbledsarsenal.hazmat_boots_c": "Hazmat Boots Level-C",
-
   "item.marbledsarsenal.olive_juggernaut_helmet": "Olive Juggernaut Helmet",
   "item.marbledsarsenal.olive_juggernaut_chestplate": "Olive Juggernaut Chestplate",
   "item.marbledsarsenal.olive_juggernaut_leggings": "Olive Juggernaut Leggings",
@@ -83,7 +76,6 @@
   "item.marbledsarsenal.black_juggernaut_chestplate": "Black Juggernaut Chestplate",
   "item.marbledsarsenal.black_juggernaut_leggings": "Black Juggernaut Leggings",
   "item.marbledsarsenal.black_juggernaut_boots": "Black Juggernaut Boots",
-
   "item.marbledsarsenal.oak_ghillie_helmet": "Oak Ghillie Helmet",
   "item.marbledsarsenal.oak_ghillie_chestplate": "Oak Ghillie Chestplate",
   "item.marbledsarsenal.oak_ghillie_leggings": "Oak Ghillie Leggings",
