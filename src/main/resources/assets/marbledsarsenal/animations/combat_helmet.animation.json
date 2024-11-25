@@ -1,8 +1,11 @@
 {
-  "format_version": "1.8.0",
-  "animations": {
-    "animation.combat_helmet.idle": {
-      "loop": true
-    }
-  }
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.combat_helmet.idle": {
+			"loop": true
+		},
+		"animation.combat_helmet.new": {
+			"loop": true
+		}
+	}
 }
