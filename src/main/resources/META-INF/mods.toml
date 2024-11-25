@@ -23,7 +23,7 @@ displayName = "Marbled's Arsenal" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://docs.minecraftforge.net/en/latest/misc/updatechecker/
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
-displayURL = "" #optional
+displayURL = "https://github.com/MarbledNull/Marbleds-Arsenal/wiki" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile = "ma_logo.png" #optional
 # A text field displayed in the mod UI
@@ -39,7 +39,7 @@ authors = "MarbledNull" #optional
 #displayTest="MATCH_VERSION" # MATCH_VERSION is the default if nothing is specified (#optional)
 
 # The description text for the mod (multi line!) (#mandatory)
-description = '''A mod that adds modern militaristic armors'''
+description = '''A mod that adds modern military and tactical armors'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.marbledsarsenal]] #optional
 # the modid of the dependency
