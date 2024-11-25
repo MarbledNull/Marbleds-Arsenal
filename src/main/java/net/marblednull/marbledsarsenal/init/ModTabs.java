@@ -84,10 +84,20 @@ public class ModTabs {
                         output.accept(ModItems.WOODLAND_MILITARY_LEGGINGS.get());
                         output.accept(ModItems.WOODLAND_MILITARY_BOOTS.get());
 
-                        output.accept(ModItems.HAZMAT_HELMET.get());
-                        output.accept(ModItems.HAZMAT_CHESTPLATE.get());
-                        output.accept(ModItems.HAZMAT_LEGGINGS.get());
-                        output.accept(ModItems.HAZMAT_BOOTS.get());
+                        output.accept(ModItems.HAZMAT_HELMET_A.get());
+                        output.accept(ModItems.HAZMAT_CHESTPLATE_A.get());
+                        output.accept(ModItems.HAZMAT_LEGGINGS_A.get());
+                        output.accept(ModItems.HAZMAT_BOOTS_A.get());
+
+                        output.accept(ModItems.HAZMAT_HELMET_B.get());
+                        output.accept(ModItems.HAZMAT_CHESTPLATE_B.get());
+                        output.accept(ModItems.HAZMAT_LEGGINGS_B.get());
+                        output.accept(ModItems.HAZMAT_BOOTS_B.get());
+
+                        output.accept(ModItems.HAZMAT_HELMET_C.get());
+                        output.accept(ModItems.HAZMAT_CHESTPLATE_C.get());
+                        output.accept(ModItems.HAZMAT_LEGGINGS_C.get());
+                        output.accept(ModItems.HAZMAT_BOOTS_C.get());
 
                         output.accept(ModItems.OLIVE_JUGGERNAUT_HELMET.get());
                         output.accept(ModItems.OLIVE_JUGGERNAUT_CHESTPLATE.get());
