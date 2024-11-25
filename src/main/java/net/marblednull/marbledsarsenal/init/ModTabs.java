@@ -49,6 +49,16 @@ public class ModTabs {
                         output.accept(ModItems.OLIVE_PLATE_CARRIER_LIGHT.get());
                         output.accept(ModItems.OLIVE_PLATE_CARRIER_HEAVY.get());
 
+                        output.accept(ModItems.SHERIFF_HELMET.get());
+                        output.accept(ModItems.SHERIFF_CHESTPLATE.get());
+                        output.accept(ModItems.SHERIFF_LEGGINGS.get());
+                        output.accept(ModItems.SHERIFF_BOOTS.get());
+
+                        output.accept(ModItems.POLICE_HELMET.get());
+                        output.accept(ModItems.POLICE_CHESTPLATE.get());
+                        output.accept(ModItems.POLICE_LEGGINGS.get());
+                        output.accept(ModItems.POLICE_BOOTS.get());
+
                         output.accept(ModItems.RIOT_HELMET.get());
                         output.accept(ModItems.RIOT_CHESTPLATE.get());
                         output.accept(ModItems.RIOT_LEGGINGS.get());
@@ -68,6 +78,11 @@ public class ModTabs {
                         output.accept(ModItems.DESERT_MILITARY_CHESTPLATE.get());
                         output.accept(ModItems.DESERT_MILITARY_LEGGINGS.get());
                         output.accept(ModItems.DESERT_MILITARY_BOOTS.get());
+
+                        output.accept(ModItems.WOODLAND_MILITARY_HELMET.get());
+                        output.accept(ModItems.WOODLAND_MILITARY_CHESTPLATE.get());
+                        output.accept(ModItems.WOODLAND_MILITARY_LEGGINGS.get());
+                        output.accept(ModItems.WOODLAND_MILITARY_BOOTS.get());
 
                         output.accept(ModItems.HAZMAT_HELMET.get());
                         output.accept(ModItems.HAZMAT_CHESTPLATE.get());
