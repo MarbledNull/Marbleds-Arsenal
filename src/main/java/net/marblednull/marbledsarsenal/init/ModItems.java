@@ -18,7 +18,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, MarbledsArsenal.MODID);
-    //Gas Masks
+    //Gas masks
     public static final RegistryObject<Item> CM6M_GAS_MASK = ITEMS.register("cm6m_gas_mask", () -> new CM6MArmorItem(MaArmorMaterials.GAS_MASK, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> HELMET_CM6M_GAS_MASK = ITEMS.register("helmet_cm6m_gas_mask", () -> new HelmetCM6MArmorItem(MaArmorMaterials.COMBAT_HELMET, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> UN_HELMET_CM6M_GAS_MASK = ITEMS.register("un_helmet_cm6m_gas_mask", () -> new UNHelmetCM6MArmorItem(MaArmorMaterials.COMBAT_HELMET, ArmorItem.Type.HELMET, new Item.Properties()));
@@ -46,14 +46,14 @@ public class ModItems {
     public static final RegistryObject<Item> RED_MILITARY_BERET = ITEMS.register("red_military_beret", () -> new RedMilitaryBeretArmorItem(MaArmorMaterials.HAT, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> UN_MILITARY_BERET = ITEMS.register("un_military_beret", () -> new UNMilitaryBeretArmorItem(MaArmorMaterials.HAT, ArmorItem.Type.HELMET, new Item.Properties()));
 
-    //Body Armors
+    //Body armors/plate carriers
     public static final RegistryObject<Item> BLACK_PLATE_CARRIER_LIGHT = ITEMS.register("black_plate_carrier_light", () -> new BlackPlateCarrierArmorItem(MaArmorMaterials.PLATE_CARRIER_LIGHT, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
     public static final RegistryObject<Item> BLACK_PLATE_CARRIER_HEAVY = ITEMS.register("black_plate_carrier_heavy", () -> new BlackPlateCarrierArmorItem(MaArmorMaterials.PLATE_CARRIER_HEAVY, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
 
     public static final RegistryObject<Item> OLIVE_PLATE_CARRIER_LIGHT = ITEMS.register("olive_plate_carrier_light", () -> new OlivePlateCarrierArmorItem(MaArmorMaterials.PLATE_CARRIER_LIGHT, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
     public static final RegistryObject<Item> OLIVE_PLATE_CARRIER_HEAVY = ITEMS.register("olive_plate_carrier_heavy", () -> new OlivePlateCarrierArmorItem(MaArmorMaterials.PLATE_CARRIER_HEAVY, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
 
-    //Full Suits
+    //Full suits
     public static final RegistryObject<Item> RIOT_HELMET = ITEMS.register("riot_helmet", () -> new RiotArmorItem(MaArmorMaterials.TACTICAL, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> RIOT_CHESTPLATE = ITEMS.register("riot_chestplate", () -> new RiotArmorItem(MaArmorMaterials.TACTICAL, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
     public static final RegistryObject<Item> RIOT_LEGGINGS = ITEMS.register("riot_leggings", () -> new RiotArmorItem(MaArmorMaterials.TACTICAL, ArmorItem.Type.LEGGINGS, new Item.Properties()));
@@ -149,7 +149,7 @@ public class ModItems {
     public static final RegistryObject<Item> AZALEA_GHILLIE_LEGGINGS = ITEMS.register("azalea_ghillie_leggings", () -> new AzaleaGhillieArmorItem(MaArmorMaterials.GHILLIE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> AZALEA_GHILLIE_BOOTS = ITEMS.register("azalea_ghillie_boots", () -> new AzaleaGhillieArmorItem(MaArmorMaterials.GHILLIE, ArmorItem.Type.BOOTS, new Item.Properties()));
 
-    //Crafting Items
+    //Crafting items
     public static final RegistryObject<Item> GAS_MASK_FILTER = ITEMS.register("gas_mask_filter", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ARMOR_PLATE = ITEMS.register("armor_plate", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RUBBER = ITEMS.register("rubber", () -> new Item(new Item.Properties()));
