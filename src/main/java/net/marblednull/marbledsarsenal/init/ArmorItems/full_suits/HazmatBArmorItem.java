@@ -1,6 +1,6 @@
 package net.marblednull.marbledsarsenal.init.ArmorItems.full_suits;
 
-import net.marblednull.marbledsarsenal.client.renderer.HazmatArmorRenderer;
+import net.marblednull.marbledsarsenal.client.renderer.HazmatBArmorRenderer;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
@@ -17,23 +17,23 @@ import software.bernie.geckolib.core.object.PlayState;
 
 import java.util.function.Consumer;
 
-public class HazmatArmorItem extends ArmorItem implements GeoItem {
+public class HazmatBArmorItem extends ArmorItem implements GeoItem {
     private final AnimatableInstanceCache cache = new SingletonAnimatableInstanceCache(this);
 
-    public HazmatArmorItem(ArmorMaterial p_40386_, Type p_266831_, Properties p_40388_) {
+    public HazmatBArmorItem(ArmorMaterial p_40386_, Type p_266831_, Properties p_40388_) {
         super(p_40386_, p_266831_, p_40388_);
     }
 
     @Override
     public void initializeClient(Consumer<IClientItemExtensions> consumer) {
         consumer.accept(new IClientItemExtensions() {
-            private HazmatArmorRenderer renderer;
+            private HazmatBArmorRenderer renderer;
 
             @Override
             public @NotNull HumanoidModel<?> getHumanoidArmorModel(LivingEntity LivingEntity, ItemStack itemStack,
                                                                    EquipmentSlot equipmentSlot, HumanoidModel<?> original) {
                 if (this.renderer == null)
-                    this.renderer = new HazmatArmorRenderer();
+                    this.renderer = new HazmatBArmorRenderer();
 
                 this.renderer.prepForRender(LivingEntity, itemStack, equipmentSlot, original);
                 return this.renderer;
