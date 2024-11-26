@@ -60,7 +60,7 @@ public class ModItems {
     public static final RegistryObject<Item> RIOT_BOOTS = ITEMS.register("riot_boots", () -> new RiotArmorItem(MaArmorMaterials.TACTICAL, ArmorItem.Type.BOOTS, new Item.Properties()));
 
     public static final RegistryObject<Item> WINTER_MILITARY_HELMET = ITEMS.register("winter_military_helmet", () -> new WinterMilitaryArmorItem(MaArmorMaterials.MILITARY, ArmorItem.Type.HELMET, new Item.Properties()));
-    public static final RegistryObject<Item> WINTER_MILITARY_CHESTPLATE = ITEMS.register("winter_militar_chestplate", () -> new WinterMilitaryArmorItem(MaArmorMaterials.MILITARY, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> WINTER_MILITARY_CHESTPLATE = ITEMS.register("winter_military_chestplate", () -> new WinterMilitaryArmorItem(MaArmorMaterials.MILITARY, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
     public static final RegistryObject<Item> WINTER_MILITARY_LEGGINGS = ITEMS.register("winter_military_leggings", () -> new WinterMilitaryArmorItem(MaArmorMaterials.MILITARY, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> WINTER_MILITARY_BOOTS = ITEMS.register("winter_military_boots", () -> new WinterMilitaryArmorItem(MaArmorMaterials.MILITARY, ArmorItem.Type.BOOTS, new Item.Properties()));
 
