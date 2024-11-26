@@ -137,7 +137,7 @@ dependencies {
     // then special handling is done to allow a setup of a vanilla dependency without the use of an external repository.
     minecraft "net.minecraftforge:forge:1.20.1-47.3.0"
     implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.20.1:4.4.7')
-    implementation fg.deobf("curse.maven:marbleds-core-1039434:5751131")
+    implementation fg.deobf("curse.maven:marbleds-core-1039434:5879178")
     implementation fg.deobf("curse.maven:jei-238222:4712868")
     // Example mod dependency with JEI - using fg.deobf() ensures the dependency is remapped to your development mappings
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
