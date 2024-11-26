@@ -156,9 +156,9 @@ public class ModTabs {
 
                         output.accept(ModItems.GAS_MASK_FILTER.get());
                         output.accept(ModItems.ARMOR_PLATE.get());
+                        output.accept(ModItems.RUBBER.get());
                         output.accept(ModItems.KEVLAR_THREAD.get());
                         output.accept(ModItems.KEVLAR.get());
-                        output.accept(ModItems.RUBBER.get());
 
                     })
                     .build()
