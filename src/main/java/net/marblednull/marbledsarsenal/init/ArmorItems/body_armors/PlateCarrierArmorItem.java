@@ -1,6 +1,6 @@
-package net.marblednull.marbledsarsenal.init.ArmorItems.helmets;
+package net.marblednull.marbledsarsenal.init.ArmorItems.body_armors;
 
-import net.marblednull.marbledsarsenal.client.renderer.BlackMilitaryBeretRenderer;
+import net.marblednull.marbledsarsenal.client.renderer.PlateCarrierRenderer;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
@@ -17,23 +17,23 @@ import software.bernie.geckolib.core.object.PlayState;
 
 import java.util.function.Consumer;
 
-public class BlackMilitaryBeretArmorItem extends ArmorItem implements GeoItem {
+public class PlateCarrierArmorItem extends ArmorItem implements GeoItem {
     private final AnimatableInstanceCache cache = new SingletonAnimatableInstanceCache(this);
 
-    public BlackMilitaryBeretArmorItem(ArmorMaterial p_40386_, Type p_266831_, Properties p_40388_) {
+    public PlateCarrierArmorItem(ArmorMaterial p_40386_, Type p_266831_, Properties p_40388_) {
         super(p_40386_, p_266831_, p_40388_);
     }
 
     @Override
     public void initializeClient(Consumer<IClientItemExtensions> consumer) {
         consumer.accept(new IClientItemExtensions() {
-            private BlackMilitaryBeretRenderer renderer;
+            private PlateCarrierRenderer renderer;
 
             @Override
             public @NotNull HumanoidModel<?> getHumanoidArmorModel(LivingEntity LivingEntity, ItemStack itemStack,
                                                                    EquipmentSlot equipmentSlot, HumanoidModel<?> original) {
                 if (this.renderer == null)
-                    this.renderer = new BlackMilitaryBeretRenderer();
+                    this.renderer = new PlateCarrierRenderer();
 
                 this.renderer.prepForRender(LivingEntity, itemStack, equipmentSlot, original);
                 return this.renderer;
@@ -42,7 +42,7 @@ public class BlackMilitaryBeretArmorItem extends ArmorItem implements GeoItem {
     }
 
     private PlayState predicate(AnimationState animationState) {
-        animationState.getController().setAnimation(RawAnimation.begin().then("animation.military_beret.idle", Animation.LoopType.LOOP));
+        animationState.getController().setAnimation(RawAnimation.begin().then("animation.plate_carrier.idle", Animation.LoopType.LOOP));
         return PlayState.CONTINUE;
     }
 

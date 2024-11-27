@@ -39,12 +39,12 @@ public class ModTabs {
                         output.accept(ModItems.UN_COMBAT_HELMET.get());
                         output.accept(ModItems.OLIVE_COMBAT_HELMET.get());
 
-                        output.accept(ModItems.BLACK_MILITARY_BERET.get());
+                        output.accept(ModItems.MILITARY_BERET.get());
                         output.accept(ModItems.RED_MILITARY_BERET.get());
                         output.accept(ModItems.UN_MILITARY_BERET.get());
 
-                        output.accept(ModItems.BLACK_PLATE_CARRIER_LIGHT.get());
-                        output.accept(ModItems.BLACK_PLATE_CARRIER_HEAVY.get());
+                        output.accept(ModItems.PLATE_CARRIER_LIGHT.get());
+                        output.accept(ModItems.PLATE_CARRIER_HEAVY.get());
 
                         output.accept(ModItems.OLIVE_PLATE_CARRIER_LIGHT.get());
                         output.accept(ModItems.OLIVE_PLATE_CARRIER_HEAVY.get());
@@ -99,10 +99,10 @@ public class ModTabs {
                         output.accept(ModItems.HAZMAT_LEGGINGS_C.get());
                         output.accept(ModItems.HAZMAT_BOOTS_C.get());
 
-                        output.accept(ModItems.OLIVE_JUGGERNAUT_HELMET.get());
-                        output.accept(ModItems.OLIVE_JUGGERNAUT_CHESTPLATE.get());
-                        output.accept(ModItems.OLIVE_JUGGERNAUT_LEGGINGS.get());
-                        output.accept(ModItems.OLIVE_JUGGERNAUT_BOOTS.get());
+                        output.accept(ModItems.JUGGERNAUT_HELMET.get());
+                        output.accept(ModItems.JUGGERNAUT_CHESTPLATE.get());
+                        output.accept(ModItems.JUGGERNAUT_LEGGINGS.get());
+                        output.accept(ModItems.JUGGERNAUT_BOOTS.get());
 
                         output.accept(ModItems.BLACK_JUGGERNAUT_HELMET.get());
                         output.accept(ModItems.BLACK_JUGGERNAUT_CHESTPLATE.get());
