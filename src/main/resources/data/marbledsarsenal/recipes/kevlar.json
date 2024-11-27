@@ -13,7 +13,7 @@
       "item": "minecraft:slime_ball"
     },
     "F": {
-      "tag": "forge:ingots/steel"
+      "item": "mcore:steel_sheet"
     }
   },
   "result": {
