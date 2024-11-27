@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "#S#",
-    "S#S",
+    "SFS",
     "#S#"
   ],
   "key": {
@@ -11,6 +11,9 @@
     },
     "S": {
       "item": "minecraft:slime_ball"
+    },
+    "F": {
+      "tag": "forge:ingots/steel"
     }
   },
   "result": {
