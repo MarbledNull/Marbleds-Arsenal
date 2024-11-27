@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "marbledsarsenal:item/swat_armor_boots"
+    "layer0": "marbledsarsenal:item/black_juggernaut_leggings"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "marbledsarsenal:item/black_military_beret"
+    "layer0": "marbledsarsenal:item/winter_military_boots"
   }
 }
