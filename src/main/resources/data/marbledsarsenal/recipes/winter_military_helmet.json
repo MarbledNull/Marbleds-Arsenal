@@ -1,20 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "iGi",
     "iii",
-    "iii"
+    "IGI"
   ],
   "key": {
     "i": {
       "tag": "forge:ingots/steel"
     },
+    "I": {
+      "item": "mcore:steel_sheet"
+    },
     "G": {
-      "item": "minecraft:gray_dye"
+      "item": "minecraft:snow_block"
     }
   },
   "result": {
-    "item": "marbledsarsenal:riot_armor_chestplate",
+    "item": "marbledsarsenal:winter_military_helmet",
     "count": 1
   }
 }

@@ -1,19 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
+    "iGi",
     "iii",
-    "iGi"
+    "iii"
   ],
   "key": {
     "i": {
-      "tag": "forge:ingots/titanium"
+      "tag": "forge:ingots/steel"
     },
     "G": {
-      "item": "minecraft:green_dye"
+      "item": "minecraft:snow_block"
     }
   },
   "result": {
-    "item": "marbledsarsenal:olive_juggernaut_armor_helmet",
+    "item": "marbledsarsenal:winter_military_chestplate",
     "count": 1
   }
 }

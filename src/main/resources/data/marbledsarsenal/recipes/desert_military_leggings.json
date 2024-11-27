@@ -2,18 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "iii",
-    "iGi"
+    "iGi",
+    "i i"
   ],
   "key": {
     "i": {
-      "tag": "forge:ingots/titanium"
+      "tag": "forge:ingots/steel"
     },
     "G": {
-      "item": "minecraft:black_dye"
+      "item": "minecraft:sand"
     }
   },
   "result": {
-    "item": "marbledsarsenal:black_juggernaut_armor_helmet",
+    "item": "marbledsarsenal:desert_military_leggings",
     "count": 1
   }
 }

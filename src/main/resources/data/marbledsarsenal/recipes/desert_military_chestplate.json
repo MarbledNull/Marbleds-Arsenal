@@ -1,22 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
+    "iGi",
     "iii",
-    "IGI"
+    "iii"
   ],
   "key": {
     "i": {
       "tag": "forge:ingots/steel"
     },
-    "I": {
-      "item": "mcore:steel_sheet"
-    },
     "G": {
-      "item": "minecraft:blue_dye"
+      "item": "minecraft:sand"
     }
   },
   "result": {
-    "item": "marbledsarsenal:swat_armor_helmet",
+    "item": "marbledsarsenal:desert_military_chestplate",
     "count": 1
   }
 }

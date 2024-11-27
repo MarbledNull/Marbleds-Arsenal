@@ -10,11 +10,11 @@
       "tag": "forge:ingots/steel"
     },
     "G": {
-      "item": "minecraft:sand"
+      "item": "minecraft:snow_block"
     }
   },
   "result": {
-    "item": "marbledsarsenal:desert_military_armor_leggings",
+    "item": "marbledsarsenal:winter_military_leggings",
     "count": 1
   }
 }

@@ -1,22 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#G#",
-    "i i"
+    "iii",
+    "IGI"
   ],
   "key": {
-    "#": {
+    "i": {
+      "tag": "forge:ingots/steel"
+    },
+    "I": {
       "item": "mcore:steel_sheet"
     },
     "G": {
-      "item": "minecraft:blue_dye"
-    },
-    "i": {
-      "tag": "forge:ingots/steel"
+      "item": "minecraft:gray_dye"
     }
   },
   "result": {
-    "item": "marbledsarsenal:swat_armor_boots",
+    "item": "marbledsarsenal:riot_helmet",
     "count": 1
   }
 }

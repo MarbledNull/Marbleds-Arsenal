@@ -9,14 +9,14 @@
       "item": "mcore:steel_sheet"
     },
     "G": {
-      "item": "minecraft:snow_block"
+      "item": "minecraft:gray_dye"
     },
     "i": {
       "tag": "forge:ingots/steel"
     }
   },
   "result": {
-    "item": "marbledsarsenal:winter_military_armor_boots",
+    "item": "marbledsarsenal:riot_boots",
     "count": 1
   }
 }

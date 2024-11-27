@@ -1,20 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "iii",
     "iGi",
-    "i i"
+    "iii",
+    "iii"
   ],
   "key": {
     "i": {
-      "tag": "forge:ingots/titanium"
+      "tag": "forge:ingots/steel"
     },
     "G": {
-      "item": "minecraft:black_dye"
+      "item": "minecraft:gray_dye"
     }
   },
   "result": {
-    "item": "marbledsarsenal:black_juggernaut_armor_leggings",
+    "item": "marbledsarsenal:riot_chestplate",
     "count": 1
   }
 }

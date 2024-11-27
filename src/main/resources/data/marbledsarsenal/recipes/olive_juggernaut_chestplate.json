@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "iii",
     "iGi",
-    "i i"
+    "iFi",
+    "iii"
   ],
   "key": {
     "i": {
@@ -11,10 +11,13 @@
     },
     "G": {
       "item": "minecraft:green_dye"
+    },
+    "F": {
+      "item": "marbledsarsenal:armor_plate"
     }
   },
   "result": {
-    "item": "marbledsarsenal:olive_juggernaut_armor_leggings",
+    "item": "marbledsarsenal:olive_juggernaut_chestplate",
     "count": 1
   }
 }

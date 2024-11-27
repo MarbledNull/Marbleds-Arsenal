@@ -1,22 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "iii",
-    "IGI"
+    "#G#",
+    "i i"
   ],
   "key": {
-    "i": {
-      "tag": "forge:ingots/steel"
-    },
-    "I": {
+    "#": {
       "item": "mcore:steel_sheet"
     },
     "G": {
       "item": "minecraft:snow_block"
+    },
+    "i": {
+      "tag": "forge:ingots/steel"
     }
   },
   "result": {
-    "item": "marbledsarsenal:winter_military_armor_helmet",
+    "item": "marbledsarsenal:winter_military_boots",
     "count": 1
   }
 }
