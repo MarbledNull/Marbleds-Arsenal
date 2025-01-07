@@ -1,4 +1,4 @@
-package net.marblednull.marbledsarsenal.init.ArmorItems.ghillies;
+package net.marblednull.marbledsarsenal.init.ArmorItems;
 
 import net.marblednull.marbledsarsenal.client.renderer.AcaciaGhillieArmorRenderer;
 import net.minecraft.client.model.HumanoidModel;
