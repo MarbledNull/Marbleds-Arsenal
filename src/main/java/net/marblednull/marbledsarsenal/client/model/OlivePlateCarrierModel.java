@@ -1,8 +1,7 @@
 package net.marblednull.marbledsarsenal.client.model;
 
 import net.marblednull.marbledsarsenal.MarbledsArsenal;
-import net.marblednull.marbledsarsenal.init.ArmorItems.body_armors.OlivePlateCarrierArmorItem;
-import net.marblednull.marbledsarsenal.init.ArmorItems.body_armors.PlateCarrierArmorItem;
+import net.marblednull.marbledsarsenal.init.ArmorItems.OlivePlateCarrierArmorItem;
 import net.minecraft.resources.ResourceLocation;
 import software.bernie.geckolib.model.GeoModel;
 
