@@ -1,0 +1,57 @@
+{
+  "parent": "marbledsarsenal:marbleds_arsenal/root",
+  "criteria": {
+    "hazmat_b_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "marbledsarsenal:hazmat_b_helmet"
+            ]
+          },
+          {
+            "items": [
+              "marbledsarsenal:hazmat_b_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "marbledsarsenal:hazmat_b_leggings"
+            ]
+          },
+          {
+            "items": [
+              "marbledsarsenal:hazmat_b_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.marbleds_arsenal.hazmat_b_armor.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "marbledsarsenal:hazmat_b_helmet",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.marbleds_arsenal.hazmat_b_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "hazmat_b_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}
