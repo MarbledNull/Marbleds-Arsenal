@@ -1,12 +1,7 @@
 package net.marblednull.marbledsarsenal.init;
 
 import net.marblednull.marbledsarsenal.MarbledsArsenal;
-import net.marblednull.marbledsarsenal.init.ArmorItems.body_armors.PlateCarrierArmorItem;
-import net.marblednull.marbledsarsenal.init.ArmorItems.body_armors.OlivePlateCarrierArmorItem;
-import net.marblednull.marbledsarsenal.init.ArmorItems.full_suits.*;
-import net.marblednull.marbledsarsenal.init.ArmorItems.gas_masks.*;
-import net.marblednull.marbledsarsenal.init.ArmorItems.ghillies.*;
-import net.marblednull.marbledsarsenal.init.ArmorItems.helmets.*;
+import net.marblednull.marbledsarsenal.init.ArmorItems.*;
 import net.marblednull.marbledsarsenal.util.MaArmorMaterials;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
@@ -34,8 +29,12 @@ public class ModItems {
     public static final RegistryObject<Item> UN_HELMET_CM8M_GAS_MASK = ITEMS.register("un_helmet_cm8m_gas_mask", () -> new UNHelmetCM8MArmorItem(MaArmorMaterials.COMBAT_HELMET, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> OLIVE_HELMET_CM8M_GAS_MASK = ITEMS.register("olive_helmet_cm8m_gas_mask", () -> new OliveHelmetCM8MArmorItem(MaArmorMaterials.COMBAT_HELMET, ArmorItem.Type.HELMET, new Item.Properties()));
 
-    public static final RegistryObject<Item> WHITE_GP5_GAS_MASK = ITEMS.register("white_gp5_gas_mask", () -> new WhiteGP5ArmorItem(MaArmorMaterials.GAS_MASK, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> CMI01_GAS_MASK = ITEMS.register("cmi01_gas_mask", () -> new CMI01ArmorItem(MaArmorMaterials.GAS_MASK, ArmorItem.Type.HELMET, new Item.Properties()));
+
+    public static final RegistryObject<Item> GP5_GAS_MASK = ITEMS.register("gp5_gas_mask", () -> new WhiteGP5ArmorItem(MaArmorMaterials.GAS_MASK, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> BLACK_GP5_GAS_MASK = ITEMS.register("black_gp5_gas_mask", () -> new BlackGP5ArmorItem(MaArmorMaterials.GAS_MASK, ArmorItem.Type.HELMET, new Item.Properties()));
+
+    public static final RegistryObject<Item> RESPIRATOR = ITEMS.register("respirator", () -> new RespiratorArmorItem(MaArmorMaterials.GAS_MASK, ArmorItem.Type.HELMET, new Item.Properties()));
 
     //Headwear
     public static final RegistryObject<Item> COMBAT_HELMET = ITEMS.register("combat_helmet", () -> new CombatHelmetArmorItem(MaArmorMaterials.COMBAT_HELMET, ArmorItem.Type.HELMET, new Item.Properties()));
@@ -45,6 +44,8 @@ public class ModItems {
     public static final RegistryObject<Item> MILITARY_BERET = ITEMS.register("military_beret", () -> new MilitaryBeretArmorItem(MaArmorMaterials.HAT, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> RED_MILITARY_BERET = ITEMS.register("red_military_beret", () -> new RedMilitaryBeretArmorItem(MaArmorMaterials.HAT, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> UN_MILITARY_BERET = ITEMS.register("un_military_beret", () -> new UNMilitaryBeretArmorItem(MaArmorMaterials.HAT, ArmorItem.Type.HELMET, new Item.Properties()));
+
+    public static final RegistryObject<Item> BALACLAVA = ITEMS.register("balaclava", () -> new BalaclavaArmorItem(MaArmorMaterials.HAT, ArmorItem.Type.HELMET, new Item.Properties()));
 
     //Body armors/plate carriers
     public static final RegistryObject<Item> PLATE_CARRIER_LIGHT = ITEMS.register("plate_carrier_light", () -> new PlateCarrierArmorItem(MaArmorMaterials.PLATE_CARRIER_LIGHT, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
@@ -84,25 +85,25 @@ public class ModItems {
     public static final RegistryObject<Item> POLICE_LEGGINGS = ITEMS.register("police_leggings", () -> new SwatArmorItem(MaArmorMaterials.CIVIL, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> POLICE_BOOTS = ITEMS.register("police_boots", () -> new SwatArmorItem(MaArmorMaterials.CIVIL, ArmorItem.Type.BOOTS, new Item.Properties()));
 
-    public static final RegistryObject<Item> SHERIFF_HELMET = ITEMS.register("sheriff_helmet", () -> new SwatArmorItem(MaArmorMaterials.CIVIL, ArmorItem.Type.HELMET, new Item.Properties()));
-    public static final RegistryObject<Item> SHERIFF_CHESTPLATE = ITEMS.register("sheriff_chestplate", () -> new SwatArmorItem(MaArmorMaterials.CIVIL, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
-    public static final RegistryObject<Item> SHERIFF_LEGGINGS = ITEMS.register("sheriff_leggings", () -> new SwatArmorItem(MaArmorMaterials.CIVIL, ArmorItem.Type.LEGGINGS, new Item.Properties()));
-    public static final RegistryObject<Item> SHERIFF_BOOTS = ITEMS.register("sheriff_boots", () -> new SwatArmorItem(MaArmorMaterials.CIVIL, ArmorItem.Type.BOOTS, new Item.Properties()));
+    public static final RegistryObject<Item> SHERIFF_HELMET = ITEMS.register("sheriff_helmet", () -> new SheriffArmorItem(MaArmorMaterials.CIVIL, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> SHERIFF_CHESTPLATE = ITEMS.register("sheriff_chestplate", () -> new SheriffArmorItem(MaArmorMaterials.CIVIL, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> SHERIFF_LEGGINGS = ITEMS.register("sheriff_leggings", () -> new SheriffArmorItem(MaArmorMaterials.CIVIL, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> SHERIFF_BOOTS = ITEMS.register("sheriff_boots", () -> new SheriffArmorItem(MaArmorMaterials.CIVIL, ArmorItem.Type.BOOTS, new Item.Properties()));
 
-    public static final RegistryObject<Item> HAZMAT_HELMET_A = ITEMS.register("hazmat_helmet_a", () -> new HazmatAArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.HELMET, new Item.Properties()));
-    public static final RegistryObject<Item> HAZMAT_CHESTPLATE_A = ITEMS.register("hazmat_chestplate_a", () -> new HazmatAArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
-    public static final RegistryObject<Item> HAZMAT_LEGGINGS_A = ITEMS.register("hazmat_leggings_a", () -> new HazmatAArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.LEGGINGS, new Item.Properties()));
-    public static final RegistryObject<Item> HAZMAT_BOOTS_A = ITEMS.register("hazmat_boots_a", () -> new HazmatAArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.BOOTS, new Item.Properties()));
+    public static final RegistryObject<Item> HAZMAT_A_HELMET = ITEMS.register("hazmat_a_helmet", () -> new HazmatAArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> HAZMAT_A_CHESTPLATE = ITEMS.register("hazmat_a_chestplate", () -> new HazmatAArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> HAZMAT_A_LEGGINGS = ITEMS.register("hazmat_a_leggings", () -> new HazmatAArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> HAZMAT_A_BOOTS = ITEMS.register("hazmat_a_boots", () -> new HazmatAArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.BOOTS, new Item.Properties()));
 
-    public static final RegistryObject<Item> HAZMAT_HELMET_B = ITEMS.register("hazmat_helmet_b", () -> new HazmatBArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.HELMET, new Item.Properties()));
-    public static final RegistryObject<Item> HAZMAT_CHESTPLATE_B = ITEMS.register("hazmat_chestplate_b", () -> new HazmatBArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
-    public static final RegistryObject<Item> HAZMAT_LEGGINGS_B = ITEMS.register("hazmat_leggings_b", () -> new HazmatBArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.LEGGINGS, new Item.Properties()));
-    public static final RegistryObject<Item> HAZMAT_BOOTS_B = ITEMS.register("hazmat_boots_b", () -> new HazmatBArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.BOOTS, new Item.Properties()));
+    public static final RegistryObject<Item> HAZMAT_B_HELMET = ITEMS.register("hazmat_b_helmet", () -> new HazmatBArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> HAZMAT_B_CHESTPLATE = ITEMS.register("hazmat_b_chestplate", () -> new HazmatBArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> HAZMAT_B_LEGGINGS = ITEMS.register("hazmat_b_leggings", () -> new HazmatBArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> HAZMAT_B_BOOTS = ITEMS.register("hazmat_b_boots", () -> new HazmatBArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.BOOTS, new Item.Properties()));
 
-    public static final RegistryObject<Item> HAZMAT_HELMET_C = ITEMS.register("hazmat_helmet_c", () -> new HazmatCArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.HELMET, new Item.Properties()));
-    public static final RegistryObject<Item> HAZMAT_CHESTPLATE_C = ITEMS.register("hazmat_chestplate_c", () -> new HazmatCArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
-    public static final RegistryObject<Item> HAZMAT_LEGGINGS_C = ITEMS.register("hazmat_leggings_c", () -> new HazmatCArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.LEGGINGS, new Item.Properties()));
-    public static final RegistryObject<Item> HAZMAT_BOOTS_C = ITEMS.register("hazmat_boots_c", () -> new HazmatCArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.BOOTS, new Item.Properties()));
+    public static final RegistryObject<Item> HAZMAT_C_HELMET = ITEMS.register("hazmat_c_helmet", () -> new HazmatCArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> HAZMAT_C_CHESTPLATE = ITEMS.register("hazmat_c_chestplate", () -> new HazmatCArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> HAZMAT_C_LEGGINGS = ITEMS.register("hazmat_c_leggings", () -> new HazmatCArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> HAZMAT_C_BOOTS = ITEMS.register("hazmat_c_boots", () -> new HazmatCArmorItem(MaArmorMaterials.HAZMAT, ArmorItem.Type.BOOTS, new Item.Properties()));
 
     public static final RegistryObject<Item> JUGGERNAUT_HELMET = ITEMS.register("juggernaut_helmet", () -> new JuggernautArmorItem(MaArmorMaterials.JUGGERNAUT, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> JUGGERNAUT_CHESTPLATE = ITEMS.register("juggernaut_chestplate", () -> new JuggernautArmorItem(MaArmorMaterials.JUGGERNAUT, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
@@ -166,10 +167,13 @@ public class ModItems {
 
     //Crafting items
     public static final RegistryObject<Item> GAS_MASK_FILTER = ITEMS.register("gas_mask_filter", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> ARMOR_PLATE = ITEMS.register("armor_plate", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> LIGHT_ARMOR_PLATE = ITEMS.register("light_armor_plate", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RUBBER = ITEMS.register("rubber", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> KEVLAR = ITEMS.register("kevlar", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> KEVLAR_THREAD = ITEMS.register("kevlar_thread", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> VISOR = ITEMS.register("visor", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STRAP = ITEMS.register("strap", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> HEAVY_ARMOR_PLATE = ITEMS.register("heavy_armor_plate", () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
