@@ -1,0 +1,57 @@
+{
+  "parent": "marbledsarsenal:marbleds_arsenal/the_tree_talks",
+  "criteria": {
+    "master_of_disguise": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "marbledsarsenal:oak_ghillie_helmet"
+            ]
+          },
+          {
+            "items": [
+              "marbledsarsenal:oak_ghillie_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "marbledsarsenal:oak_ghillie_leggings"
+            ]
+          },
+          {
+            "items": [
+              "marbledsarsenal:oak_ghillie_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.marbleds_arsenal.master_of_disguise.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "marbledsarsenal:oak_ghillie_helmet",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.marbleds_arsenal.master_of_disguise.title"
+    }
+  },
+  "requirements": [
+    [
+      "master_of_disguise"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

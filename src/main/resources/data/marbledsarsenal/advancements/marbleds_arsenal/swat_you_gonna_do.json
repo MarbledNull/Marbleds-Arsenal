@@ -1,0 +1,57 @@
+{
+  "parent": "marbledsarsenal:marbleds_arsenal/root",
+  "criteria": {
+    "swat_you_gonna_do": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "marbledsarsenal:swat_helmet"
+            ]
+          },
+          {
+            "items": [
+              "marbledsarsenal:swat_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "marbledsarsenal:swat_leggings"
+            ]
+          },
+          {
+            "items": [
+              "marbledsarsenal:swat_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.marbleds_arsenal.swat_you_gonna_do.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "marbledsarsenal:swat_helmet",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.marbleds_arsenal.swat_you_gonna_do.title"
+    }
+  },
+  "requirements": [
+    [
+      "swat_you_gonna_do"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

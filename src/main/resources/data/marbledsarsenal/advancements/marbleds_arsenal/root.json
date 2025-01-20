@@ -1,0 +1,104 @@
+{
+  "criteria": {
+    "kevlar": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "marbledsarsenal:kevlar"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "kevlar_thread": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "marbledsarsenal:kevlar_thread"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "light_armor_plate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "marbledsarsenal:light_armor_plate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "heavy_armor_plate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "marbledsarsenal:heavy_armor_plate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "gas_mask_filter": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "marbledsarsenal:gas_mask_filter"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "rubber": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "marbledsarsenal:rubber"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/block/deepslate_tiles.png",
+    "description": {
+      "translate": "advancements.marbleds_arsenal.root.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "marbledsarsenal:cm6m_gas_mask",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.marbleds_arsenal.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "kevlar",
+      "kevlar_thread",
+      "light_armor_plate",
+      "heavy_armor_plate",
+      "gas_mask_filter",
+      "rubber"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

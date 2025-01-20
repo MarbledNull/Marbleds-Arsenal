@@ -1,0 +1,74 @@
+{
+  "parent": "marbledsarsenal:marbleds_arsenal/root",
+  "criteria": {
+    "the_tree_talks": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "marbledsarsenal:oak_ghillie_helmet"
+                  ]
+                },
+                "chest": {
+                  "items": [
+                    "marbledsarsenal:oak_ghillie_chestplate"
+                  ]
+                },
+                "legs": {
+                  "items": [
+                    "marbledsarsenal:oak_ghillie_leggings"
+                  ]
+                },
+                "feet": {
+                  "items": [
+                    "marbledsarsenal:oak_ghillie_boots"
+                  ]
+                }
+              },
+              "entity": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type": "minecraft:any"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.marbleds_arsenal.the_tree_talks.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "marbledsarsenal:oak_ghillie_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.marbleds_arsenal.the_tree_talks.title"
+    }
+  },
+  "requirements": [
+    [
+      "the_tree_talks"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}
