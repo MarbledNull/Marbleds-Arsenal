@@ -32,8 +32,12 @@ public class ModTabs {
                         output.accept(ModItems.UN_HELMET_CM8M_GAS_MASK.get());
                         output.accept(ModItems.OLIVE_HELMET_CM8M_GAS_MASK.get());
 
-                        output.accept(ModItems.WHITE_GP5_GAS_MASK.get());
+                        output.accept(ModItems.CMI01_GAS_MASK.get());
+
+                        output.accept(ModItems.GP5_GAS_MASK.get());
                         output.accept(ModItems.BLACK_GP5_GAS_MASK.get());
+
+                        output.accept(ModItems.RESPIRATOR.get());
 
                         output.accept(ModItems.COMBAT_HELMET.get());
                         output.accept(ModItems.UN_COMBAT_HELMET.get());
@@ -84,20 +88,20 @@ public class ModTabs {
                         output.accept(ModItems.WOODLAND_MILITARY_LEGGINGS.get());
                         output.accept(ModItems.WOODLAND_MILITARY_BOOTS.get());
 
-                        output.accept(ModItems.HAZMAT_HELMET_A.get());
-                        output.accept(ModItems.HAZMAT_CHESTPLATE_A.get());
-                        output.accept(ModItems.HAZMAT_LEGGINGS_A.get());
-                        output.accept(ModItems.HAZMAT_BOOTS_A.get());
+                        output.accept(ModItems.HAZMAT_A_HELMET.get());
+                        output.accept(ModItems.HAZMAT_A_CHESTPLATE.get());
+                        output.accept(ModItems.HAZMAT_A_LEGGINGS.get());
+                        output.accept(ModItems.HAZMAT_A_BOOTS.get());
 
-                        output.accept(ModItems.HAZMAT_HELMET_B.get());
-                        output.accept(ModItems.HAZMAT_CHESTPLATE_B.get());
-                        output.accept(ModItems.HAZMAT_LEGGINGS_B.get());
-                        output.accept(ModItems.HAZMAT_BOOTS_B.get());
+                        output.accept(ModItems.HAZMAT_B_HELMET.get());
+                        output.accept(ModItems.HAZMAT_B_CHESTPLATE.get());
+                        output.accept(ModItems.HAZMAT_B_LEGGINGS.get());
+                        output.accept(ModItems.HAZMAT_B_BOOTS.get());
 
-                        output.accept(ModItems.HAZMAT_HELMET_C.get());
-                        output.accept(ModItems.HAZMAT_CHESTPLATE_C.get());
-                        output.accept(ModItems.HAZMAT_LEGGINGS_C.get());
-                        output.accept(ModItems.HAZMAT_BOOTS_C.get());
+                        output.accept(ModItems.HAZMAT_C_HELMET.get());
+                        output.accept(ModItems.HAZMAT_C_CHESTPLATE.get());
+                        output.accept(ModItems.HAZMAT_C_LEGGINGS.get());
+                        output.accept(ModItems.HAZMAT_C_BOOTS.get());
 
                         output.accept(ModItems.JUGGERNAUT_HELMET.get());
                         output.accept(ModItems.JUGGERNAUT_CHESTPLATE.get());
@@ -155,7 +159,8 @@ public class ModTabs {
                         output.accept(ModItems.AZALEA_GHILLIE_BOOTS.get());
 
                         output.accept(ModItems.GAS_MASK_FILTER.get());
-                        output.accept(ModItems.ARMOR_PLATE.get());
+                        output.accept(ModItems.LIGHT_ARMOR_PLATE.get());
+                        output.accept(ModItems.HEAVY_ARMOR_PLATE.get());
                         output.accept(ModItems.RUBBER.get());
                         output.accept(ModItems.KEVLAR_THREAD.get());
                         output.accept(ModItems.KEVLAR.get());
