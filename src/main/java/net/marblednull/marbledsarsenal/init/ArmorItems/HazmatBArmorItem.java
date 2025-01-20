@@ -1,4 +1,4 @@
-package net.marblednull.marbledsarsenal.init.ArmorItems.full_suits;
+package net.marblednull.marbledsarsenal.init.ArmorItems;
 
 import net.marblednull.marbledsarsenal.client.renderer.HazmatBArmorRenderer;
 import net.minecraft.client.model.HumanoidModel;
