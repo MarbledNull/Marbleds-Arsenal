@@ -1,6 +1,6 @@
 package net.marblednull.marbledsarsenal.init.ArmorItems;
 
-import net.marblednull.marbledsarsenal.client.renderer.WhiteGP5Renderer;
+import net.marblednull.marbledsarsenal.client.renderer.GP5Renderer;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
@@ -27,13 +27,13 @@ public class WhiteGP5ArmorItem extends ArmorItem implements GeoItem {
     @Override
     public void initializeClient(Consumer<IClientItemExtensions> consumer) {
         consumer.accept(new IClientItemExtensions() {
-            private WhiteGP5Renderer renderer;
+            private GP5Renderer renderer;
 
             @Override
             public @NotNull HumanoidModel<?> getHumanoidArmorModel(LivingEntity LivingEntity, ItemStack itemStack,
                                                                    EquipmentSlot equipmentSlot, HumanoidModel<?> original) {
                 if (this.renderer == null)
-                    this.renderer = new WhiteGP5Renderer();
+                    this.renderer = new GP5Renderer();
 
                 this.renderer.prepForRender(LivingEntity, itemStack, equipmentSlot, original);
                 return this.renderer;
