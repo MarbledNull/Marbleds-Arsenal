@@ -69,7 +69,7 @@ public enum MaArmorMaterials implements ArmorMaterial {
             SoundEvents.ARMOR_EQUIP_NETHERITE, 3f, 0.2f, () ->
             Ingredient.of(net.marblednull.marbledsarsenal.init.ModItems.KEVLAR.get()));
 
-    private static final int[] BASE_DURABILITY = {13, 15, 16, 11};
+    private static final int[] BASE_DURABILITY = {13, 16, 15, 11};
     private final String name;
     private final int durabilityMultiplier;
     private final int[] protectionAmounts;
