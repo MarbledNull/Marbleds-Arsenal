@@ -1,6 +1,7 @@
 {
   "itemGroup.marbleds_arsenal": "Marbled's Arsenal",
-  "item.marbledsarsenal.armor_plate": "Armor Plate",
+  "item.marbledsarsenal.light_armor_plate": "Light Armor Plate",
+  "item.marbledsarsenal.heavy_armor_plate": "Heavy Armor Plate",
   "item.marbledsarsenal.gas_mask_filter": "Gas Mask Filter",
   "item.marbledsarsenal.rubber": "Rubber",
   "item.marbledsarsenal.kevlar": "Kevlar",
@@ -19,6 +20,8 @@
   "item.marbledsarsenal.olive_helmet_cm8m_gas_mask": "Olive Helmet CM-8M Gas Mask",
   "item.marbledsarsenal.white_gp5_gas_mask": "White GP-5 Gas Mask",
   "item.marbledsarsenal.black_gp5_gas_mask": "Black GP-5 Gas Mask",
+  "item.marbledsarsenal.cmi01_gas_mask": "CM-IO1 Gas Mask",
+  "item.marbledsarsenal.respirator": "Respirator",
   "item.marbledsarsenal.combat_helmet": "Combat Helmet",
   "item.marbledsarsenal.olive_combat_helmet": "Olive Combat Helmet",
   "item.marbledsarsenal.un_combat_helmet": "U.N. Combat Helmet",
@@ -116,5 +119,17 @@
   "item.marbledsarsenal.flowering_azalea_ghillie_helmet": "Flowering Azalea Ghillie Helmet",
   "item.marbledsarsenal.flowering_azalea_ghillie_chestplate": "Flowering Azalea Ghillie Chestplate",
   "item.marbledsarsenal.flowering_azalea_ghillie_leggings": "Flowering Azalea Ghillie Leggings",
-  "item.marbledsarsenal.flowering_azalea_ghillie_boots": "Flowering Azalea Ghillie Boots"
+  "item.marbledsarsenal.flowering_azalea_ghillie_boots": "Flowering Azalea Ghillie Boots",
+  "advancements.marbleds_arsenal.root.title": "Marbled's Arsenal",
+  "advancements.marbleds_arsenal.root.description": "Obtain one of the main ingredients",
+  "advancements.marbleds_arsenal.hazmat_b_armor.title": "The One Who Knocks",
+  "advancements.marbleds_arsenal.hazmat_b_armor.description": "Obtain a full suit of Hazmat Level-B armor",
+  "advancements.marbleds_arsenal.man_armory.title": "Man Armory",
+  "advancements.marbleds_arsenal.man_armory.description": "Obtain all Marbled's Arsenal armors",
+  "advancements.marbleds_arsenal.the_tree_talks.title": "The Tree Talks",
+  "advancements.marbleds_arsenal.the_tree_talks.description": "Kill a entity whilst wearing a Ghillie",
+  "advancements.marbleds_arsenal.master_of_disguise.title": "Master of Disguise",
+  "advancements.marbleds_arsenal.master_of_disguise.description": "Obtain all Marbled's Arsenal Ghillies",
+  "advancements.marbleds_arsenal.swat_you_gonna_do.title": "S.W.A.T You Gonna Do?",
+  "advancements.marbleds_arsenal.swat_you_gonna_do.description": "Obtain S.W.A.T armor"
 }
