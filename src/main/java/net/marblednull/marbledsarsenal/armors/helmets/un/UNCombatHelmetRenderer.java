@@ -1,6 +1,5 @@
-package net.marblednull.marbledsarsenal.armors.helmets;
+package net.marblednull.marbledsarsenal.armors.helmets.un;
 
-import net.marblednull.marbledsarsenal.init.ArmorItems.gas_masks.gp5.WhiteGP5ArmorItem;
 import net.marblednull.marbledsarsenal.init.ArmorItems.helmets.UNCombatHelmetArmorItem;
 import software.bernie.geckolib3.renderers.geo.GeoArmorRenderer;
 

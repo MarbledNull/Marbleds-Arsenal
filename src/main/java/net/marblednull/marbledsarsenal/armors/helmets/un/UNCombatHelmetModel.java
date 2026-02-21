@@ -1,4 +1,4 @@
-package net.marblednull.marbledsarsenal.armors.helmets.un_helmet;
+package net.marblednull.marbledsarsenal.armors.helmets.un;
 
 import net.marblednull.marbledsarsenal.MarbledsArsenal;
 import net.marblednull.marbledsarsenal.init.ArmorItems.helmets.UNCombatHelmetArmorItem;
