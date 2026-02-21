@@ -1,6 +1,5 @@
 {
   "itemGroup.marbleds_arsenal": "Marbled의 무기고",
-  "itemGroup.marbleds_arsenal_extras": "Marbled의 무기고: Extras",
 
   "item.marbledsarsenal.armor_plate": "방탄 플레이트",
   "item.marbledsarsenal.gas_mask_filter": "방독면 필터",
@@ -84,5 +83,28 @@
   "item.marbledsarsenal.black_juggernaut_armor_helmet": "검은색 저거넛 방탄헬멧",
   "item.marbledsarsenal.black_juggernaut_armor_chestplate": "검은색 저거넛 방탄복 상의",
   "item.marbledsarsenal.black_juggernaut_armor_leggings": "검은색 저거넛 하의",
-  "item.marbledsarsenal.black_juggernaut_armor_boots": "검은색 저거넛 전투화"
+  "item.marbledsarsenal.black_juggernaut_armor_boots": "검은색 저거넛 전투화",
+
+  "item.marbledsarsenal.crowbar": "쇠지렛대",
+  "item.marbledsarsenal.fire_axe": "소방 도끼",
+  "item.marbledsarsenal.modern_axe": "현대 도끼",
+  "item.marbledsarsenal.tomahawk": "토마호크",
+  "item.marbledsarsenal.pipe_wrench": "파이프 렌치",
+  "item.marbledsarsenal.sledgehammer": "슬레지해머",
+  "item.marbledsarsenal.bone_saw": "뼈톱",
+  "item.marbledsarsenal.police_baton": "경찰 진압봉",
+  "item.marbledsarsenal.machete": "마체테",
+  "item.marbledsarsenal.stop_sign": "정지 표지판",
+  "item.marbledsarsenal.pipe": "파이프",
+  "item.marbledsarsenal.combat_knife": "전투용 단검",
+  "item.marbledsarsenal.katana": "일본도",
+  "item.marbledsarsenal.tanto": "탄토",
+  
+  "item.marbledsarsenal.golf_club": "골프채",
+  "item.marbledsarsenal.baseball_bat": "야구 방망이",
+  "item.marbledsarsenal.barbed_baseball_bat": "가시 철사 야구 방망이",
+  "item.marbledsarsenal.steel_baseball_bat": "강철 야구 방망이",
+
+  "item.marbledsarsenal.riot_shield": "진압 방패",
+  "item.marbledsarsenal.heavy_riot_shield": "중(重) 진압 방패"
 }

@@ -28,7 +28,6 @@ import net.marblednull.marbledsarsenal.armors.gas_masks.helmet_gas_masks.cm8m.me
 import net.marblednull.marbledsarsenal.armors.gas_masks.helmet_gas_masks.cm8m.medical.MedicalOliveHelmetCM8MRenderer;
 import net.marblednull.marbledsarsenal.armors.gas_masks.helmet_gas_masks.cm8m.medical.MedicalUNHelmetCM8MRenderer;
 import net.marblednull.marbledsarsenal.armors.helmets.CombatHelmetRenderer;
-import net.marblednull.marbledsarsenal.armors.helmets.UNCombatHelmetRenderer;
 import net.marblednull.marbledsarsenal.armors.helmets.beret.BlackMilitaryBeretRenderer;
 import net.marblednull.marbledsarsenal.armors.helmets.beret.RedMilitaryBeretRenderer;
 import net.marblednull.marbledsarsenal.armors.helmets.beret.UNMilitaryBeretRenderer;
@@ -36,6 +35,7 @@ import net.marblednull.marbledsarsenal.armors.helmets.medical.MedicalCombatHelme
 import net.marblednull.marbledsarsenal.armors.helmets.medical.MedicalOliveCombatHelmetRenderer;
 import net.marblednull.marbledsarsenal.armors.helmets.medical.MedicalUNCombatHelmetRenderer;
 import net.marblednull.marbledsarsenal.armors.helmets.olive.OliveCombatHelmetRenderer;
+import net.marblednull.marbledsarsenal.armors.helmets.un.UNCombatHelmetRenderer;
 import net.marblednull.marbledsarsenal.init.ArmorItems.body_armors.BlackPlateCarrierArmorItem;
 import net.marblednull.marbledsarsenal.init.ArmorItems.body_armors.OlivePlateCarrierArmorItem;
 import net.marblednull.marbledsarsenal.init.ArmorItems.full_suits.*;

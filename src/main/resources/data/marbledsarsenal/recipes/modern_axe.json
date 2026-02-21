@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iI",
+    "I/",
+    " /"
+  ],
+  "key": {
+    "i": {
+      "item": "marbledsapi:hardened_steel_ingot"
+    },
+    "I": {
+      "item": "marbledsapi:hardened_steel_sheet"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "marbledsarsenal:modern_axe",
+    "count": 1
+  }
+}

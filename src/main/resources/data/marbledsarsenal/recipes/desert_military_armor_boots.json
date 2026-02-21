@@ -12,7 +12,7 @@
       "item": "minecraft:sand"
     },
     "i": {
-      "item": "marbledsapi:steel_ingot"
+      "tag": "forge:ingots/steel"
     }
   },
   "result": {

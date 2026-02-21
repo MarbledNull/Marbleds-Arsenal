@@ -136,9 +136,9 @@ dependencies {
     // Specify the version of Minecraft to use. If this is any group other than 'net.minecraft', it is assumed
     // that the dep is a ForgeGradle 'patcher' dependency, and its patches will be applied.
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
-    minecraft 'net.minecraftforge:forge:1.19.2-43.3.5'
+    minecraft 'net.minecraftforge:forge:1.19.2-43.5.0'
     implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.19:3.1.40')
-    implementation fg.deobf("curse.maven:marbleds-api-mapi-932466:5136623")
+    implementation fg.deobf("curse.maven:marbleds-api-mapi-932466:5331749")
     implementation fg.deobf("curse.maven:jei-238222:4712866")
     // Real mod deobf dependency examples - these get remapped to your current mappings
     // compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api") // Adds JEI API as a compile dependency

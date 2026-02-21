@@ -9,7 +9,7 @@
       "item": "minecraft:iron_ingot"
     },
     "n": {
-      "item": "marbledsapi:steel_ingot"
+      "tag": "forge:ingots/steel"
     },
     "B": {
       "item": "minecraft:green_dye"

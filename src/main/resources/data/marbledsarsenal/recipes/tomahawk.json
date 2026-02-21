@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "II",
+    "I/",
+    " /"
+  ],
+  "key": {
+    "I": {
+      "item": "marbledsapi:steel_sheet"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "marbledsarsenal:tomahawk",
+    "count": 1
+  }
+}

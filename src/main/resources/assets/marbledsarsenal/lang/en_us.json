@@ -1,9 +1,14 @@
 {
   "itemGroup.marbleds_arsenal": "Marbled's Arsenal",
-  "itemGroup.marbleds_arsenal_extras": "Marbled's Arsenal: Extras",
 
+  "item.marbledsarsenal.raw_steel": "Raw Steel",
   "item.marbledsarsenal.armor_plate": "Armor Plate",
+  "item.marbledsarsenal.steel_ingot": "Steel Ingot",
+  "item.marbledsarsenal.steel_sheet": "Steel Sheet",
   "item.marbledsarsenal.gas_mask_filter": "Gas Mask Filter",
+  "item.marbledsarsenal.hardened_steel_ingot": "Hardened Steel Ingot",
+  "item.marbledsarsenal.hardened_steel_sheet": "Hardened Steel Sheet",
+  "item.marbledsarsenal.rubber": "Rubber",
 
   "item.marbledsarsenal.cm6m_gas_mask": "CM-6M Gas Mask",
   "item.marbledsarsenal.helmet_cm6m_gas_mask": "Helmet CM-6M Gas Mask",
@@ -84,5 +89,27 @@
   "item.marbledsarsenal.black_juggernaut_armor_helmet": "Black Juggernaut Armor Helmet",
   "item.marbledsarsenal.black_juggernaut_armor_chestplate": "Black Juggernaut Armor Chestplate",
   "item.marbledsarsenal.black_juggernaut_armor_leggings": "Black Juggernaut Armor Leggings",
-  "item.marbledsarsenal.black_juggernaut_armor_boots": "Black Juggernaut Armor Boots"
+  "item.marbledsarsenal.black_juggernaut_armor_boots": "Black Juggernaut Armor Boots",
+
+  "item.marbledsarsenal.crowbar": "Crowbar",
+  "item.marbledsarsenal.fire_axe": "Fire Axe",
+  "item.marbledsarsenal.modern_axe": "Modern Axe",
+  "item.marbledsarsenal.tomahawk": "Tomahawk",
+  "item.marbledsarsenal.pipe_wrench": "Pipe Wrench",
+  "item.marbledsarsenal.sledgehammer": "Sledgehammer",
+  "item.marbledsarsenal.bone_saw": "Bone Saw",
+  "item.marbledsarsenal.police_baton": "Police Baton",
+  "item.marbledsarsenal.machete": "Machete",
+  "item.marbledsarsenal.stop_sign": "Stop Sign",
+  "item.marbledsarsenal.pipe": "Pipe",
+  "item.marbledsarsenal.combat_knife": "Combat Knife",
+  "item.marbledsarsenal.katana": "Katana",
+  "item.marbledsarsenal.tanto": "Tanto",
+  "item.marbledsarsenal.golf_club": "Golf Club",
+  "item.marbledsarsenal.baseball_bat": "Baseball Bat",
+  "item.marbledsarsenal.barbed_baseball_bat": "Barbed Baseball Bat",
+  "item.marbledsarsenal.steel_baseball_bat": "Steel Baseball Bat",
+
+  "item.marbledsarsenal.riot_shield": "Riot Shield",
+  "item.marbledsarsenal.heavy_riot_shield": "Heavy Riot Shield"
 }

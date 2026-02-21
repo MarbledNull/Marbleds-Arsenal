@@ -1,9 +1,6 @@
 package net.marblednull.marbledsarsenal;
 
-import net.marblednull.marbledsapi.MarbledsAPI;
-import net.marblednull.marbledsarsenal.init.ModItemProperties;
 import net.marblednull.marbledsarsenal.init.ModItems;
-import net.marblednull.marbledsarsenal.init.ModTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -47,7 +44,7 @@ public class MarbledsArsenal
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-            ModItemProperties.addCustomItemProperties();
+
         }
     }
 }
