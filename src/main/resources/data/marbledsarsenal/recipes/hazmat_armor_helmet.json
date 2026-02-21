@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "GGG",
+    "iIi"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:leather"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "i": {
+      "item": "marbledsarsenal:gas_mask_filter"
+    },
+    "I": {
+      "item": "mcore:steel_sheet"
+    }
+  },
+  "result": {
+  "item": "marbledsarsenal:hazmat_armor_helmet",
+  "count": 1
+  }
+}

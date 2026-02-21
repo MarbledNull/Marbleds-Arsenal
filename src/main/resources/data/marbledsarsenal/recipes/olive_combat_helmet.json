@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ini",
+    "nBn"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "n": {
+      "tag": "forge:ingots/steel"
+    },
+    "B": {
+      "item": "minecraft:green_dye"
+    }
+  },
+  "result": {
+    "item": "marbledsarsenal:olive_combat_helmet",
+    "count": 1
+  }
+}

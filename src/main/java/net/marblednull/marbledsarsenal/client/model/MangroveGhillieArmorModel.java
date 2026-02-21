@@ -1,0 +1,24 @@
+package net.marblednull.marbledsarsenal.client.model;
+
+import net.marblednull.marbledsarsenal.MarbledsArsenal;
+import net.marblednull.marbledsarsenal.init.ArmorItems.MangroveGhillieArmorItem;
+import net.minecraft.resources.ResourceLocation;
+import software.bernie.geckolib.model.GeoModel;
+
+public class MangroveGhillieArmorModel extends GeoModel<MangroveGhillieArmorItem> {
+
+    @Override
+    public ResourceLocation getModelResource(MangroveGhillieArmorItem animatable) {
+        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "geo/ghillie_armor.geo.json");
+    }
+
+    @Override
+    public ResourceLocation getTextureResource(MangroveGhillieArmorItem animatable) {
+        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "textures/armor/mangrove_ghillie_armor.png");
+    }
+
+    @Override
+    public ResourceLocation getAnimationResource(MangroveGhillieArmorItem animatable) {
+        return null;
+    }
+}

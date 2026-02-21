@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#G#",
+    "i i"
+  ],
+  "key": {
+    "#": {
+      "item": "mcore:steel_sheet"
+    },
+    "G": {
+      "item": "minecraft:sand"
+    },
+    "i": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "result": {
+    "item": "marbledsarsenal:desert_military_armor_boots",
+    "count": 1
+  }
+}

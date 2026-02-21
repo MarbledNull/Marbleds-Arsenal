@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "IGI"
+  ],
+  "key": {
+    "i": {
+      "tag": "forge:ingots/steel"
+    },
+    "I": {
+      "item": "mcore:steel_sheet"
+    },
+    "G": {
+      "item": "minecraft:sand"
+    }
+  },
+  "result": {
+    "item": "marbledsarsenal:desert_military_armor_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ini",
+    "nGn",
+    "OHO"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "n": {
+      "tag": "forge:ingots/steel"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "O": {
+      "item": "marbledsarsenal:gas_mask_filter"
+    },
+    "H": {
+      "item": "minecraft:blue_dye"
+    }
+  },
+  "result": {
+    "item": "marbledsarsenal:un_helmet_cm8m_gas_mask",
+    "count": 1
+  }
+}

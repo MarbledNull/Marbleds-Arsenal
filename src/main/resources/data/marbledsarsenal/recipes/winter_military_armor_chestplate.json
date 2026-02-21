@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iGi",
+    "iii",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "tag": "forge:ingots/steel"
+    },
+    "G": {
+      "item": "minecraft:snow_block"
+    }
+  },
+  "result": {
+    "item": "marbledsarsenal:winter_military_armor_chestplate",
+    "count": 1
+  }
+}

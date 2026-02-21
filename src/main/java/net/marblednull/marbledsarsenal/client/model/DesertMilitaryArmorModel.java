@@ -1,0 +1,24 @@
+package net.marblednull.marbledsarsenal.client.model;
+
+import net.marblednull.marbledsarsenal.MarbledsArsenal;
+import net.marblednull.marbledsarsenal.init.ArmorItems.DesertMilitaryArmorItem;
+import net.minecraft.resources.ResourceLocation;
+import software.bernie.geckolib.model.GeoModel;
+
+public class DesertMilitaryArmorModel extends GeoModel<DesertMilitaryArmorItem> {
+
+    @Override
+    public ResourceLocation getModelResource(DesertMilitaryArmorItem animatable) {
+        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "geo/military_armor.geo.json");
+    }
+
+    @Override
+    public ResourceLocation getTextureResource(DesertMilitaryArmorItem animatable) {
+        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "textures/armor/desert_military_armor.png");
+    }
+
+    @Override
+    public ResourceLocation getAnimationResource(DesertMilitaryArmorItem animatable) {
+        return null;
+    }
+}

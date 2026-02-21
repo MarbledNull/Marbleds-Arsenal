@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "#i#",
+    "SiS"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:leather"
+    },
+    "i": {
+      "tag": "forge:ingots/steel"
+    },
+    "S": {
+      "item": "marbledsarsenal:rubber"
+    }
+  },
+  "result": {
+    "item": "marbledsarsenal:hazmat_armor_chestplate",
+    "count": 1
+  }
+}
