@@ -1,0 +1,23 @@
+package net.marblednull.marbledsarsenal.client.model;
+
+import net.marblednull.marbledsarsenal.MarbledsArsenal;
+import net.marblednull.marbledsarsenal.init.ArmorItems.OliveJuggernautArmorItem;
+import net.minecraft.resources.ResourceLocation;
+import software.bernie.geckolib3.model.AnimatedGeoModel;
+
+public class OliveJuggernautArmorModel extends AnimatedGeoModel<OliveJuggernautArmorItem> {
+    @Override
+    public ResourceLocation getModelResource(OliveJuggernautArmorItem object) {
+        return new ResourceLocation(MarbledsArsenal.MODID, "geo/juggernaut_armor.geo.json");
+    }
+
+    @Override
+    public ResourceLocation getTextureResource(OliveJuggernautArmorItem object) {
+        return new ResourceLocation(MarbledsArsenal.MODID, "textures/armor/olive_juggernaut_armor.png");
+    }
+
+    @Override
+    public ResourceLocation getAnimationResource(OliveJuggernautArmorItem object) {
+        return null;
+    }
+}

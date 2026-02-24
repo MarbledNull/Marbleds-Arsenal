@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:jungle_leaves"
+    }
+  },
+  "result": {
+    "item": "marbledsarsenal:jungle_ghillie_helmet",
+    "count": 1
+  }
+}
