@@ -18,6 +18,6 @@ public class DesertMilitaryArmorModel extends AnimatedGeoModel<DesertMilitaryArm
 
     @Override
     public ResourceLocation getAnimationResource(DesertMilitaryArmorItem object) {
-        return new ResourceLocation(MarbledsArsenal.MODID, "animations/riot_armor.military_armor.json");
+        return null;
     }
 }
