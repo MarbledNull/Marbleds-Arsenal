@@ -9,12 +9,12 @@ public class GP5Model extends GeoModel<WhiteGP5ArmorItem> {
 
     @Override
     public ResourceLocation getModelResource(WhiteGP5ArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "geo/gp5.geo.json");
+        return new ResourceLocation(MarbledsArsenal.MODID, "geo/gp5.geo.json");
     }
 
     @Override
     public ResourceLocation getTextureResource(WhiteGP5ArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "textures/armor/gp5.png");
+        return new ResourceLocation(MarbledsArsenal.MODID, "textures/armor/gp5.png");
     }
 
     @Override

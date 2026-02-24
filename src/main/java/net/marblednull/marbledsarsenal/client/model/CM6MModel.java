@@ -9,12 +9,12 @@ public class CM6MModel extends GeoModel<CM6MArmorItem> {
 
     @Override
     public ResourceLocation getModelResource(CM6MArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "geo/cm6m.geo.json");
+        return new ResourceLocation(MarbledsArsenal.MODID, "geo/cm6m.geo.json");
     }
 
     @Override
     public ResourceLocation getTextureResource(CM6MArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "textures/armor/cm6m.png");
+        return new ResourceLocation(MarbledsArsenal.MODID, "textures/armor/cm6m.png");
     }
 
     @Override

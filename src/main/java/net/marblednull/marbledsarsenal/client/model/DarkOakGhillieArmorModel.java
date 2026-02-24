@@ -9,16 +9,16 @@ public class DarkOakGhillieArmorModel extends GeoModel<DarkOakGhillieArmorItem> 
 
     @Override
     public ResourceLocation getModelResource(DarkOakGhillieArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "geo/ghillie_armor.geo.json");
+        return new ResourceLocation(MarbledsArsenal.MODID, "geo/ghillie_armor.geo.json");
     }
 
     @Override
     public ResourceLocation getTextureResource(DarkOakGhillieArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "textures/armor/dark_oak_ghillie_armor.png");
+        return new ResourceLocation(MarbledsArsenal.MODID, "textures/armor/dark_oak_ghillie_armor.png");
     }
 
     @Override
     public ResourceLocation getAnimationResource(DarkOakGhillieArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "animations/ghillie_armor.animation.json");
+        return null;
     }
 }

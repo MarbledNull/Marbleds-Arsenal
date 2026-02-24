@@ -9,12 +9,12 @@ public class WoodlandMilitaryArmorModel extends GeoModel<WoodlandMilitaryArmorIt
 
     @Override
     public ResourceLocation getModelResource(WoodlandMilitaryArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "geo/military_armor.geo.json");
+        return new ResourceLocation(MarbledsArsenal.MODID, "geo/military_armor.geo.json");
     }
 
     @Override
     public ResourceLocation getTextureResource(WoodlandMilitaryArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "textures/armor/woodland_military_armor.png");
+        return new ResourceLocation(MarbledsArsenal.MODID, "textures/armor/woodland_military_armor.png");
     }
 
     @Override

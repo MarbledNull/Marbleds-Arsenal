@@ -9,12 +9,12 @@ public class BlackJuggernautArmorModel extends GeoModel<BlackJuggernautArmorItem
 
     @Override
     public ResourceLocation getModelResource(BlackJuggernautArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "geo/juggernaut_armor.geo.json");
+        return new ResourceLocation(MarbledsArsenal.MODID, "geo/juggernaut_armor.geo.json");
     }
 
     @Override
     public ResourceLocation getTextureResource(BlackJuggernautArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "textures/armor/black_juggernaut_armor.png");
+        return new ResourceLocation(MarbledsArsenal.MODID, "textures/armor/black_juggernaut_armor.png");
     }
 
     @Override

@@ -9,12 +9,12 @@ public class BalaclavaModel extends GeoModel<BalaclavaArmorItem> {
 
     @Override
     public ResourceLocation getModelResource(BalaclavaArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "geo/balaclava.geo.json");
+        return new ResourceLocation(MarbledsArsenal.MODID, "geo/balaclava.geo.json");
     }
 
     @Override
     public ResourceLocation getTextureResource(BalaclavaArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "textures/armor/balaclava.png");
+        return new ResourceLocation(MarbledsArsenal.MODID, "textures/armor/balaclava.png");
     }
 
     @Override

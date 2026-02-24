@@ -9,12 +9,12 @@ public class SwatArmorModel extends GeoModel<SwatArmorItem> {
 
     @Override
     public ResourceLocation getModelResource(SwatArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "geo/swat_armor.geo.json");
+        return new ResourceLocation(MarbledsArsenal.MODID, "geo/swat_armor.geo.json");
     }
 
     @Override
     public ResourceLocation getTextureResource(SwatArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "textures/armor/swat_armor.png");
+        return new ResourceLocation(MarbledsArsenal.MODID, "textures/armor/swat_armor.png");
     }
 
     @Override

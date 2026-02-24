@@ -9,12 +9,12 @@ public class JungleGhillieArmorModel extends GeoModel<JungleGhillieArmorItem> {
 
     @Override
     public ResourceLocation getModelResource(JungleGhillieArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "geo/ghillie_armor.geo.json");
+        return new ResourceLocation(MarbledsArsenal.MODID, "geo/ghillie_armor.geo.json");
     }
 
     @Override
     public ResourceLocation getTextureResource(JungleGhillieArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "textures/armor/jungle_ghillie_armor.png");
+        return new ResourceLocation(MarbledsArsenal.MODID, "textures/armor/jungle_ghillie_armor.png");
     }
 
     @Override

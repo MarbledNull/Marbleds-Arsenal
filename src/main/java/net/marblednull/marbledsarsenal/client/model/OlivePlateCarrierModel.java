@@ -9,12 +9,12 @@ public class OlivePlateCarrierModel extends GeoModel<OlivePlateCarrierArmorItem>
 
     @Override
     public ResourceLocation getModelResource(OlivePlateCarrierArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "geo/olive_plate_carrier.geo.json");
+        return new ResourceLocation(MarbledsArsenal.MODID, "geo/olive_plate_carrier.geo.json");
     }
 
     @Override
     public ResourceLocation getTextureResource(OlivePlateCarrierArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "textures/armor/olive_plate_carrier.png");
+        return new ResourceLocation(MarbledsArsenal.MODID, "textures/armor/olive_plate_carrier.png");
     }
 
     @Override

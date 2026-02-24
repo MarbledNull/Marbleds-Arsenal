@@ -9,12 +9,12 @@ public class DesertMilitaryArmorModel extends GeoModel<DesertMilitaryArmorItem> 
 
     @Override
     public ResourceLocation getModelResource(DesertMilitaryArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "geo/military_armor.geo.json");
+        return new ResourceLocation(MarbledsArsenal.MODID, "geo/military_armor.geo.json");
     }
 
     @Override
     public ResourceLocation getTextureResource(DesertMilitaryArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "textures/armor/desert_military_armor.png");
+        return new ResourceLocation(MarbledsArsenal.MODID, "textures/armor/desert_military_armor.png");
     }
 
     @Override

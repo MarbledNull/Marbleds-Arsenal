@@ -9,12 +9,12 @@ public class HazmatAArmorModel extends GeoModel<HazmatAArmorItem> {
 
     @Override
     public ResourceLocation getModelResource(HazmatAArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "geo/hazmat_armor.geo.json");
+        return new ResourceLocation(MarbledsArsenal.MODID, "geo/hazmat_armor.geo.json");
     }
 
     @Override
     public ResourceLocation getTextureResource(HazmatAArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "textures/armor/hazmat_armor.png");
+        return new ResourceLocation(MarbledsArsenal.MODID, "textures/armor/hazmat_armor.png");
     }
 
     @Override

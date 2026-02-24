@@ -9,12 +9,12 @@ public class OliveHelmetCM6MModel extends GeoModel<OliveHelmetCM6MArmorItem> {
 
     @Override
     public ResourceLocation getModelResource(OliveHelmetCM6MArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "geo/helmet_cm6m.geo.json");
+        return new ResourceLocation(MarbledsArsenal.MODID, "geo/helmet_cm6m.geo.json");
     }
 
     @Override
     public ResourceLocation getTextureResource(OliveHelmetCM6MArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "textures/armor/olive_helmet_cm6m.png");
+        return new ResourceLocation(MarbledsArsenal.MODID, "textures/armor/olive_helmet_cm6m.png");
     }
 
     @Override

@@ -9,12 +9,12 @@ public class RespiratorArmorModel extends GeoModel<RespiratorArmorItem> {
 
     @Override
     public ResourceLocation getModelResource(RespiratorArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "geo/respirator.geo.json");
+        return new ResourceLocation(MarbledsArsenal.MODID, "geo/respirator.geo.json");
     }
 
     @Override
     public ResourceLocation getTextureResource(RespiratorArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "textures/armor/respirator.png");
+        return new ResourceLocation(MarbledsArsenal.MODID, "textures/armor/respirator.png");
     }
 
     @Override

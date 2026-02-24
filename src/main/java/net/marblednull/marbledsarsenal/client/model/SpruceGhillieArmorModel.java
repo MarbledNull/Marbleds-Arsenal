@@ -9,12 +9,12 @@ public class SpruceGhillieArmorModel extends GeoModel<SpruceGhillieArmorItem> {
 
     @Override
     public ResourceLocation getModelResource(SpruceGhillieArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "geo/ghillie_armor.geo.json");
+        return new ResourceLocation(MarbledsArsenal.MODID, "geo/ghillie_armor.geo.json");
     }
 
     @Override
     public ResourceLocation getTextureResource(SpruceGhillieArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "textures/armor/spruce_ghillie_armor.png");
+        return new ResourceLocation(MarbledsArsenal.MODID, "textures/armor/spruce_ghillie_armor.png");
     }
 
     @Override

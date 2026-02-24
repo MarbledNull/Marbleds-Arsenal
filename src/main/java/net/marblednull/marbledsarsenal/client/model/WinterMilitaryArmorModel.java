@@ -9,12 +9,12 @@ public class WinterMilitaryArmorModel extends GeoModel<WinterMilitaryArmorItem> 
 
     @Override
     public ResourceLocation getModelResource(WinterMilitaryArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "geo/military_armor.geo.json");
+        return new ResourceLocation(MarbledsArsenal.MODID, "geo/military_armor.geo.json");
     }
 
     @Override
     public ResourceLocation getTextureResource(WinterMilitaryArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "textures/armor/winter_military_armor.png");
+        return new ResourceLocation(MarbledsArsenal.MODID, "textures/armor/winter_military_armor.png");
     }
 
     @Override

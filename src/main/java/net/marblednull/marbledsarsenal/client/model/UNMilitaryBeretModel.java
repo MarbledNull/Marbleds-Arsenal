@@ -9,12 +9,12 @@ public class UNMilitaryBeretModel extends GeoModel<UNMilitaryBeretArmorItem> {
 
     @Override
     public ResourceLocation getModelResource(UNMilitaryBeretArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "geo/military_beret.geo.json");
+        return new ResourceLocation(MarbledsArsenal.MODID, "geo/military_beret.geo.json");
     }
 
     @Override
     public ResourceLocation getTextureResource(UNMilitaryBeretArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "textures/armor/un_military_beret.png");
+        return new ResourceLocation(MarbledsArsenal.MODID, "textures/armor/un_military_beret.png");
     }
 
     @Override

@@ -9,12 +9,12 @@ public class RiotArmorModel extends GeoModel<RiotArmorItem> {
 
     @Override
     public ResourceLocation getModelResource(RiotArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "geo/riot_armor.geo.json");
+        return new ResourceLocation(MarbledsArsenal.MODID, "geo/riot_armor.geo.json");
     }
 
     @Override
     public ResourceLocation getTextureResource(RiotArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "textures/armor/riot_armor.png");
+        return new ResourceLocation(MarbledsArsenal.MODID, "textures/armor/riot_armor.png");
     }
 
     @Override

@@ -18,8 +18,8 @@ public class MarbledsArsenal
 {
     public static final String MODID = "marbledsarsenal";
 
-    public MarbledsArsenal(FMLJavaModLoadingContext context) {
-        IEventBus modEventBus = context.getModEventBus();
+    public MarbledsArsenal() {
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
 

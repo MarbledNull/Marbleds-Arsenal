@@ -9,12 +9,12 @@ public class AzaleaGhillieArmorModel extends GeoModel<AzaleaGhillieArmorItem> {
 
     @Override
     public ResourceLocation getModelResource(AzaleaGhillieArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "geo/ghillie_armor.geo.json");
+        return new ResourceLocation(MarbledsArsenal.MODID, "geo/ghillie_armor.geo.json");
     }
 
     @Override
     public ResourceLocation getTextureResource(AzaleaGhillieArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "textures/armor/azalea_ghillie_armor.png");
+        return new ResourceLocation(MarbledsArsenal.MODID, "textures/armor/azalea_ghillie_armor.png");
     }
 
     @Override

@@ -9,12 +9,12 @@ public class MangroveGhillieArmorModel extends GeoModel<MangroveGhillieArmorItem
 
     @Override
     public ResourceLocation getModelResource(MangroveGhillieArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "geo/ghillie_armor.geo.json");
+        return new ResourceLocation(MarbledsArsenal.MODID, "geo/ghillie_armor.geo.json");
     }
 
     @Override
     public ResourceLocation getTextureResource(MangroveGhillieArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "textures/armor/mangrove_ghillie_armor.png");
+        return new ResourceLocation(MarbledsArsenal.MODID, "textures/armor/mangrove_ghillie_armor.png");
     }
 
     @Override

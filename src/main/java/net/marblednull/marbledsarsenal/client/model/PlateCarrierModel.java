@@ -9,12 +9,12 @@ public class PlateCarrierModel extends GeoModel<PlateCarrierArmorItem> {
 
     @Override
     public ResourceLocation getModelResource(PlateCarrierArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "geo/black_plate_carrier.geo.json");
+        return new ResourceLocation(MarbledsArsenal.MODID, "geo/black_plate_carrier.geo.json");
     }
 
     @Override
     public ResourceLocation getTextureResource(PlateCarrierArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(MarbledsArsenal.MODID, "textures/armor/black_plate_carrier.png");
+        return new ResourceLocation(MarbledsArsenal.MODID, "textures/armor/black_plate_carrier.png");
     }
 
     @Override
