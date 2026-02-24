@@ -16,7 +16,7 @@
       "item": "minecraft:glass_pane"
     },
     "i": {
-      "tag": "forge:ingots/steel"
+      "item": "minecraft:iron_ingot"
     },
     "I": {
       "item": "marbledsarsenal:gas_mask_filter"

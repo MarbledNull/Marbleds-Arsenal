@@ -1,7 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#L#",
+    " L ",
+    "###",
     "III"
   ],
   "key": {
@@ -12,7 +13,7 @@
       "item": "minecraft:red_dye"
     },
     "I": {
-      "item": "marbledsarsenal:steel_sheet"
+      "item": "mcore:steel_sheet"
     }
   },
   "result": {

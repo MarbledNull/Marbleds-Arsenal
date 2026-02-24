@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#P#",
+    "iIi",
+    "iii"
+  ],
+  "key": {
+    "#": {
+      "item": "mcore:steel_sheet"
+    },
+    "i": {
+      "tag": "forge:ingots/steel"
+    },
+    "I": {
+      "item": "marbledsarsenal:armor_plate"
+    },
+    "P": {
+      "item": "minecraft:black_dye"
+    }
+  },
+  "result": {
+    "item": "marbledsarsenal:black_plate_carrier_light",
+    "count": 1
+  }
+}

@@ -12,11 +12,4 @@ public class ModTabs {
                     return new ItemStack(ModItems.CM6M_GAS_MASK.get());
                 }
             };
-    public static final net.minecraft.world.item.CreativeModeTab MARBLEDS_ARSENAL_EXTRAS =
-            new net.minecraft.world.item.CreativeModeTab("marbleds_arsenal_extras") {
-                @Override
-                public ItemStack makeIcon() {
-                    return new ItemStack(Items.BARRIER.asItem());
-                }
-            };
 }
