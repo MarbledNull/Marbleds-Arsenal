@@ -1,6 +1,5 @@
 {
   "itemGroup.marbleds_arsenal": "Marbled's Arsenal",
-  "itemGroup.marbleds_arsenal_extras": "Marbled's Arsenal: Extras",
 
   "item.marbledsarsenal.raw_steel": "Raw Steel",
   "item.marbledsarsenal.armor_plate": "Armor Plate",
@@ -98,20 +97,18 @@
   "item.marbledsarsenal.tomahawk": "Tomahawk",
   "item.marbledsarsenal.pipe_wrench": "Pipe Wrench",
   "item.marbledsarsenal.sledgehammer": "Sledgehammer",
-  "item.marbledsarsenal.hammer": "Hammer",
   "item.marbledsarsenal.bone_saw": "Bone Saw",
   "item.marbledsarsenal.police_baton": "Police Baton",
   "item.marbledsarsenal.machete": "Machete",
   "item.marbledsarsenal.stop_sign": "Stop Sign",
   "item.marbledsarsenal.pipe": "Pipe",
   "item.marbledsarsenal.combat_knife": "Combat Knife",
-  "item.marbledsarsenal.butcher_knife": "Butcher Knife",
-  "item.marbledsarsenal.kitchen_knife": "Kitchen Knife",
   "item.marbledsarsenal.katana": "Katana",
+  "item.marbledsarsenal.tanto": "Tanto",
   "item.marbledsarsenal.golf_club": "Golf Club",
   "item.marbledsarsenal.baseball_bat": "Baseball Bat",
   "item.marbledsarsenal.barbed_baseball_bat": "Barbed Baseball Bat",
-  "item.marbledsarsenal.metal_baseball_bat": "Metal Baseball Bat",
+  "item.marbledsarsenal.steel_baseball_bat": "Steel Baseball Bat",
 
   "item.marbledsarsenal.riot_shield": "Riot Shield",
   "item.marbledsarsenal.heavy_riot_shield": "Heavy Riot Shield"
