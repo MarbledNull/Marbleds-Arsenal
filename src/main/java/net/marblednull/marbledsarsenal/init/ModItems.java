@@ -1,7 +1,7 @@
 package net.marblednull.marbledsarsenal.init;
 
 import net.marblednull.marbledsarsenal.MarbledsArsenal;
-import net.marblednull.marbledsarsenal.init.ArmorItems.*;
+import net.marblednull.marbledsarsenal.init.item.*;
 import net.marblednull.marbledsarsenal.util.MaArmorMaterials;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.AxeItem;

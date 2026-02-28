@@ -1,7 +1,7 @@
 package net.marblednull.marbledsarsenal.client.renderer;
 
 import net.marblednull.marbledsarsenal.client.model.DesertMilitaryArmorModel;
-import net.marblednull.marbledsarsenal.init.ArmorItems.DesertMilitaryArmorItem;
+import net.marblednull.marbledsarsenal.init.item.DesertMilitaryArmorItem;
 import software.bernie.geckolib3.renderers.geo.GeoArmorRenderer;
 
 public class DesertMilitaryArmorRenderer extends GeoArmorRenderer<DesertMilitaryArmorItem> {

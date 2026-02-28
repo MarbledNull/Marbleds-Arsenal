@@ -1,7 +1,7 @@
 package net.marblednull.marbledsarsenal.client.renderer;
 
 import net.marblednull.marbledsarsenal.client.model.RiotArmorModel;
-import net.marblednull.marbledsarsenal.init.ArmorItems.RiotArmorItem;
+import net.marblednull.marbledsarsenal.init.item.RiotArmorItem;
 import software.bernie.geckolib3.renderers.geo.GeoArmorRenderer;
 
 public class RiotArmorRenderer extends GeoArmorRenderer<RiotArmorItem> {

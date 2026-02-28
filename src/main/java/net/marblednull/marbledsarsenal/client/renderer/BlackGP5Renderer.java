@@ -1,7 +1,7 @@
 package net.marblednull.marbledsarsenal.client.renderer;
 
 import net.marblednull.marbledsarsenal.client.model.BlackGP5Model;
-import net.marblednull.marbledsarsenal.init.ArmorItems.BlackGP5ArmorItem;
+import net.marblednull.marbledsarsenal.init.item.BlackGP5ArmorItem;
 import software.bernie.geckolib3.renderers.geo.GeoArmorRenderer;
 
 public class BlackGP5Renderer extends GeoArmorRenderer<BlackGP5ArmorItem> {

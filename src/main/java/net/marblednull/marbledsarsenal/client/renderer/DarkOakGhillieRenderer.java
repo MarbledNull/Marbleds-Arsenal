@@ -1,7 +1,7 @@
 package net.marblednull.marbledsarsenal.client.renderer;
 
 import net.marblednull.marbledsarsenal.client.model.DarkOakGhillieArmorModel;
-import net.marblednull.marbledsarsenal.init.ArmorItems.DarkOakGhillieArmorItem;
+import net.marblednull.marbledsarsenal.init.item.DarkOakGhillieArmorItem;
 import software.bernie.geckolib3.renderers.geo.GeoArmorRenderer;
 
 public class DarkOakGhillieRenderer extends GeoArmorRenderer<DarkOakGhillieArmorItem> {

@@ -1,7 +1,7 @@
 package net.marblednull.marbledsarsenal.client.model;
 
 import net.marblednull.marbledsarsenal.MarbledsArsenal;
-import net.marblednull.marbledsarsenal.init.ArmorItems.BirchGhillieArmorItem;
+import net.marblednull.marbledsarsenal.init.item.BirchGhillieArmorItem;
 import net.minecraft.resources.ResourceLocation;
 import software.bernie.geckolib3.model.AnimatedGeoModel;
 

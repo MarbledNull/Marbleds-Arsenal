@@ -1,7 +1,7 @@
 package net.marblednull.marbledsarsenal.client.renderer;
 
 import net.marblednull.marbledsarsenal.client.model.HazmatArmorModel;
-import net.marblednull.marbledsarsenal.init.ArmorItems.HazmatArmorItem;
+import net.marblednull.marbledsarsenal.init.item.HazmatArmorItem;
 import software.bernie.geckolib3.renderers.geo.GeoArmorRenderer;
 
 public class HazmatArmorRenderer extends GeoArmorRenderer<HazmatArmorItem> {

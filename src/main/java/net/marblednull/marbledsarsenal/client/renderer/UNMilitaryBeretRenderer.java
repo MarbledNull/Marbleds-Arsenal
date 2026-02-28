@@ -1,7 +1,7 @@
 package net.marblednull.marbledsarsenal.client.renderer;
 
 import net.marblednull.marbledsarsenal.client.model.CombatHelmetModel;
-import net.marblednull.marbledsarsenal.init.ArmorItems.CombatHelmetArmorItem;
+import net.marblednull.marbledsarsenal.init.item.CombatHelmetArmorItem;
 import software.bernie.geckolib3.renderers.geo.GeoArmorRenderer;
 
 public class UNMilitaryBeretRenderer extends GeoArmorRenderer<CombatHelmetArmorItem> {

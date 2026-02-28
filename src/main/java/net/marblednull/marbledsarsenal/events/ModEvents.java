@@ -2,7 +2,7 @@ package net.marblednull.marbledsarsenal.events;
 
 import net.marblednull.marbledsarsenal.MarbledsArsenal;
 import net.marblednull.marbledsarsenal.client.renderer.*;
-import net.marblednull.marbledsarsenal.init.ArmorItems.*;
+import net.marblednull.marbledsarsenal.init.item.*;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;

@@ -40,10 +40,6 @@ public class MarbledsArsenal
 
     }
 
-    private void clientSetup(final FMLClientSetupEvent event) {
-
-    }
-
     private void enqueueIMC(final InterModEnqueueEvent event)
     {
 

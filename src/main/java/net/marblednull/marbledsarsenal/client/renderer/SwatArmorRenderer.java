@@ -1,7 +1,7 @@
 package net.marblednull.marbledsarsenal.client.renderer;
 
 import net.marblednull.marbledsarsenal.client.model.SwatArmorModel;
-import net.marblednull.marbledsarsenal.init.ArmorItems.SwatArmorItem;
+import net.marblednull.marbledsarsenal.init.item.SwatArmorItem;
 import software.bernie.geckolib3.renderers.geo.GeoArmorRenderer;
 
 public class SwatArmorRenderer extends GeoArmorRenderer<SwatArmorItem> {

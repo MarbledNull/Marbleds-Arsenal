@@ -1,7 +1,7 @@
 package net.marblednull.marbledsarsenal.client.model;
 
 import net.marblednull.marbledsarsenal.MarbledsArsenal;
-import net.marblednull.marbledsarsenal.init.ArmorItems.RiotArmorItem;
+import net.marblednull.marbledsarsenal.init.item.RiotArmorItem;
 import net.minecraft.resources.ResourceLocation;
 import software.bernie.geckolib3.model.AnimatedGeoModel;
 

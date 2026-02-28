@@ -1,7 +1,7 @@
 package net.marblednull.marbledsarsenal.client.renderer;
 
 import net.marblednull.marbledsarsenal.client.model.CM8MModel;
-import net.marblednull.marbledsarsenal.init.ArmorItems.CM8MArmorItem;
+import net.marblednull.marbledsarsenal.init.item.CM8MArmorItem;
 import software.bernie.geckolib3.renderers.geo.GeoArmorRenderer;
 
 public class CM8MRenderer extends GeoArmorRenderer<CM8MArmorItem> {

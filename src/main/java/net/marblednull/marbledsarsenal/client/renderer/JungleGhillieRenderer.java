@@ -1,7 +1,7 @@
 package net.marblednull.marbledsarsenal.client.renderer;
 
 import net.marblednull.marbledsarsenal.client.model.JungleGhillieArmorModel;
-import net.marblednull.marbledsarsenal.init.ArmorItems.JungleGhillieArmorItem;
+import net.marblednull.marbledsarsenal.init.item.JungleGhillieArmorItem;
 import software.bernie.geckolib3.renderers.geo.GeoArmorRenderer;
 
 public class JungleGhillieRenderer extends GeoArmorRenderer<JungleGhillieArmorItem> {

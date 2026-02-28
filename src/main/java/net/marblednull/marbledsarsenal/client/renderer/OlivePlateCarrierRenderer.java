@@ -1,7 +1,7 @@
 package net.marblednull.marbledsarsenal.client.renderer;
 
 import net.marblednull.marbledsarsenal.client.model.OlivePlateCarrierModel;
-import net.marblednull.marbledsarsenal.init.ArmorItems.OlivePlateCarrierArmorItem;
+import net.marblednull.marbledsarsenal.init.item.OlivePlateCarrierArmorItem;
 import software.bernie.geckolib3.renderers.geo.GeoArmorRenderer;
 
 public class OlivePlateCarrierRenderer extends GeoArmorRenderer<OlivePlateCarrierArmorItem> {

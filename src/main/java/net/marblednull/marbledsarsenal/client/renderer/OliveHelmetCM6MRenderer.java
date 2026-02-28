@@ -1,7 +1,7 @@
 package net.marblednull.marbledsarsenal.client.renderer;
 
 import net.marblednull.marbledsarsenal.client.model.OliveHelmetCM6MModel;
-import net.marblednull.marbledsarsenal.init.ArmorItems.OliveHelmetCM6MArmorItem;
+import net.marblednull.marbledsarsenal.init.item.OliveHelmetCM6MArmorItem;
 import software.bernie.geckolib3.renderers.geo.GeoArmorRenderer;
 
 public class OliveHelmetCM6MRenderer extends GeoArmorRenderer<OliveHelmetCM6MArmorItem> {

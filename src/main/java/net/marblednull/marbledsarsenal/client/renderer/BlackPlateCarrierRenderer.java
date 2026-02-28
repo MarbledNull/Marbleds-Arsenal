@@ -1,7 +1,7 @@
 package net.marblednull.marbledsarsenal.client.renderer;
 
 import net.marblednull.marbledsarsenal.client.model.BlackPlateCarrierModel;
-import net.marblednull.marbledsarsenal.init.ArmorItems.BlackPlateCarrierArmorItem;
+import net.marblednull.marbledsarsenal.init.item.BlackPlateCarrierArmorItem;
 import software.bernie.geckolib3.renderers.geo.GeoArmorRenderer;
 
 public class BlackPlateCarrierRenderer extends GeoArmorRenderer<BlackPlateCarrierArmorItem> {
