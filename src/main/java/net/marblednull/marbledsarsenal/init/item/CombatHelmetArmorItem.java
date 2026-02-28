@@ -1,5 +1,7 @@
 package net.marblednull.marbledsarsenal.init.item;
 
+import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.item.ArmorMaterial;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ArmorMaterial;
 import software.bernie.geckolib3.core.IAnimatable;
@@ -12,7 +14,7 @@ public class CombatHelmetArmorItem extends GeoArmorItem implements IAnimatable {
     private final AnimationFactory FACTORY = GeckoLibUtil.createFactory(this);
 
 
-    public CombatHelmetArmorItem(ArmorMaterial material, EquipmentSlot slot, Properties settings) {
+    public CombatHelmetArmorItem(ArmorMaterial material, EquipmentSlotType slot, Properties settings) {
         super(material, slot, settings);
     }
 
