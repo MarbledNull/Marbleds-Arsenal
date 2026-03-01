@@ -17,6 +17,7 @@ import java.util.function.Supplier;
 
 public enum MaArmorMaterials implements IArmorMaterial {
 
+
     //Material for hats. Berets, ect
     HAT("hat", 12, new int[]{1, 6, 5, 2}, 15,
             SoundEvents.ARMOR_EQUIP_LEATHER, 0f, 0f, () -> {
@@ -93,7 +94,7 @@ public enum MaArmorMaterials implements IArmorMaterial {
     private final float knockbackResistance;
     private final LazyValue<Ingredient> repairIngredient;
 
-    private MaArmorMaterials(String name, int durabilityMultiplier, int[] slotProtections, int enchantmentValue, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier repairIngredient) {
+    MaArmorMaterials(String name, int durabilityMultiplier, int[] slotProtections, int enchantmentValue, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier repairIngredient) {
         this.name = name;
         this.durabilityMultiplier = durabilityMultiplier;
         this.slotProtections = slotProtections;

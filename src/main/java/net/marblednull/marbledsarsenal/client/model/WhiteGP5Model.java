@@ -2,7 +2,7 @@ package net.marblednull.marbledsarsenal.client.model;
 
 import net.marblednull.marbledsarsenal.MarbledsArsenal;
 import net.marblednull.marbledsarsenal.init.item.WhiteGP5ArmorItem;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.util.ResourceLocation;
 import software.bernie.geckolib3.model.AnimatedGeoModel;
 
 public class WhiteGP5Model extends AnimatedGeoModel<WhiteGP5ArmorItem> {

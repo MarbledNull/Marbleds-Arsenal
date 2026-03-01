@@ -1,9 +1,7 @@
 package net.marblednull.marbledsarsenal.init.item;
 
 import net.minecraft.inventory.EquipmentSlotType;
-import net.minecraft.item.ArmorMaterial;
-import net.minecraft.world.entity.EquipmentSlot;
-import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.item.IArmorMaterial;
 import software.bernie.geckolib3.core.IAnimatable;
 import software.bernie.geckolib3.core.manager.AnimationData;
 import software.bernie.geckolib3.core.manager.AnimationFactory;
@@ -14,7 +12,7 @@ public class OlivePlateCarrierArmorItem extends GeoArmorItem implements IAnimata
     private final AnimationFactory FACTORY = GeckoLibUtil.createFactory(this);
 
 
-    public OlivePlateCarrierArmorItem(ArmorMaterial material, EquipmentSlotType slot, Properties settings) {
+    public OlivePlateCarrierArmorItem(IArmorMaterial material, EquipmentSlotType slot, Properties settings) {
         super(material, slot, settings);
     }
 

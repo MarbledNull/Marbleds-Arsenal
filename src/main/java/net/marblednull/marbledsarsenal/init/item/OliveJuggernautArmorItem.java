@@ -1,7 +1,7 @@
 package net.marblednull.marbledsarsenal.init.item;
 
-import net.minecraft.world.entity.EquipmentSlot;
-import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.item.IArmorMaterial;
 import software.bernie.geckolib3.core.IAnimatable;
 import software.bernie.geckolib3.core.manager.AnimationData;
 import software.bernie.geckolib3.core.manager.AnimationFactory;
@@ -12,7 +12,7 @@ public class OliveJuggernautArmorItem extends GeoArmorItem implements IAnimatabl
     private final AnimationFactory FACTORY = GeckoLibUtil.createFactory(this);
 
 
-    public OliveJuggernautArmorItem(ArmorMaterial material, EquipmentSlot slot, Properties settings) {
+    public OliveJuggernautArmorItem(IArmorMaterial material, EquipmentSlotType slot, Properties settings) {
         super(material, slot, settings);
     }
 

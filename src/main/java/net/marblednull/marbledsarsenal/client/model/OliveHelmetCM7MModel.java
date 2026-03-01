@@ -2,7 +2,7 @@ package net.marblednull.marbledsarsenal.client.model;
 
 import net.marblednull.marbledsarsenal.MarbledsArsenal;
 import net.marblednull.marbledsarsenal.init.item.OliveHelmetCM7MArmorItem;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.util.ResourceLocation;
 import software.bernie.geckolib3.model.AnimatedGeoModel;
 
 public class OliveHelmetCM7MModel extends AnimatedGeoModel<OliveHelmetCM7MArmorItem> {

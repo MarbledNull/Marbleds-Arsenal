@@ -1,7 +1,7 @@
 package net.marblednull.marbledsarsenal.init.item;
 
 import net.minecraft.inventory.EquipmentSlotType;
-import net.minecraft.item.ArmorMaterial;
+import net.minecraft.item.IArmorMaterial;
 import software.bernie.geckolib3.core.IAnimatable;
 import software.bernie.geckolib3.core.manager.AnimationData;
 import software.bernie.geckolib3.core.manager.AnimationFactory;
@@ -12,7 +12,7 @@ public class BlackMilitaryBeretArmorItem extends GeoArmorItem implements IAnimat
     private final AnimationFactory FACTORY = GeckoLibUtil.createFactory(this);
 
 
-    public BlackMilitaryBeretArmorItem(ArmorMaterial material, EquipmentSlotType slot, Properties settings) {
+    public BlackMilitaryBeretArmorItem(IArmorMaterial material, EquipmentSlotType slot, Properties settings) {
         super(material, slot, settings);
     }
 

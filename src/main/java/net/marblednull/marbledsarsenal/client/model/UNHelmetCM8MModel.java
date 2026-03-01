@@ -2,7 +2,7 @@ package net.marblednull.marbledsarsenal.client.model;
 
 import net.marblednull.marbledsarsenal.MarbledsArsenal;
 import net.marblednull.marbledsarsenal.init.item.UNHelmetCM8MArmorItem;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.util.ResourceLocation;
 import software.bernie.geckolib3.model.AnimatedGeoModel;
 
 public class UNHelmetCM8MModel extends AnimatedGeoModel<UNHelmetCM8MArmorItem> {
