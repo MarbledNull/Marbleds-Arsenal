@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "mcore:steel_sheet"
+      "item": "marbledsarsenal:steel_sheet"
     },
     "i": {
-      "item": "mcore:titanium_ingot"
+      "item": "marbledsarsenal:hardened_steel_ingot"
     },
     "I": {
       "item": "marbledsarsenal:armor_plate"

@@ -7,10 +7,10 @@
   ],
   "key": {
     "i": {
-      "item": "mcore:titanium_ingot"
+      "item": "marbledsarsenal:hardened_steel_ingot"
     },
     "I": {
-      "item": "mcore:titanium_sheet"
+      "item": "marbledsarsenal:hardened_steel_sheet"
     },
     "/": {
       "item": "minecraft:stick"

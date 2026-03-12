@@ -109,5 +109,10 @@
   "item.marbledsarsenal.golf_club": "Golf Club",
   "item.marbledsarsenal.baseball_bat": "Baseball Bat",
   "item.marbledsarsenal.barbed_baseball_bat": "Barbed Baseball Bat",
-  "item.marbledsarsenal.steel_baseball_bat": "Steel Baseball Bat"
+  "item.marbledsarsenal.steel_baseball_bat": "Steel Baseball Bat",
+  "item.marbledsarsenal.steel_ingot": "Steel Ingot",
+  "item.marbledsarsenal.steel_sheet": "Steel Sheet",
+  "item.marbledsarsenal.raw_steel": "Raw Steel",
+  "item.marbledsarsenal.hardened_steel_ingot": "Hardened Steel Ingot",
+  "item.marbledsarsenal.hardened_steel_sheet": "Hardened Steel Sheet"
 }
