@@ -102,7 +102,7 @@ public class ModItems {
     public static final RegistryObject<Item> OAK_GHILLIE_LEGGINGS = ITEMS.register("oak_ghillie_leggings", () -> new OakGhillieArmorItem(MaArmorMaterials.GHILLIE, EquipmentSlot.LEGS, new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL)));
     public static final RegistryObject<Item> OAK_GHILLIE_BOOTS = ITEMS.register("oak_ghillie_boots", () -> new OakGhillieArmorItem(MaArmorMaterials.GHILLIE, EquipmentSlot.FEET, new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL)));
 
-    public static final RegistryObject<Item> SPRUCE_GHILLIE_HELMET = ITEMS.register("spruce_ghillie_helmet", () -> new SpruceGhillieArmorItem(MaArmorMaterials.GHILLIE, EquipmentSlot.HEAD, new Item.Properties()));
+    public static final RegistryObject<Item> SPRUCE_GHILLIE_HELMET = ITEMS.register("spruce_ghillie_helmet", () -> new SpruceGhillieArmorItem(MaArmorMaterials.GHILLIE, EquipmentSlot.HEAD, new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL)));
     public static final RegistryObject<Item> SPRUCE_GHILLIE_CHESTPLATE = ITEMS.register("spruce_ghillie_chestplate", () -> new SpruceGhillieArmorItem(MaArmorMaterials.GHILLIE, EquipmentSlot.CHEST, new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL)));
     public static final RegistryObject<Item> SPRUCE_GHILLIE_LEGGINGS = ITEMS.register("spruce_ghillie_leggings", () -> new SpruceGhillieArmorItem(MaArmorMaterials.GHILLIE, EquipmentSlot.LEGS, new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL)));
     public static final RegistryObject<Item> SPRUCE_GHILLIE_BOOTS = ITEMS.register("spruce_ghillie_boots", () -> new SpruceGhillieArmorItem(MaArmorMaterials.GHILLIE, EquipmentSlot.FEET, new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL)));

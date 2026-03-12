@@ -4,9 +4,9 @@ import net.marblednull.marbledsarsenal.client.model.*;
 import net.marblednull.marbledsarsenal.init.ArmorItems.*;
 import software.bernie.geckolib3.renderers.geo.GeoArmorRenderer;
 
-public class OliveCombatHelmetRenderer extends GeoArmorRenderer<CombatHelmetArmorItem> {
+public class OliveCombatHelmetRenderer extends GeoArmorRenderer<OliveCombatHelmetArmorItem> {
     public OliveCombatHelmetRenderer() {
-        super(new CombatHelmetModel());
+        super(new OliveCombatHelmetModel());
         this.headBone ="armorHead";
         this.bodyBone ="armorBody";
         this.rightArmBone ="armorRightArm";
