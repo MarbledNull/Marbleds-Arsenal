@@ -1,15 +1,25 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#",
-    "I"
+    "ini",
+    "nGn",
+    "OBO"
   ],
   "key": {
-    "#": {
-      "item": "marbledsarsenal:olive_combat_helmet"
+    "i": {
+      "item": "minecraft:iron_ingot"
     },
-    "I": {
-      "item": "marbledsarsenal:cm8m_gas_mask"
+    "n": {
+      "tag": "forge:ingots/steel"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "O": {
+      "item": "marbledsarsenal:gas_mask_filter"
+    },
+    "B": {
+      "item": "minecraft:green_dye"
     }
   },
   "result": {

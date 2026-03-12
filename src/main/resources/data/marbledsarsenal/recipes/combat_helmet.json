@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "ini",
-    "n n"
+    "nPn"
   ],
   "key": {
     "i": {
@@ -10,6 +10,9 @@
     },
     "n": {
       "tag": "forge:ingots/steel"
+    },
+    "P": {
+      "item": "minecraft:gray_dye"
     }
   },
   "result": {
