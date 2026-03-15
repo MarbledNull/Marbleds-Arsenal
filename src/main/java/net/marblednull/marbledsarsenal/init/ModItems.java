@@ -121,11 +121,6 @@ public class ModItems {
     public static final RegistryObject<Item> AZALEA_GHILLIE_LEGGINGS = ITEMS.register("azalea_ghillie_leggings", () -> new AzaleaGhillieArmorItem(MaArmorMaterials.GHILLIE, EquipmentSlot.LEGS, new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL)));
     public static final RegistryObject<Item> AZALEA_GHILLIE_BOOTS = ITEMS.register("azalea_ghillie_boots", () -> new AzaleaGhillieArmorItem(MaArmorMaterials.GHILLIE, EquipmentSlot.FEET, new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL)));
 
-    //Crafting Items
-    public static final RegistryObject<Item> GAS_MASK_FILTER = ITEMS.register("gas_mask_filter", () -> new Item(new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL)));
-    public static final RegistryObject<Item> ARMOR_PLATE = ITEMS.register("armor_plate", () -> new Item(new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL)));
-    public static final RegistryObject<Item> RUBBER = ITEMS.register("rubber", () -> new Item(new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL)));
-
     public static final RegistryObject<Item> CROWBAR = ITEMS.register("crowbar", () -> new SwordItem(Tiers.IRON, 3, -2.4f, new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(500)));
     public static final RegistryObject<Item> FIRE_AXE = ITEMS.register("fire_axe", () -> new AxeItem(Tiers.IRON, 5, -3.1f, new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(500)));
     public static final RegistryObject<Item> MODERN_AXE = ITEMS.register("modern_axe", () -> new AxeItem(Tiers.IRON, 6, -3f, new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL).durability(750)));
@@ -148,6 +143,9 @@ public class ModItems {
     public static final RegistryObject<Item> STEEL_SHEET = ITEMS.register("steel_sheet", () -> new Item(new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL)));
     public static final RegistryObject<Item> HARDENED_STEEL_INGOT = ITEMS.register("hardened_steel_ingot", () -> new Item(new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL)));
     public static final RegistryObject<Item> HARDENED_STEEL_SHEET = ITEMS.register("hardened_steel_sheet", () -> new Item(new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL)));
+    public static final RegistryObject<Item> GAS_MASK_FILTER = ITEMS.register("gas_mask_filter", () -> new Item(new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL)));
+    public static final RegistryObject<Item> ARMOR_PLATE = ITEMS.register("armor_plate", () -> new Item(new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL)));
+    public static final RegistryObject<Item> RUBBER = ITEMS.register("rubber", () -> new Item(new Item.Properties().tab(ModTabs.MARBLEDS_ARSENAL)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

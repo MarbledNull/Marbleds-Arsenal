@@ -59,5 +59,6 @@ public class ModClientEvents {
         GeoArmorRenderer.registerArmorRenderer(JungleGhillieArmorItem.class, JungleGhillieRenderer::new);
         GeoArmorRenderer.registerArmorRenderer(SpruceGhillieArmorItem.class, SpruceGhillieRenderer::new);
         GeoArmorRenderer.registerArmorRenderer(AcaciaGhillieArmorItem.class, AcaciaaGhillieRenderer::new);
+        GeoArmorRenderer.registerArmorRenderer(AzaleaGhillieArmorItem.class, AzaleaGhillieRenderer::new);
     }
 }
