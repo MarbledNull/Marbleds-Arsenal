@@ -1,7 +1,7 @@
 package net.marblednull.marbledsarsenal.init;
 
 import net.marblednull.marbledsarsenal.MarbledsArsenal;
-import net.marblednull.marbledsarsenal.init.ArmorItems.*;
+import net.marblednull.marbledsarsenal.init.item.*;
 import net.marblednull.marbledsarsenal.util.MaArmorMaterials;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
@@ -119,15 +119,15 @@ public class ModItems {
     public static final RegistryObject<Item> MANGROVE_GHILLIE_LEGGINGS = ITEMS.register("mangrove_ghillie_leggings", () -> new MangroveGhillieArmorItem(MaArmorMaterials.GHILLIE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> MANGROVE_GHILLIE_BOOTS = ITEMS.register("mangrove_ghillie_boots", () -> new MangroveGhillieArmorItem(MaArmorMaterials.GHILLIE, ArmorItem.Type.BOOTS, new Item.Properties()));
 
-    public static final RegistryObject<Item> CHERRY_GHILLIE_HELMET = ITEMS.register("cherry_ghillie_helmet", () -> new CherryGhillieArmorItem(MaArmorMaterials.GHILLIE, ArmorItem.Type.HELMET, new Item.Properties()));
-    public static final RegistryObject<Item> CHERRY_GHILLIE_CHESTPLATE = ITEMS.register("cherry_ghillie_chestplate", () -> new CherryGhillieArmorItem(MaArmorMaterials.GHILLIE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
-    public static final RegistryObject<Item> CHERRY_GHILLIE_LEGGINGS = ITEMS.register("cherry_ghillie_leggings", () -> new CherryGhillieArmorItem(MaArmorMaterials.GHILLIE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
-    public static final RegistryObject<Item> CHERRY_GHILLIE_BOOTS = ITEMS.register("cherry_ghillie_boots", () -> new CherryGhillieArmorItem(MaArmorMaterials.GHILLIE, ArmorItem.Type.BOOTS, new Item.Properties()));
-
     public static final RegistryObject<Item> AZALEA_GHILLIE_HELMET = ITEMS.register("azalea_ghillie_helmet", () -> new AzaleaGhillieArmorItem(MaArmorMaterials.GHILLIE, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> AZALEA_GHILLIE_CHESTPLATE = ITEMS.register("azalea_ghillie_chestplate", () -> new AzaleaGhillieArmorItem(MaArmorMaterials.GHILLIE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
     public static final RegistryObject<Item> AZALEA_GHILLIE_LEGGINGS = ITEMS.register("azalea_ghillie_leggings", () -> new AzaleaGhillieArmorItem(MaArmorMaterials.GHILLIE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> AZALEA_GHILLIE_BOOTS = ITEMS.register("azalea_ghillie_boots", () -> new AzaleaGhillieArmorItem(MaArmorMaterials.GHILLIE, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    public static final RegistryObject<Item> CHERRY_GHILLIE_HELMET = ITEMS.register("cherry_ghillie_helmet", () -> new CherryGhillieArmorItem(MaArmorMaterials.GHILLIE, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> CHERRY_GHILLIE_CHESTPLATE = ITEMS.register("cherry_ghillie_chestplate", () -> new CherryGhillieArmorItem(MaArmorMaterials.GHILLIE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> CHERRY_GHILLIE_LEGGINGS = ITEMS.register("cherry_ghillie_leggings", () -> new CherryGhillieArmorItem(MaArmorMaterials.GHILLIE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> CHERRY_GHILLIE_BOOTS = ITEMS.register("cherry_ghillie_boots", () -> new CherryGhillieArmorItem(MaArmorMaterials.GHILLIE, ArmorItem.Type.BOOTS, new Item.Properties()));
 
     //Crafting items
     public static final RegistryObject<Item> GAS_MASK_FILTER = ITEMS.register("gas_mask_filter", () -> new Item(new Item.Properties()));
